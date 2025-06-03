@@ -1,0 +1,8 @@
+No.0, total 2,port_name: ep_sys_rst_n
+DIRECTION:IN
+LOC:IOB_X0Y231
+PIN_FUNC:IO_L9N_T1_DQS_D13_14
+No.1, total 2,port_name: led[0]
+DIRECTION:OUT
+LOC:IOB_X0Y213
+PIN_FUNC:IO_L18N_T2_A11_D27_14

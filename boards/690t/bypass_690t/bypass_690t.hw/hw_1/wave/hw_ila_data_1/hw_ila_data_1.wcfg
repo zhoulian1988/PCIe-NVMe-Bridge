@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2871333fs"></ZoomStartTime>
+      <ZoomEndTime time="2976934fs"></ZoomEndTime>
+      <Cursor1Time time="2925000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="238"></NameColumnWidth>
+      <ValueColumnWidth column_width="257"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="array" fp_name="hp_i/ep_m_axis_cq_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_cq_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_cq_tdata[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_m_axis_cq_tkeep">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_cq_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_cq_tkeep[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_m_axis_cq_tvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_cq_tvalid</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_cq_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_m_axis_cq_tlast">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_cq_tlast</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_cq_tlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_m_axis_cq_tready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_cq_tready</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_cq_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_m_axis_cq_tuser">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_cq_tuser[84:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_cq_tuser[84:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_m_axis_rc_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_rc_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_rc_tdata[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_m_axis_rc_tkeep">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_rc_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_rc_tkeep[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_m_axis_rc_tvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_rc_tvalid</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_rc_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_m_axis_rc_tlast">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_rc_tlast</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_rc_tlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_m_axis_rc_tready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_rc_tready</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_rc_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_m_axis_rc_tuser">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_m_axis_rc_tuser[74:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_m_axis_rc_tuser[74:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_s_axis_cc_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_cc_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_cc_tdata[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_s_axis_cc_tkeep">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_cc_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_cc_tkeep[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_s_axis_cc_tlast">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_cc_tlast</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_cc_tlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_s_axis_cc_tready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_cc_tready</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_cc_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_s_axis_cc_tuser">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_cc_tuser[32:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_cc_tuser[32:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_s_axis_cc_tvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_cc_tvalid</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_cc_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_s_axis_rq_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_rq_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_rq_tdata[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_s_axis_rq_tkeep">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_rq_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_rq_tkeep[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_s_axis_rq_tlast">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_rq_tlast</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_rq_tlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_s_axis_rq_tready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_rq_tready</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_rq_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="hp_i/ep_s_axis_rq_tuser">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_rq_tuser[59:0]</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_rq_tuser[59:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="hp_i/ep_s_axis_rq_tvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hp_i/ep_s_axis_rq_tvalid</obj_property>
+      <obj_property name="ObjectShortName">ep_s_axis_rq_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

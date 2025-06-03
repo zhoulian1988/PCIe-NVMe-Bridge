@@ -1,0 +1,1132 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 24 09:35:00 2023
+# Process ID: 85236
+# Current directory: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1
+# Command line: vivado -log bypass_690t.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bypass_690t.tcl
+# Log file: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/bypass_690t.vds
+# Journal file: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source bypass_690t.tcl -notrace
+source /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/ip_patch/process_control/synthesis_pre.tcl
+source /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/ip_patch/all_src_files.tcl
+load /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/ip_patch/all_src_files.tcl Successfully!
+current_dictory_path is /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1
+loc_index is 80.
+dst_str is /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs
+prj_path is /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/vavido/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1392.949 ; gain = 62.066 ; free physical = 740 ; free virtual = 46207
+step 1:pre_patch_check
+Pre-patch check finished!
+
+step 2:pre_synthesis_patch
+Pre-patch check finished!
+
+Start pre synthesis patch now!
+
+Find VIVADO path: /home/vavido/Vivado/2018.2
+Current device is xc7vx690tffg1157-2.
+set mig_version_value to NORMAL
+set microblaze_value to FALSE
+set gp_patch_value FALSE
+set cv_pcie_value NEW
+SKIP xfft IP patch.
+Skip ZYNQ_PS_Master patch successfully!
+Current microblaze_patch is FALSE!
+pcie_version is NEW.
+
+Current patch is pcie gen3 integrated block cv
+Found PCIe core ep_690t_veiglo_xmc, modifying RTL codes ...
+Can't find srcs path,get IP_DIR from old dir!
+Current patch version:v5.1,Record patch version:v5.1,Skip ep_690t_veiglo_xmc !
+
+Current patch is pcie gen3 integrated block cv
+Found PCIe core rp_690t, modifying RTL codes ...
+Can't find srcs path,get IP_DIR from old dir!
+Current patch version:v5.1,Record patch version:v5.1,Skip rp_690t !
+Now check if spd files need replace:
+Current design device part is xc7vx690tffg1157-2 ,don't need to replace spd file!
+
+The operating system is LINUX!
+
+total_CPU_threads = 16
+IP patch stage 1 finished before synthesis!
+
+Time consume: 6 seconds.
+step 3:runEco0
+INFO:IP:ep_690t_veiglo_xmc has already ecoed. No need to eco again!
+INFO:IP:ep_cq_to_rp_rq_fifo has already ecoed. No need to eco again!
+INFO:IP:ep_ila has already ecoed. No need to eco again!
+INFO:IP:ep_rc_to_rp_cc_fifo has already ecoed. No need to eco again!
+INFO:IP:rp_690t has already ecoed. No need to eco again!
+INFO:IP:rp_cq_to_ep_rq_fifo has already ecoed. No need to eco again!
+INFO:IP:rp_rc_to_ep_cc_fifo has already ecoed. No need to eco again!
+INFO:IP:top_ep_ila has already ecoed. No need to eco again!
+Command: synth_design -top bypass_690t -part xc7vx690tffg1157-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 88705 
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tdata is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:309]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tuser is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:310]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tlast is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:311]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tkeep is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:312]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tvalid is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:313]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tready is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:314]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tdata is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:316]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tuser is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:317]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tlast is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:318]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tkeep is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:319]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tvalid is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:320]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tready is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:321]
+WARNING: [Synth 8-2611] redeclaration of ansi port user_clk is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:162]
+WARNING: [Synth 8-2611] redeclaration of ansi port user_reset is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:163]
+WARNING: [Synth 8-2611] redeclaration of ansi port user_lnk_up is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:164]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tlast is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:171]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tdata is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:172]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tuser is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:173]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tkeep is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:174]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tready is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:175]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tvalid is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:176]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tdata is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:178]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tuser is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:179]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tlast is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:180]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tkeep is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:181]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tvalid is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:182]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tready is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:183]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tdata is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:185]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tuser is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:186]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tlast is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:187]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tkeep is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:188]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tvalid is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:189]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tready is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:190]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tdata is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:192]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tuser is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:193]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tlast is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:194]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tkeep is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:195]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tvalid is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:196]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tready is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:197]
+WARNING: [Synth 8-2611] redeclaration of ansi port cfg_err_cor_out is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:238]
+WARNING: [Synth 8-2611] redeclaration of ansi port cfg_err_nonfatal_out is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:239]
+WARNING: [Synth 8-2611] redeclaration of ansi port cfg_err_fatal_out is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:240]
+WARNING: [Synth 8-2611] redeclaration of ansi port finished_config is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:171]
+WARNING: [Synth 8-2611] redeclaration of ansi port failed_config is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:172]
+WARNING: [Synth 8-2611] redeclaration of ansi port user_clk is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:196]
+WARNING: [Synth 8-2611] redeclaration of ansi port user_reset is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:197]
+WARNING: [Synth 8-2611] redeclaration of ansi port user_lnk_up is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:198]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tlast is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:203]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tdata is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:204]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tuser is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:205]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tkeep is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:206]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tready is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:207]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_rq_tvalid is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:208]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tdata is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:210]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tuser is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:211]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tlast is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:212]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tkeep is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:213]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tvalid is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:214]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_rc_tready is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:215]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tdata is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:217]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tuser is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:218]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tlast is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:219]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tkeep is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:220]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tvalid is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:221]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_axis_cq_tready is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:222]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tdata is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:224]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tuser is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:225]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tlast is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:226]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tkeep is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:227]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tvalid is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:228]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_axis_cc_tready is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:229]
+WARNING: [Synth 8-2611] redeclaration of ansi port cfg_err_cor_out is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:249]
+WARNING: [Synth 8-2611] redeclaration of ansi port cfg_err_nonfatal_out is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:250]
+WARNING: [Synth 8-2611] redeclaration of ansi port cfg_err_fatal_out is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:251]
+WARNING: [Synth 8-2611] redeclaration of ansi port ep_sys_rst_n is not allowed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:135]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1489.840 ; gain = 76.371 ; free physical = 732 ; free virtual = 46078
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bypass_690t' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:1]
+	Parameter DNA_ID bound to: 57'b111000010100011000100001111010110001000011001001001001000 
+	Parameter DNA_BIT_CNT bound to: 8'b01001100 
+	Parameter C_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter KEEP_WIDTH bound to: 4 - type: integer 
+	Parameter USER_CLK2_FREQ bound to: 3 - type: integer 
+	Parameter REF_CLK_FREQ bound to: 0 - type: integer 
+	Parameter PL_SIM_FAST_LINK_TRAINING bound to: FALSE - type: string 
+	Parameter PCIE_EXT_CLK bound to: FALSE - type: string 
+	Parameter PCIE_EXT_GT_COMMON bound to: FALSE - type: string 
+	Parameter PL_LINK_CAP_MAX_LINK_SPEED bound to: 2 - type: integer 
+	Parameter PL_LINK_CAP_MAX_LINK_WIDTH bound to: 4 - type: integer 
+	Parameter AXISTEN_IF_RQ_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_CC_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_CQ_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_RC_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_ENABLE_CLIENT_TAG bound to: 1 - type: integer 
+	Parameter AXISTEN_IF_RQ_PARITY_CHECK bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_CC_PARITY_CHECK bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_MC_RX_STRADDLE bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_ENABLE_RX_MSG_INTFC bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_ENABLE_MSG_ROUTE bound to: 18'b101111111111111111 
+	Parameter PL_DISABLE_EI_INFER_IN_L0 bound to: TRUE - type: string 
+	Parameter ROM_FILE bound to: cgator_cfg_rom_yh_server_veiglo_xmc.data - type: string 
+	Parameter ROM_SIZE bound to: 32 - type: integer 
+	Parameter REQUESTER_ID bound to: 16'b0000000000000000 
+	Parameter BUSNUMBER bound to: 8'b00000001 
+	Parameter PL_DISABLE_UPCONFIG_CAPABLE bound to: FALSE - type: string 
+	Parameter AXI4_CQ_TUSER_WIDTH bound to: 85 - type: integer 
+	Parameter AXI4_CC_TUSER_WIDTH bound to: 33 - type: integer 
+	Parameter AXI4_RQ_TUSER_WIDTH bound to: 60 - type: integer 
+	Parameter AXI4_RC_TUSER_WIDTH bound to: 75 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'IBUFGDS' [/home/vavido/Vivado/2018.2/scripts/rt/data/unisim_comp.v:19911]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFGDS' (1#1) [/home/vavido/Vivado/2018.2/scripts/rt/data/unisim_comp.v:19911]
+INFO: [Synth 8-6157] synthesizing module 'ep' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:65]
+	Parameter PL_SIM_FAST_LINK_TRAINING bound to: FALSE - type: string 
+	Parameter PCIE_EXT_CLK bound to: FALSE - type: string 
+	Parameter PCIE_EXT_GT_COMMON bound to: FALSE - type: string 
+	Parameter C_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter KEEP_WIDTH bound to: 4 - type: integer 
+	Parameter PL_LINK_CAP_MAX_LINK_SPEED bound to: 2 - type: integer 
+	Parameter PL_LINK_CAP_MAX_LINK_WIDTH bound to: 4 - type: integer 
+	Parameter USER_CLK2_FREQ bound to: 3 - type: integer 
+	Parameter REF_CLK_FREQ bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_RQ_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_CC_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_CQ_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_RC_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_ENABLE_CLIENT_TAG bound to: TRUE - type: string 
+	Parameter AXISTEN_IF_RQ_PARITY_CHECK bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_CC_PARITY_CHECK bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_MC_RX_STRADDLE bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_ENABLE_RX_MSG_INTFC bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_ENABLE_MSG_ROUTE bound to: 18'b101111111111111111 
+	Parameter AXI4_CQ_TUSER_WIDTH bound to: 85 - type: integer 
+	Parameter AXI4_CC_TUSER_WIDTH bound to: 33 - type: integer 
+	Parameter AXI4_RQ_TUSER_WIDTH bound to: 60 - type: integer 
+	Parameter AXI4_RC_TUSER_WIDTH bound to: 75 - type: integer 
+	Parameter TCQ bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS_GTE2' [/home/vavido/Vivado/2018.2/scripts/rt/data/unisim_comp.v:19625]
+	Parameter CLKCM_CFG bound to: TRUE - type: string 
+	Parameter CLKRCV_TRST bound to: TRUE - type: string 
+	Parameter CLKSWING_CFG bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS_GTE2' (2#1) [/home/vavido/Vivado/2018.2/scripts/rt/data/unisim_comp.v:19625]
+INFO: [Synth 8-6157] synthesizing module 'ep_690t_veiglo_xmc' [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/ep_690t_veiglo_xmc_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ep_690t_veiglo_xmc' (3#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/ep_690t_veiglo_xmc_stub.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 's_axis_rq_tready' does not match port width (4) of module 'ep_690t_veiglo_xmc' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:400]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:557]
+INFO: [Synth 8-6157] synthesizing module 'ep_ila' [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/ep_ila_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ep_ila' (4#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/ep_ila_stub.v:6]
+WARNING: [Synth 8-689] width (4) of port connection 'probe1' does not match port width (3) of module 'ep_ila' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:561]
+WARNING: [Synth 8-689] width (3) of port connection 'probe2' does not match port width (2) of module 'ep_ila' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:562]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ep_690t_i'. This will prevent further optimization [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:373]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ep_ila_i'. This will prevent further optimization [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:557]
+WARNING: [Synth 8-3848] Net cfg_mgmt_addr in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:254]
+WARNING: [Synth 8-3848] Net cfg_mgmt_write in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:255]
+WARNING: [Synth 8-3848] Net cfg_mgmt_write_data in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:256]
+WARNING: [Synth 8-3848] Net cfg_mgmt_byte_enable in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:257]
+WARNING: [Synth 8-3848] Net cfg_mgmt_read in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:258]
+WARNING: [Synth 8-3848] Net cfg_msg_transmit in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:265]
+WARNING: [Synth 8-3848] Net cfg_msg_transmit_type in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:266]
+WARNING: [Synth 8-3848] Net cfg_msg_transmit_data in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:267]
+WARNING: [Synth 8-3848] Net cfg_fc_sel in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:275]
+WARNING: [Synth 8-3848] Net cfg_power_state_change_ack in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:299]
+WARNING: [Synth 8-3848] Net cfg_flr_done in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:288]
+WARNING: [Synth 8-3848] Net cfg_vf_flr_done in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:298]
+WARNING: [Synth 8-3848] Net cfg_interrupt_int in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:306]
+WARNING: [Synth 8-3848] Net cfg_interrupt_msi_int in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:315]
+WARNING: [Synth 8-3848] Net cfg_interrupt_msix_data in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:327]
+WARNING: [Synth 8-3848] Net cfg_interrupt_msix_address in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:328]
+WARNING: [Synth 8-3848] Net cfg_interrupt_msix_int in module/entity ep does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:329]
+INFO: [Synth 8-6155] done synthesizing module 'ep' (5#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/ep.v:65]
+WARNING: [Synth 8-689] width (1) of port connection 's_axis_cc_tready' does not match port width (4) of module 'ep' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:264]
+INFO: [Synth 8-6157] synthesizing module 'rp' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:62]
+	Parameter EXT_PIPE_SIM bound to: FALSE - type: string 
+	Parameter PCIE_EXT_CLK bound to: FALSE - type: string 
+	Parameter C_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter PL_LINK_CAP_MAX_LINK_SPEED bound to: 2 - type: integer 
+	Parameter PL_LINK_CAP_MAX_LINK_WIDTH bound to: 4 - type: integer 
+	Parameter PL_DISABLE_EI_INFER_IN_L0 bound to: TRUE - type: string 
+	Parameter ROM_FILE bound to: cgator_cfg_rom_yh_server_veiglo_xmc.data - type: string 
+	Parameter ROM_SIZE bound to: 32 - type: integer 
+	Parameter REQUESTER_ID bound to: 16'b0000000000000000 
+	Parameter BUSNUMBER bound to: 8'b00000001 
+	Parameter PL_DISABLE_UPCONFIG_CAPABLE bound to: FALSE - type: string 
+	Parameter USER_CLK2_FREQ bound to: 3 - type: integer 
+	Parameter REF_CLK_FREQ bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_RQ_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_CC_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_CQ_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_RC_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter AXISTEN_IF_ENABLE_CLIENT_TAG bound to: TRUE - type: string 
+	Parameter AXISTEN_IF_RQ_PARITY_CHECK bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_CC_PARITY_CHECK bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_MC_RX_STRADDLE bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_ENABLE_RX_MSG_INTFC bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_ENABLE_MSG_ROUTE bound to: 18'b101111111111111111 
+	Parameter KEEP_WIDTH bound to: 4 - type: integer 
+	Parameter AXI4_CQ_TUSER_WIDTH bound to: 85 - type: integer 
+	Parameter AXI4_CC_TUSER_WIDTH bound to: 33 - type: integer 
+	Parameter AXI4_RQ_TUSER_WIDTH bound to: 60 - type: integer 
+	Parameter AXI4_RC_TUSER_WIDTH bound to: 75 - type: integer 
+	Parameter TCQ bound to: 1 - type: integer 
+	Parameter USER_CLK_FREQ bound to: 4 - type: integer 
+	Parameter X8_GEN3 bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'cgator_wrapper' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:95]
+	Parameter TCQ bound to: 1 - type: integer 
+	Parameter AXISTEN_IF_RQ_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter PIPE_SIM_MODE bound to: FALSE - type: string 
+	Parameter EXTRA_PIPELINE bound to: 0 - type: integer 
+	Parameter ROM_FILE bound to: cgator_cfg_rom_yh_server_veiglo_xmc.data - type: string 
+	Parameter ROM_SIZE bound to: 32 - type: integer 
+	Parameter REQUESTER_ID bound to: 16'b0000000000000000 
+	Parameter BUSNUMBER bound to: 8'b00000001 
+	Parameter PCIE_EXT_CLK bound to: FALSE - type: string 
+	Parameter PL_LINK_CAP_MAX_LINK_SPEED bound to: 2 - type: integer 
+	Parameter PL_LINK_CAP_MAX_LINK_WIDTH bound to: 4 - type: integer 
+	Parameter PL_DISABLE_EI_INFER_IN_L0 bound to: TRUE - type: string 
+	Parameter PL_DISABLE_UPCONFIG_CAPABLE bound to: FALSE - type: string 
+	Parameter USER_CLK2_FREQ bound to: 3 - type: integer 
+	Parameter REF_CLK_FREQ bound to: 0 - type: integer 
+	Parameter AXISTEN_IF_RQ_PARITY_CHECK bound to: 0 - type: integer 
+	Parameter C_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter KEEP_WIDTH bound to: 4 - type: integer 
+	Parameter AXI4_CQ_TUSER_WIDTH bound to: 85 - type: integer 
+	Parameter AXI4_CC_TUSER_WIDTH bound to: 33 - type: integer 
+	Parameter AXI4_RQ_TUSER_WIDTH bound to: 60 - type: integer 
+	Parameter AXI4_RC_TUSER_WIDTH bound to: 75 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'rp_690t' [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/rp_690t_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rp_690t' (6#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/rp_690t_stub.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 's_axis_cc_tready' does not match port width (4) of module 'rp_690t' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:379]
+INFO: [Synth 8-6157] synthesizing module 'cgator' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator.v:85]
+	Parameter TCQ bound to: 1 - type: integer 
+	Parameter AXISTEN_IF_RQ_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter EXTRA_PIPELINE bound to: 0 - type: integer 
+	Parameter ROM_FILE bound to: cgator_cfg_rom_yh_server_veiglo_xmc.data - type: string 
+	Parameter ROM_SIZE bound to: 32 - type: integer 
+	Parameter REQUESTER_ID bound to: 16'b0000000000000000 
+	Parameter BUSNUMBER bound to: 8'b00000001 
+	Parameter C_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter KEEP_WIDTH bound to: 4 - type: integer 
+	Parameter AXI4_CQ_TUSER_WIDTH bound to: 85 - type: integer 
+	Parameter AXI4_CC_TUSER_WIDTH bound to: 33 - type: integer 
+	Parameter AXI4_RQ_TUSER_WIDTH bound to: 60 - type: integer 
+	Parameter AXI4_RC_TUSER_WIDTH bound to: 75 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'cgator_controller' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_controller.v:86]
+	Parameter TCQ bound to: 1 - type: integer 
+	Parameter ROM_FILE bound to: cgator_cfg_rom_yh_server_veiglo_xmc.data - type: string 
+	Parameter ROM_SIZE bound to: 32 - type: integer 
+	Parameter TYPE_CFGRD bound to: 2'b00 
+	Parameter TYPE_CFGWR bound to: 2'b01 
+	Parameter TYPE_MSG bound to: 2'b10 
+	Parameter TYPE_MSGD bound to: 2'b11 
+	Parameter ST_IDLE bound to: 3'b000 
+	Parameter ST_WAIT_CFG bound to: 3'b001 
+	Parameter ST_READ1 bound to: 3'b010 
+	Parameter ST_READ2 bound to: 3'b011 
+	Parameter ST_WAIT_PKT bound to: 3'b100 
+	Parameter ST_WAIT_CPL bound to: 3'b101 
+	Parameter ST_DONE bound to: 3'b110 
+	Parameter ROM_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter PKT_TYPE_HI bound to: 17 - type: integer 
+	Parameter PKT_TYPE_LO bound to: 16 - type: integer 
+	Parameter PKT_FUNC_NUM_HI bound to: 15 - type: integer 
+	Parameter PKT_FUNC_NUM_LO bound to: 14 - type: integer 
+	Parameter PKT_REG_NUM_HI bound to: 13 - type: integer 
+	Parameter PKT_REG_NUM_LO bound to: 4 - type: integer 
+	Parameter PKT_1DW_BE_HI bound to: 3 - type: integer 
+	Parameter PKT_1DW_BE_LO bound to: 0 - type: integer 
+	Parameter PKT_MSG_ROUTING_HI bound to: 10 - type: integer 
+	Parameter PKT_MSG_ROUTING_LO bound to: 8 - type: integer 
+	Parameter PKT_MSG_CODE_HI bound to: 7 - type: integer 
+	Parameter PKT_MSG_CODE_LO bound to: 0 - type: integer 
+	Parameter PKT_DATA_HI bound to: 31 - type: integer 
+	Parameter PKT_DATA_LO bound to: 0 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'cgator_cfg_rom_yh_server_veiglo_xmc.data' is read successfully [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_controller.v:362]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_controller.v:236]
+INFO: [Synth 8-6155] done synthesizing module 'cgator_controller' (7#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_controller.v:86]
+INFO: [Synth 8-6157] synthesizing module 'cgator_pkt_generator' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_pkt_generator.v:83]
+	Parameter TCQ bound to: 1 - type: integer 
+	Parameter AXISTEN_IF_RQ_ALIGNMENT_MODE bound to: FALSE - type: string 
+	Parameter REQUESTER_ID bound to: 16'b0000000000000000 
+	Parameter BUSNUMBER bound to: 8'b00000001 
+	Parameter C_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter KEEP_WIDTH bound to: 4 - type: integer 
+	Parameter AXI4_CQ_TUSER_WIDTH bound to: 85 - type: integer 
+	Parameter AXI4_CC_TUSER_WIDTH bound to: 33 - type: integer 
+	Parameter AXI4_RQ_TUSER_WIDTH bound to: 60 - type: integer 
+	Parameter AXI4_RC_TUSER_WIDTH bound to: 75 - type: integer 
+	Parameter TYPE_CFGRD bound to: 2'b00 
+	Parameter TYPE_CFGWR bound to: 2'b01 
+	Parameter TYPE_MSG bound to: 2'b10 
+	Parameter TYPE_MSGD bound to: 2'b11 
+	Parameter ST_IDLE bound to: 3'b000 
+	Parameter ST_CFG0 bound to: 3'b001 
+	Parameter ST_CFG1 bound to: 3'b010 
+	Parameter ST_CFG2 bound to: 3'b011 
+	Parameter ST_MSG0 bound to: 3'b100 
+	Parameter ST_MSG1 bound to: 3'b101 
+	Parameter ST_MSG2 bound to: 3'b110 
+INFO: [Synth 8-6155] done synthesizing module 'cgator_pkt_generator' (8#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_pkt_generator.v:83]
+INFO: [Synth 8-6157] synthesizing module 'cgator_tx_mux' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_tx_mux.v:82]
+	Parameter TCQ bound to: 1 - type: integer 
+	Parameter C_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter KEEP_WIDTH bound to: 4 - type: integer 
+	Parameter AXI4_CQ_TUSER_WIDTH bound to: 85 - type: integer 
+	Parameter AXI4_CC_TUSER_WIDTH bound to: 33 - type: integer 
+	Parameter AXI4_RQ_TUSER_WIDTH bound to: 60 - type: integer 
+	Parameter AXI4_RC_TUSER_WIDTH bound to: 75 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'cgator_tx_mux' (9#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_tx_mux.v:82]
+INFO: [Synth 8-6157] synthesizing module 'cgator_cpl_decoder' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:84]
+	Parameter TCQ bound to: 1 - type: integer 
+	Parameter EXTRA_PIPELINE bound to: 0 - type: integer 
+	Parameter REQUESTER_ID bound to: 16'b0000000000000000 
+	Parameter C_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter KEEP_WIDTH bound to: 4 - type: integer 
+	Parameter AXI4_CQ_TUSER_WIDTH bound to: 85 - type: integer 
+	Parameter AXI4_CC_TUSER_WIDTH bound to: 33 - type: integer 
+	Parameter AXI4_RQ_TUSER_WIDTH bound to: 60 - type: integer 
+	Parameter AXI4_RC_TUSER_WIDTH bound to: 75 - type: integer 
+	Parameter FMT_TYPE_HI bound to: 30 - type: integer 
+	Parameter FMT_TYPE_LO bound to: 24 - type: integer 
+	Parameter CPL_STAT_HI bound to: 47 - type: integer 
+	Parameter CPL_STAT_LO bound to: 45 - type: integer 
+	Parameter CPL_DATA_HI bound to: 63 - type: integer 
+	Parameter CPL_DATA_LO bound to: 32 - type: integer 
+	Parameter REQ_ID_HI bound to: 31 - type: integer 
+	Parameter REQ_ID_LO bound to: 16 - type: integer 
+	Parameter CPL_DATA_HI_128 bound to: 127 - type: integer 
+	Parameter CPL_DATA_LO_128 bound to: 96 - type: integer 
+	Parameter REQ_ID_HI_128 bound to: 95 - type: integer 
+	Parameter REQ_ID_LO_128 bound to: 80 - type: integer 
+	Parameter FMT_TYPE_CPLX bound to: 6'b001010 
+	Parameter SC_STATUS bound to: 3'b000 
+	Parameter UR_STATUS bound to: 3'b001 
+	Parameter CRS_STATUS bound to: 3'b010 
+	Parameter CA_STATUS bound to: 3'b100 
+WARNING: [Synth 8-6014] Unused sequential element width_128.cpl_status_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:338]
+WARNING: [Synth 8-6014] Unused sequential element width_128.cpl_detect_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:339]
+WARNING: [Synth 8-6014] Unused sequential element pipe_m_axis_rc_tdata_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:199]
+WARNING: [Synth 8-6014] Unused sequential element pipe_m_axis_rc_tkeep_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:200]
+WARNING: [Synth 8-6014] Unused sequential element pipe_m_axis_rc_tlast_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:201]
+WARNING: [Synth 8-6014] Unused sequential element pipe_m_axis_rc_tvalid_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:202]
+WARNING: [Synth 8-6014] Unused sequential element pipe_m_axis_rc_tuser_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:203]
+WARNING: [Synth 8-6014] Unused sequential element pipe_rx_np_ok_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:204]
+WARNING: [Synth 8-6014] Unused sequential element pipe_rsop_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:205]
+INFO: [Synth 8-6155] done synthesizing module 'cgator_cpl_decoder' (10#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:84]
+INFO: [Synth 8-6155] done synthesizing module 'cgator' (11#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator.v:85]
+WARNING: [Synth 8-6014] Unused sequential element dna_ok_flag_1_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:604]
+WARNING: [Synth 8-6014] Unused sequential element dna_ok_flag_2_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:605]
+INFO: [Synth 8-6155] done synthesizing module 'cgator_wrapper' (12#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_wrapper.v:95]
+WARNING: [Synth 8-689] width (4) of port connection 's_axis_cc_tready' does not match port width (1) of module 'cgator_wrapper' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:407]
+WARNING: [Synth 8-689] width (4) of port connection 's_axis_rq_tready' does not match port width (1) of module 'cgator_wrapper' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:414]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:639]
+WARNING: [Synth 8-689] width (4) of port connection 'probe1' does not match port width (3) of module 'ep_ila' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:643]
+WARNING: [Synth 8-689] width (3) of port connection 'probe2' does not match port width (2) of module 'ep_ila' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:644]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'cgator_wrapper_i'. This will prevent further optimization [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:377]
+INFO: [Synth 8-6155] done synthesizing module 'rp' (13#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/rp.v:62]
+WARNING: [Synth 8-689] width (1) of port connection 's_axis_cc_tready' does not match port width (4) of module 'rp' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:353]
+WARNING: [Synth 8-689] width (1) of port connection 's_axis_rq_tready' does not match port width (4) of module 'rp' [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:360]
+INFO: [Synth 8-6157] synthesizing module 'ep_cq_to_rp_rq_fifo' [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/ep_cq_to_rp_rq_fifo_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ep_cq_to_rp_rq_fifo' (14#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/ep_cq_to_rp_rq_fifo_stub.v:6]
+WARNING: [Synth 8-350] instance 'ep_cq_to_rp_rq_fifo_i' of module 'ep_cq_to_rp_rq_fifo' requires 14 connections, but only 13 given [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:408]
+INFO: [Synth 8-6157] synthesizing module 'rp_rc_to_ep_cc_fifo' [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/rp_rc_to_ep_cc_fifo_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rp_rc_to_ep_cc_fifo' (15#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/rp_rc_to_ep_cc_fifo_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'rp_cq_to_ep_rq_fifo' [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/rp_cq_to_ep_rq_fifo_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rp_cq_to_ep_rq_fifo' (16#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/rp_cq_to_ep_rq_fifo_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ep_rc_to_rp_cc_fifo' [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/ep_rc_to_rp_cc_fifo_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ep_rc_to_rp_cc_fifo' (17#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/.Xil/Vivado-85236-192.168.2.204/realtime/ep_rc_to_rp_cc_fifo_stub.v:6]
+WARNING: [Synth 8-6014] Unused sequential element rp_RC_err_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:659]
+WARNING: [Synth 8-6014] Unused sequential element ep_RC_err_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:925]
+WARNING: [Synth 8-3848] Net dna_ok_flag in module/entity bypass_690t does not have driver. [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:130]
+INFO: [Synth 8-6155] done synthesizing module 'bypass_690t' (18#1) [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:1]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[31]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[30]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[29]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[28]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[27]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[26]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[25]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[24]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[23]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[22]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[21]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[20]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[19]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[18]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[17]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[16]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[15]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[14]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[13]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[12]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[11]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[10]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[9]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[8]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[7]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[6]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[5]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[4]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[3]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[2]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[1]
+WARNING: [Synth 8-3331] design cgator_controller has unconnected port cpl_data[0]
+WARNING: [Synth 8-3331] design cgator_wrapper has unconnected port pipe_mmcm_rst_n
+WARNING: [Synth 8-3331] design cgator_wrapper has unconnected port dna_ok_flag
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1527.098 ; gain = 113.629 ; free physical = 778 ; free virtual = 46089
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin rp_i:dna_ok_flag to constant 0 [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/bypass_690t.v:336]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1527.098 ; gain = 113.629 ; free physical = 779 ; free virtual = 46090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1527.098 ; gain = 113.629 ; free physical = 779 ; free virtual = 46090
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7vx690tffg1157-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/ep_690t_veiglo_xmc_1/ep_690t_veiglo_xmc/ep_690t_veiglo_xmc_in_context.xdc] for cell 'ep_i/ep_690t_i'
+Finished Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/ep_690t_veiglo_xmc_1/ep_690t_veiglo_xmc/ep_690t_veiglo_xmc_in_context.xdc] for cell 'ep_i/ep_690t_i'
+Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/ep_cq_to_rp_rq_fifo_1/ep_cq_to_rp_rq_fifo/ep_cq_to_rp_rq_fifo_in_context.xdc] for cell 'ep_cq_to_rp_rq_fifo_i'
+Finished Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/ep_cq_to_rp_rq_fifo_1/ep_cq_to_rp_rq_fifo/ep_cq_to_rp_rq_fifo_in_context.xdc] for cell 'ep_cq_to_rp_rq_fifo_i'
+Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/ep_ila_1/ep_ila/ep_ila_in_context.xdc] for cell 'ep_i/ep_ila_i'
+Finished Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/ep_ila_1/ep_ila/ep_ila_in_context.xdc] for cell 'ep_i/ep_ila_i'
+Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/ep_ila_1/ep_ila/ep_ila_in_context.xdc] for cell 'rp_i/rp_ila_i'
+Finished Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/ep_ila_1/ep_ila/ep_ila_in_context.xdc] for cell 'rp_i/rp_ila_i'
+Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/ep_rc_to_rp_cc_fifo_1/ep_rc_to_rp_cc_fifo/ep_rc_to_rp_cc_fifo_in_context.xdc] for cell 'ep_rc_to_rp_cc_fifo_i'
+Finished Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/ep_rc_to_rp_cc_fifo_1/ep_rc_to_rp_cc_fifo/ep_rc_to_rp_cc_fifo_in_context.xdc] for cell 'ep_rc_to_rp_cc_fifo_i'
+Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/rp_690t_1/rp_690t/rp_690t_in_context.xdc] for cell 'rp_i/cgator_wrapper_i/rp_690t_i'
+Finished Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/rp_690t_1/rp_690t/rp_690t_in_context.xdc] for cell 'rp_i/cgator_wrapper_i/rp_690t_i'
+Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/rp_cq_to_ep_rq_fifo_1/rp_cq_to_ep_rq_fifo/rp_cq_to_ep_rq_fifo_in_context.xdc] for cell 'rp_cq_to_ep_rq_fifo_i'
+Finished Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/rp_cq_to_ep_rq_fifo_1/rp_cq_to_ep_rq_fifo/rp_cq_to_ep_rq_fifo_in_context.xdc] for cell 'rp_cq_to_ep_rq_fifo_i'
+Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/rp_rc_to_ep_cc_fifo_1/rp_rc_to_ep_cc_fifo/rp_rc_to_ep_cc_fifo_in_context.xdc] for cell 'rp_rc_to_ep_cc_fifo_i'
+Finished Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/ips_690t/rp_rc_to_ep_cc_fifo_1/rp_rc_to_ep_cc_fifo/rp_rc_to_ep_cc_fifo_in_context.xdc] for cell 'rp_rc_to_ep_cc_fifo_i'
+Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/xdc_690t/bypass.xdc]
+Finished Parsing XDC File [/home/zhoulian/work/hxzy/cy/gen2/bypass/xdc_690t/bypass.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/zhoulian/work/hxzy/cy/gen2/bypass/xdc_690t/bypass.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bypass_690t_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bypass_690t_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2069.398 ; gain = 0.004 ; free physical = 260 ; free virtual = 45425
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'rp_i/rp_ila_i' at clock pin 'clk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:09 ; elapsed = 00:04:26 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 357 ; free virtual = 45522
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx690tffg1157-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:09 ; elapsed = 00:04:26 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 358 ; free virtual = 45524
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for ep_i/ep_690t_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ep_cq_to_rp_rq_fifo_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ep_i/ep_ila_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rp_i/rp_ila_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ep_rc_to_rp_cc_fifo_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rp_i/cgator_wrapper_i/rp_690t_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rp_cq_to_ep_rq_fifo_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rp_rc_to_ep_cc_fifo_i. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:09 ; elapsed = 00:04:26 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 356 ; free virtual = 45522
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ctl_last_cfg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctl_rom" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'width_128.pkt_state_reg' in module 'cgator_pkt_generator'
+INFO: [Synth 8-5544] ROM "pg_s_axis_rq_tdata0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pg_s_axis_rq_tdata0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pg_s_axis_rq_tlast0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pg_s_axis_rq_tlast0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pg_s_axis_rq_tvalid" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pg_s_axis_rq_tkeep" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pkt_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pkt_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pkt_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cpl_sc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cpl_mismatch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "user_lnk_up_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "led" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "led" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "led" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "led" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "ep_cq_to_rp_rq_fifo_rd_en_delay_cycle" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ep_cq_to_rp_rq_fifo_rd_en_delay_cycle" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rp_rc_to_ep_cc_fifo_rd_en_delay_cycle" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rp_rc_to_ep_cc_fifo_rd_en_delay_cycle" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rp_cq_to_ep_rq_fifo_rd_en_delay_cycle" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rp_cq_to_ep_rq_fifo_rd_en_delay_cycle" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ep_rc_to_rp_cc_fifo_rd_en_delay_cycle" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ep_rc_to_rp_cc_fifo_rd_en_delay_cycle" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 ST_IDLE |                            00001 |                              000
+                 ST_CFG0 |                            00010 |                              001
+                 ST_CFG1 |                            00100 |                              010
+                 ST_MSG0 |                            01000 |                              100
+                 ST_MSG1 |                            10000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'width_128.pkt_state_reg' using encoding 'one-hot' in module 'cgator_pkt_generator'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:10 ; elapsed = 00:04:27 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 348 ; free virtual = 45514
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               19 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 26    
++---Muxes : 
+	   5 Input    128 Bit        Muxes := 1     
+	   2 Input    128 Bit        Muxes := 5     
+	   5 Input     60 Bit        Muxes := 1     
+	   2 Input     60 Bit        Muxes := 1     
+	  33 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 5     
+	   3 Input     19 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 2     
+	   3 Input     18 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   8 Input      5 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 6     
+	   5 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   6 Input      2 Bit        Muxes := 4     
+	   5 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 47    
+	   8 Input      1 Bit        Muxes := 11    
+	   5 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module bypass_690t 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 4     
++---Registers : 
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 4     
+	   6 Input      2 Bit        Muxes := 4     
+	   5 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 20    
+Module cgator_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	  33 Input     32 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   8 Input      1 Bit        Muxes := 11    
+Module cgator_pkt_generator 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   5 Input    128 Bit        Muxes := 1     
+	   5 Input     60 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 5     
+Module cgator_tx_mux 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 1     
+	   2 Input     60 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module cgator_cpl_decoder 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module cgator_wrapper 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module rp 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               19 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   3 Input     19 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 2     
+	   3 Input     18 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 3600 (col length:200)
+BRAMs: 2940 (col length: RAMB18 200 RAMB36 100)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element cgator_i/cgator_cpl_decoder_i/width_128.cpl_data_reg was removed.  [/home/zhoulian/work/hxzy/cy/gen2/bypass/src_690t/cgator_cpl_decoder.v:344]
+INFO: [Synth 8-5544] ROM "cgator_i/cgator_pkt_generator_i/pg_s_axis_rq_tdata0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cgator_i/cgator_pkt_generator_i/pg_s_axis_rq_tdata0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cgator_i/cgator_cpl_decoder_i/cpl_mismatch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "user_lnk_up_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "led" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "led" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design cgator_wrapper has unconnected port pipe_mmcm_rst_n
+WARNING: [Synth 8-3331] design cgator_wrapper has unconnected port dna_ok_flag
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_byte_enable_reg[0]' (FDRE) to 'rp_i/cfg_mgmt_byte_enable_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_byte_enable_reg[1]' (FDRE) to 'rp_i/cfg_mgmt_byte_enable_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_byte_enable_reg[2]' (FDRE) to 'rp_i/cfg_mgmt_byte_enable_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[0]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[2]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[1]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[7]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[2]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[3]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[4]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[4]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[5]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[5]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[6]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[6]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[8]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[7]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[18]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[8]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[9]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[9]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[10]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[10]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[11]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[11]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[12]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[12]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[13]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[13]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[14]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[14]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[15]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[15]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[16]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cfg_mgmt_addr_reg[16]' (FDRE) to 'rp_i/cfg_mgmt_addr_reg[17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rp_i/\cfg_mgmt_addr_reg[17] )
+INFO: [Synth 8-3332] Sequential element (cfg_mgmt_addr_reg[17]) is unused and will be removed from module rp.
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[11]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[13]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[12]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[13]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[18]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[18]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[19]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[19]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[20]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[20]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[21]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[21]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[22]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[22]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[23]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[23]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[24]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[24]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[25]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[25]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[26]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[26]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[27]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[27]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[28]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[28]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[29]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[30]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[0]' (FD) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/ctl_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_1dw_be_reg[0]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_code_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_1dw_be_reg[1]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_code_reg[1]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_1dw_be_reg[2]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_code_reg[2]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_1dw_be_reg[3]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_code_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[0]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[0]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_code_reg[4]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[1]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_code_reg[5]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[2]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_code_reg[6]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[3]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_code_reg[7]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[4]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_routing_reg[0]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[5]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_routing_reg[1]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[6]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_routing_reg[2]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[7]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[9]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[8]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_func_num_reg[0]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_reg_num_reg[9]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_func_num_reg[1]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[11]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[13]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[12]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[13]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[15]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[18]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[18]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[19]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[19]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[20]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[20]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[21]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[21]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[22]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[22]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[23]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[23]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[24]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[24]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[25]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[25]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[26]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[26]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[27]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[27]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[28]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[29]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_data_reg[30]'
+INFO: [Synth 8-3886] merging instance 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_code_reg[0]' (FDRE) to 'rp_i/cgator_wrapper_i/cgator_i/cgator_controller_i/pkt_msg_code_reg[3]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:04:30 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 353 ; free virtual = 45496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'ep_i/user_clk' to pin 'ep_i/ep_690t_i/bbstub_user_clk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'rp_i/user_clk' to pin 'rp_i/cgator_wrapper_i/rp_690t_i/bbstub_user_clk/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:23 ; elapsed = 00:04:51 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 277 ; free virtual = 45363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:24 ; elapsed = 00:04:52 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 292 ; free virtual = 45360
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:24 ; elapsed = 00:04:53 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 295 ; free virtual = 45357
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[18]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[17]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[16]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[15]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[14]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_addr[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[31]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[30]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[29]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[28]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[27]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[26]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[25]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[24]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[23]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[22]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[21]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[20]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[19]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[18]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[17]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[16]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[15]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[14]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_write_data[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_byte_enable[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_byte_enable[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_byte_enable[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_byte_enable[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_mgmt_read
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_type[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_type[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_type[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[31]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[30]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[29]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[28]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[27]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[26]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[25]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[24]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[23]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[22]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[21]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[20]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[19]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[18]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[17]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[16]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[15]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[14]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_msg_transmit_data[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_fc_sel[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_fc_sel[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_fc_sel[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_power_state_change_ack
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_flr_done[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_flr_done[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module ep_690t_i has unconnected pin cfg_vf_flr_done[5]
+INFO: [Common 17-14] Message 'Synth 8-4442' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3295] tying undriven pin rp_i:dna_ok_flag to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:25 ; elapsed = 00:04:54 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 293 ; free virtual = 45355
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:25 ; elapsed = 00:04:54 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 293 ; free virtual = 45355
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:26 ; elapsed = 00:04:54 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 293 ; free virtual = 45355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:26 ; elapsed = 00:04:54 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 293 ; free virtual = 45355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:26 ; elapsed = 00:04:54 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 294 ; free virtual = 45356
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:26 ; elapsed = 00:04:54 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 294 ; free virtual = 45356
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------+----------+
+|      |BlackBox name       |Instances |
++------+--------------------+----------+
+|1     |ep_690t_veiglo_xmc  |         1|
+|2     |ep_ila              |         2|
+|3     |rp_690t             |         1|
+|4     |ep_cq_to_rp_rq_fifo |         1|
+|5     |rp_rc_to_ep_cc_fifo |         1|
+|6     |rp_cq_to_ep_rq_fifo |         1|
+|7     |ep_rc_to_rp_cc_fifo |         1|
++------+--------------------+----------+
+
+Report Cell Usage: 
++------+--------------------+------+
+|      |Cell                |Count |
++------+--------------------+------+
+|1     |ep_690t_veiglo_xmc  |     1|
+|2     |ep_cq_to_rp_rq_fifo |     1|
+|3     |ep_ila              |     1|
+|4     |ep_ila__1           |     1|
+|5     |ep_rc_to_rp_cc_fifo |     1|
+|6     |rp_690t             |     1|
+|7     |rp_cq_to_ep_rq_fifo |     1|
+|8     |rp_rc_to_ep_cc_fifo |     1|
+|9     |CARRY4              |    16|
+|10    |IBUFDS_GTE2         |     2|
+|11    |LUT1                |     8|
+|12    |LUT2                |   752|
+|13    |LUT3                |   101|
+|14    |LUT4                |    43|
+|15    |LUT5                |    68|
+|16    |LUT6                |    40|
+|17    |FDRE                |   208|
+|18    |FDSE                |     5|
+|19    |IBUF                |    21|
+|20    |IBUFGDS             |     1|
+|21    |OBUF                |    18|
++------+--------------------+------+
+
+Report Instance Areas: 
++------+-------------------------------+---------------------+------+
+|      |Instance                       |Module               |Cells |
++------+-------------------------------+---------------------+------+
+|1     |top                            |                     |  3716|
+|2     |  ep_i                         |ep                   |   787|
+|3     |  rp_i                         |rp                   |  1226|
+|4     |    cgator_wrapper_i           |cgator_wrapper       |  1150|
+|5     |      cgator_i                 |cgator               |   349|
+|6     |        cgator_controller_i    |cgator_controller    |   124|
+|7     |        cgator_cpl_decoder_i   |cgator_cpl_decoder   |    20|
+|8     |        cgator_pkt_generator_i |cgator_pkt_generator |    59|
+|9     |        cgator_tx_mux_i        |cgator_tx_mux        |   146|
++------+-------------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:26 ; elapsed = 00:04:54 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 293 ; free virtual = 45355
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 238 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:42 . Memory (MB): peak = 2069.398 ; gain = 113.629 ; free physical = 348 ; free virtual = 45410
+Synthesis Optimization Complete : Time (s): cpu = 00:01:26 ; elapsed = 00:04:54 . Memory (MB): peak = 2069.398 ; gain = 655.930 ; free physical = 350 ; free virtual = 45413
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 38 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+165 Infos, 160 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:29 ; elapsed = 00:04:57 . Memory (MB): peak = 2069.398 ; gain = 663.938 ; free physical = 324 ; free virtual = 45386
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/bypass_690t.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bypass_690t_utilization_synth.rpt -pb bypass_690t_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.66 ; elapsed = 00:00:00.72 . Memory (MB): peak = 2093.414 ; gain = 0.000 ; free physical = 318 ; free virtual = 45381
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 24 09:40:36 2023...

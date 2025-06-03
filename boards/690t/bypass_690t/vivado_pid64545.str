@@ -1,0 +1,231 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:02:38 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 64545
+License: Customer
+
+Current time: 	Fri Nov 24 09:31:36 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: CentOS Linux release 7.5.1804 (Core)
+OS Version: 3.10.0-862.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: :7
+Screen size: 1900x1000
+Screen resolution (DPI): 95
+Available screens: 1
+Available disk space: 40 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/home/vavido/Vivado/2018.2/tps/lnx64/jre
+Java executable location: 	/home/vavido/Vivado/2018.2/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	zhoulian
+User home directory: /home/zhoulian
+User working directory: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/vavido/Vivado
+HDI_APPROOT: /home/vavido/Vivado/2018.2
+RDI_DATADIR: /home/vavido/Vivado/2018.2/data
+RDI_BINDIR: /home/vavido/Vivado/2018.2/bin
+
+Vivado preferences file location: /home/zhoulian/.Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: /home/zhoulian/.Xilinx/Vivado/2018.2/
+Vivado layouts directory: /home/zhoulian/.Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	/home/vavido/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/vivado.log
+Vivado journal file location: 	/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-64545-192.168.2.204
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/vavido/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: /home/vavido/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: /home/vavido/Vivado/2018.2
+XILINX_SDK: /home/vavido/SDK/2018.2
+XILINX_VIVADO: /home/vavido/Vivado/2018.2
+XILINX_VIVADO_HLS: /home/vavido/Vivado/2018.2
+
+
+GUI allocated memory:	195 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 5,011 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 69 MB (+69966kb) [00:00:08]
+// [Engine Memory]: 4,999 MB (+5090421kb) [00:00:08]
+// TclEventType: PROJECT_OPEN_DIALOG
+// HOptionPane Error: 'Can't open project 'bypass_690t'. Please verify that the project still exists. (Open Project)'
+// HMemoryUtils.trashcanNow. Engine heap size: 5,011 MB. GUI used memory: 34 MB. Current time: 11/24/23 9:31:38 AM CST
+selectButton("PAResourceOtoP.PABaseTab_CANT_OPEN_PROJECT_PLEASE_VERIFY_OK", "OK"); // JButton (A, G)
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 13 seconds
+setFileChooser("/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.xpr");
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,071 MB. GUI used memory: 35 MB. Current time: 11/24/23 9:32:03 AM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 76 MB (+3354kb) [00:00:44]
+// [GUI Memory]: 82 MB (+2403kb) [00:00:46]
+// [GUI Memory]: 90 MB (+4133kb) [00:00:50]
+// Tcl Message: open_project /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/vavido/Vivado/2018.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:21 . Memory (MB): peak = 6383.430 ; gain = 210.527 ; free physical = 309 ; free virtual = 46613 
+// [GUI Memory]: 98 MB (+3467kb) [00:00:51]
+// Project name: bypass_690t; location: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t; part: xc7vx690tffg1157-2
+// 'i' command handler elapsed time: 35 seconds
+// Elapsed time: 22 seconds
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 5,263 MB (+15137kb) [00:00:51]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,287 MB. GUI used memory: 61 MB. Current time: 11/24/23 9:32:23 AM CST
+// Elapsed time: 22 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v), rp_i : rp (rp.v)]", 3); // B (D, ck)
+// PAPropertyPanels.initPanels (bypass_690t.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v), rp_i : rp (rp.v), cgator_wrapper_i : cgator_wrapper (cgator_wrapper.v)]", 4); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v), rp_i : rp (rp.v), cgator_wrapper_i : cgator_wrapper (cgator_wrapper.v)]", 4, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v), rp_i : rp (rp.v), cgator_wrapper_i : cgator_wrapper (cgator_wrapper.v)]", 4, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 12 seconds
+selectCodeEditor("cgator_wrapper.v", 97, 159); // ce (w, ck)
+selectCodeEditor("cgator_wrapper.v", 111, 172); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 103 MB (+85kb) [00:01:47]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,329 MB. GUI used memory: 64 MB. Current time: 11/24/23 9:33:13 AM CST
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v), rp_i : rp (rp.v)]", 3); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bypass_690t (bypass_690t.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 10 seconds
+selectCodeEditor("bypass_690t.v", 13, 325); // ce (w, ck)
+selectCodeEditor("bypass_690t.v", 17, 333); // ce (w, ck)
+selectCodeEditor("bypass_690t.v", 16, 51); // ce (w, ck)
+selectCodeEditor("bypass_690t.v", 16, 252); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 108 MB (+273kb) [00:02:21]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 42 seconds
+selectCodeEditor("bypass_690t.v", 340, 278); // ce (w, ck)
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 115 MB (+964kb) [00:03:30]
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_MODIFY
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1157 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Nov 24 09:34:58 2023] Launched synth_1... Run output will be captured here: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/runme.log [Fri Nov 24 09:34:58 2023] Launched impl_1157... Run output will be captured here: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1157/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 669ms to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 120 MB (+71kb) [00:22:54]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 65 MB. Current time: 11/24/23 10:03:13 AM CST
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 64 MB. Current time: 11/24/23 10:33:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 64 MB. Current time: 11/24/23 11:03:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 11:33:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 12:03:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 12:33:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 1:03:13 PM CST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 622ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 771ms to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 1:33:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 2:03:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 2:33:13 PM CST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1166ms to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 3:03:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 3:33:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 4:03:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 4:33:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 5:03:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 5:33:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 6:03:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 6:33:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 7:03:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 7:33:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 8:03:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 8:33:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 9:03:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 63 MB. Current time: 11/24/23 9:33:14 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1134 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1919 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 22597 ms. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6988 ms. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 33841 ms. Increasing delay to 4000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking 1154ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking 447ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1760ms to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 97722 ms. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 102115 ms. Increasing delay to 5000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 10908ms to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 3285ms to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 873ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 59479ms to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking 4589ms to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking 2168ms to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 254823 ms. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 459720 ms. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 333250 ms. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 35527 ms. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 174576 ms. Increasing delay to 7000 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking 854ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 2246ms to process. Increasing delay to 4000 ms.

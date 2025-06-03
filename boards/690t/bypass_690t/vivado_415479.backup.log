@@ -1,0 +1,139 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Mar  7 14:28:28 2023
+# Process ID: 415479
+# Current directory: /home/jzhang/bypass/boards/690t/bypass_690t
+# Command line: vivado bypass_690t.xpr
+# Log file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.log
+# Journal file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project bypass_690t.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:47 ; elapsed = 00:00:25 . Memory (MB): peak = 6435.023 ; gain = 267.586 ; free physical = 12173 ; free virtual = 41325
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/jzhang/bypass/ips_690t/rp_690t/rp_690t.xci' is already up-to-date
+[Tue Mar  7 14:33:20 2023] Launched synth_1...
+Run output will be captured here: /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/runme.log
+[Tue Mar  7 14:33:20 2023] Launched impl_1...
+Run output will be captured here: /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/runme.log
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+connect_hw_server -url 192.168.2.177:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.10]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.10]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.10
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-2302] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 7092.414 ; gain = 35.246 ; free physical = 11510 ; free virtual = 40662
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:01:03 ; elapsed = 00:01:02 . Memory (MB): peak = 7236.480 ; gain = 0.000 ; free physical = 11521 ; free virtual = 40672
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-2302] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 6637 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7vx690tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 8635.215 ; gain = 63.297 ; free physical = 10068 ; free virtual = 39218
+Restored from archive | CPU: 9.050000 secs | Memory: 75.433823 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 8635.215 ; gain = 63.297 ; free physical = 10068 ; free virtual = 39218
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3838 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 3768 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 64 instances
+
+open_run: Time (s): cpu = 00:03:20 ; elapsed = 00:06:59 . Memory (MB): peak = 8883.980 ; gain = 1637.504 ; free physical = 9881 ; free virtual = 39031
+open_report: Time (s): cpu = 00:00:23 ; elapsed = 00:00:08 . Memory (MB): peak = 9109.785 ; gain = 218.805 ; free physical = 9563 ; free virtual = 38713
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/jzhang/bypass/ips_690t/rp_690t/rp_690t.xci' is already up-to-date
+[Tue Mar  7 15:30:11 2023] Launched synth_1...
+Run output will be captured here: /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/runme.log
+[Tue Mar  7 15:30:12 2023] Launched impl_1...
+Run output will be captured here: /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/runme.log
+close_design
+close_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 9109.785 ; gain = 0.000 ; free physical = 10098 ; free virtual = 39121
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 6637 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 9109.785 ; gain = 0.000 ; free physical = 9695 ; free virtual = 38846
+Restored from archive | CPU: 7.230000 secs | Memory: 71.446884 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 9109.785 ; gain = 0.000 ; free physical = 9695 ; free virtual = 38846
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3838 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 3768 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 64 instances
+
+open_run: Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 9111.008 ; gain = 1.223 ; free physical = 9652 ; free virtual = 38803
+open_report: Time (s): cpu = 00:00:26 ; elapsed = 00:00:08 . Memory (MB): peak = 9214.781 ; gain = 47.742 ; free physical = 9414 ; free virtual = 38565
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.10
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.10
+INFO: [Labtools 27-1435] Device xc7vx690t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:01:04 ; elapsed = 00:01:01 . Memory (MB): peak = 9254.254 ; gain = 0.000 ; free physical = 9331 ; free virtual = 38482
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-2302] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  7 16:58:36 2023...

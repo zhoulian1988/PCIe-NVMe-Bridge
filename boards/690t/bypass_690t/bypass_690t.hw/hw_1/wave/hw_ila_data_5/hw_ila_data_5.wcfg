@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.hw/hw_1/wave/hw_ila_data_5/hw_ila_data_5.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7183fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="447"></NameColumnWidth>
+      <ValueColumnWidth column_width="257"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="96" />
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf0_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf0_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf0_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf0_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf0_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf0_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf1_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf1_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf1_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf1_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf1_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf1_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf2_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf2_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf2_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf2_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf2_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf2_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf3_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf3_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf3_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf3_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf3_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf3_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf4_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf4_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf4_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf4_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf4_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf4_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf5_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf5_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf5_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf5_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf5_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf5_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf6_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf6_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf6_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf6_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf6_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf6_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf7_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf7_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf7_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cpld_dat_buf7_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cpld_dat_buf7_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cpld_dat_buf7_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cur_wcmd_move_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cur_wcmd_move_state[17:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_wcmd_move_state[17:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cur_wcmd_pbuf_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cur_wcmd_pbuf_state[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_wcmd_pbuf_state[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cur_wcmd_pref_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cur_wcmd_pref_state[17:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_wcmd_pref_state[17:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cur_wcmd_xaui_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cur_wcmd_xaui_state[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_wcmd_xaui_state[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/cypt_cpld_fifo_din">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cypt_cpld_fifo_din[133:0]</obj_property>
+      <obj_property name="ObjectShortName">cypt_cpld_fifo_din[133:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/cypt_cpld_fifo_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/cypt_cpld_fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">cypt_cpld_fifo_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/first_cpld_cycle">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/first_cpld_cycle</obj_property>
+      <obj_property name="ObjectShortName">first_cpld_cycle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/genblk4[0].pref_dat_buf_info_vld_reg_n_0_">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/genblk4[0].pref_dat_buf_info_vld_reg_n_0_[0:0]</obj_property>
+      <obj_property name="ObjectShortName">genblk4[0].pref_dat_buf_info_vld_reg_n_0_[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/p_1_in1651_in">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/p_1_in1651_in</obj_property>
+      <obj_property name="ObjectShortName">p_1_in1651_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/p_1_in1654_in">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/p_1_in1654_in</obj_property>
+      <obj_property name="ObjectShortName">p_1_in1654_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/p_1_in1657_in">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/p_1_in1657_in</obj_property>
+      <obj_property name="ObjectShortName">p_1_in1657_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/p_1_in1660_in">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/p_1_in1660_in</obj_property>
+      <obj_property name="ObjectShortName">p_1_in1660_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/p_1_in1663_in">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/p_1_in1663_in</obj_property>
+      <obj_property name="ObjectShortName">p_1_in1663_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/p_1_in1666_in">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/p_1_in1666_in</obj_property>
+      <obj_property name="ObjectShortName">p_1_in1666_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/p_1_in1669_in">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/p_1_in1669_in</obj_property>
+      <obj_property name="ObjectShortName">p_1_in1669_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/pref_dat_buf0_orig_tag_vld">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf0_orig_tag_vld</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf0_orig_tag_vld</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf0_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf0_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf0_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf0_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf0_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf0_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/pref_dat_buf1_orig_tag_vld">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf1_orig_tag_vld</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf1_orig_tag_vld</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf1_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf1_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf1_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf1_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf1_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf1_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/pref_dat_buf2_orig_tag_vld">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf2_orig_tag_vld</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf2_orig_tag_vld</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf2_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf2_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf2_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf2_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf2_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf2_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/pref_dat_buf3_orig_tag_vld">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf3_orig_tag_vld</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf3_orig_tag_vld</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf3_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf3_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf3_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf3_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf3_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf3_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/pref_dat_buf4_orig_tag_vld">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf4_orig_tag_vld</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf4_orig_tag_vld</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf4_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf4_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf4_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf4_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf4_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf4_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/pref_dat_buf5_orig_tag_vld">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf5_orig_tag_vld</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf5_orig_tag_vld</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf5_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf5_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf5_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf5_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf5_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf5_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/pref_dat_buf6_orig_tag_vld">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf6_orig_tag_vld</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf6_orig_tag_vld</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf6_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf6_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf6_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf6_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf6_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf6_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/pref_dat_buf7_orig_tag_vld">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf7_orig_tag_vld</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf7_orig_tag_vld</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf7_rd_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf7_rd_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf7_rd_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/pref_dat_buf7_wr_en_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf7_wr_en_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf7_wr_en_count[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/pref_dat_buf_count_err">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/pref_dat_buf_count_err</obj_property>
+      <obj_property name="ObjectShortName">pref_dat_buf_count_err</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/r_nrx_mrd_fifo_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/r_nrx_mrd_fifo_valid</obj_property>
+      <obj_property name="ObjectShortName">r_nrx_mrd_fifo_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/r_nrx_mrd_fifo_valid_and_dout">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/r_nrx_mrd_fifo_valid_and_dout[128:0]</obj_property>
+      <obj_property name="ObjectShortName">r_nrx_mrd_fifo_valid_and_dout[128:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_cmd_cpld_info_tag">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cmd_cpld_info_tag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cmd_cpld_info_tag[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_cmd_cpld_info_tag_last">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cmd_cpld_info_tag_last</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cmd_cpld_info_tag_last</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_cmd_cpld_info_wr_data">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cmd_cpld_info_wr_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cmd_cpld_info_wr_data[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_cmd_cpld_info_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cmd_cpld_info_wr_en</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cmd_cpld_info_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_cpld_dat_buf_base_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cpld_dat_buf_base_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cpld_dat_buf_base_addr[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_cpld_dat_buf_id">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cpld_dat_buf_id[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cpld_dat_buf_id[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_cpld_dat_buf_rd_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cpld_dat_buf_rd_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cpld_dat_buf_rd_addr[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_cpld_dat_buf_rd_dout">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cpld_dat_buf_rd_dout[127:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cpld_dat_buf_rd_dout[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_cpld_dat_buf_rd_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cpld_dat_buf_rd_en</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cpld_dat_buf_rd_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_cpld_dat_buf_wr_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cpld_dat_buf_wr_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cpld_dat_buf_wr_addr[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_cpld_dat_buf_wr_din">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cpld_dat_buf_wr_din[127:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cpld_dat_buf_wr_din[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_cpld_dat_buf_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_cpld_dat_buf_wr_en</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cpld_dat_buf_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_dat_buf0_mrd_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_dat_buf0_mrd_addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_buf0_mrd_addr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_dat_buf1_mrd_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_dat_buf1_mrd_addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_buf1_mrd_addr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_dat_buf2_mrd_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_dat_buf2_mrd_addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_buf2_mrd_addr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_dat_buf3_mrd_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_dat_buf3_mrd_addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_buf3_mrd_addr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_dat_buf4_mrd_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_dat_buf4_mrd_addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_buf4_mrd_addr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_dat_buf5_mrd_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_dat_buf5_mrd_addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_buf5_mrd_addr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_dat_buf6_mrd_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_dat_buf6_mrd_addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_buf6_mrd_addr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_dat_buf7_mrd_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_dat_buf7_mrd_addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_buf7_mrd_addr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_dat_cpld_info_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_dat_cpld_info_wr_en</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_cpld_info_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_dat_mrd_info_vld">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_dat_mrd_info_vld[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_mrd_info_vld[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_info_vld">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_info_vld[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_info_vld[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_pref_dat_buf_rd_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_pref_dat_buf_rd_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_pref_dat_buf_rd_addr[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_pref_dat_buf_rd_dout">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_pref_dat_buf_rd_dout[127:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_pref_dat_buf_rd_dout[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_pref_dat_buf_rd_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_pref_dat_buf_rd_en</obj_property>
+      <obj_property name="ObjectShortName">wcmd_pref_dat_buf_rd_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_pref_dat_buf_wr_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_pref_dat_buf_wr_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_pref_dat_buf_wr_addr[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_pref_dat_buf_wr_din">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_pref_dat_buf_wr_din[127:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_pref_dat_buf_wr_din[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_pref_dat_buf_wr_din_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_pref_dat_buf_wr_din_1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_pref_dat_buf_wr_din_1[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_pref_dat_buf_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_pref_dat_buf_wr_en</obj_property>
+      <obj_property name="ObjectShortName">wcmd_pref_dat_buf_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_pref_dat_buf_wr_en_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_pref_dat_buf_wr_en_1</obj_property>
+      <obj_property name="ObjectShortName">wcmd_pref_dat_buf_wr_en_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_xaui_fifo_din">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_xaui_fifo_din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_xaui_fifo_din[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_wce_i/wcmd_xaui_fifo_dout">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_xaui_fifo_dout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_xaui_fifo_dout[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_xaui_fifo_empty">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_xaui_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">wcmd_xaui_fifo_empty</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_xaui_fifo_full">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_xaui_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">wcmd_xaui_fifo_full</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_xaui_fifo_rd_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_xaui_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">wcmd_xaui_fifo_rd_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_xaui_fifo_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_xaui_fifo_valid</obj_property>
+      <obj_property name="ObjectShortName">wcmd_xaui_fifo_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_wce_i/wcmd_xaui_fifo_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_wce_i/wcmd_xaui_fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">wcmd_xaui_fifo_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

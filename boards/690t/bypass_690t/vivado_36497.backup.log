@@ -1,0 +1,283 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Mar 15 13:47:29 2023
+# Process ID: 36497
+# Current directory: /home/jzhang/bypass/boards/690t/bypass_690t
+# Command line: vivado bypass_690t.xpr
+# Log file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.log
+# Journal file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project bypass_690t.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:50 ; elapsed = 00:00:25 . Memory (MB): peak = 6472.078 ; gain = 313.367 ; free physical = 5603 ; free virtual = 40308
+update_compile_order -fileset sources_1
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+connect_hw_server -url 192.168.2.177:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.9]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.9]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.9
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1435] Device xc7vx690t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:01:03 ; elapsed = 00:01:02 . Memory (MB): peak = 7097.648 ; gain = 0.000 ; free physical = 4997 ; free virtual = 39702
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-2302] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 7099.648 ; gain = 2.000 ; free physical = 4971 ; free virtual = 39676
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes rp_s_axis_rq_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes rp_m_axis_rc_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property CONTROL.TRIGGER_POSITION 80 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2023-Mar-15 14:15:35
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2023-Mar-15 14:17:51
+upload_hw_ila_data: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 7248.715 ; gain = 0.000 ; free physical = 4947 ; free virtual = 39652
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 7331.125 ; gain = 82.410 ; free physical = 4937 ; free virtual = 39659
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+set_property -dict [list CONFIG.extended_tag_field {false}] [get_ips ep_690t_veiglo_u2]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/ep_690t_veiglo_u2/ep_690t_veiglo_u2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ep_690t_veiglo_u2'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ep_690t_veiglo_u2'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ep_690t_veiglo_u2'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ep_690t_veiglo_u2'...
+generate_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 7518.008 ; gain = 0.000 ; free physical = 4784 ; free virtual = 39508
+catch { config_ip_cache -export [get_ips -all ep_690t_veiglo_u2] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/ep_690t_veiglo_u2/ep_690t_veiglo_u2.xci] -no_script -sync -force -quiet
+reset_run ep_690t_veiglo_u2_synth_1
+launch_runs -jobs 8 ep_690t_veiglo_u2_synth_1
+[Wed Mar 15 14:48:19 2023] Launched ep_690t_veiglo_u2_synth_1...
+Run output will be captured here: /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/ep_690t_veiglo_u2_synth_1/runme.log
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/ep_690t_veiglo_u2/ep_690t_veiglo_u2.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/jzhang/bypass/ips_690t/rp_690t/rp_690t.xci' is already up-to-date
+[Wed Mar 15 15:00:04 2023] Launched synth_1...
+Run output will be captured here: /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/runme.log
+[Wed Mar 15 15:00:04 2023] Launched impl_1...
+Run output will be captured here: /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/runme.log
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - true 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.3-2148] ep_690t_veiglo_u2: 11 - false 
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.9
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.9
+INFO: [Labtools 27-1435] Device xc7vx690t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:01:04 ; elapsed = 00:01:02 . Memory (MB): peak = 7518.008 ; gain = 0.000 ; free physical = 4709 ; free virtual = 39438
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-2302] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 7518.008 ; gain = 0.000 ; free physical = 4700 ; free virtual = 39428
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_s_axis_rq_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_m_axis_rc_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_m_axis_cq_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_s_axis_cc_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes rp_RC_err_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes ep_RC_err_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Mar-15 16:33:17
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes ep_RC_err -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes rp_RC_err -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes rp_user_lnk_up -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes ep_user_lnk_up -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2023-Mar-15 16:34:01
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Mar-15 16:34:06
+set_property CONTROL.TRIGGER_POSITION 15000 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2023-Mar-15 16:34:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2023-Mar-15 16:40:32
+upload_hw_ila_data: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 7518.008 ; gain = 0.000 ; free physical = 4715 ; free virtual = 39426
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 7518.008 ; gain = 0.000 ; free physical = 4694 ; free virtual = 39422
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2023-Mar-15 16:42:40
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Mar-15 16:42:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Mar-15 16:42:40
+upload_hw_ila_data: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 7518.008 ; gain = 0.000 ; free physical = 4689 ; free virtual = 39417
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 7518.008 ; gain = 0.000 ; free physical = 4673 ; free virtual = 39419
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.9
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 16 08:56:27 2023...

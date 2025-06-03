@@ -1,0 +1,8 @@
+ep_690t_veiglo_xmc xilinx.com:ip:pcie3_7x:4.3
+ep_cq_to_rp_rq_fifo xilinx.com:ip:fifo_generator:13.2
+ep_ila xilinx.com:ip:ila:6.2
+ep_rc_to_rp_cc_fifo xilinx.com:ip:fifo_generator:13.2
+rp_690t xilinx.com:ip:pcie3_7x:4.3
+rp_cq_to_ep_rq_fifo xilinx.com:ip:fifo_generator:13.2
+rp_rc_to_ep_cc_fifo xilinx.com:ip:fifo_generator:13.2
+top_ep_ila xilinx.com:ip:ila:6.2

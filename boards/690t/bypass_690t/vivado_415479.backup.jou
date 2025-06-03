@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Mar  7 14:28:28 2023
+# Process ID: 415479
+# Current directory: /home/jzhang/bypass/boards/690t/bypass_690t
+# Command line: vivado bypass_690t.xpr
+# Log file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.log
+# Journal file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project bypass_690t.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server -url 192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.10]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.10]
+open_hw_target
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+open_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+close_design
+open_run impl_1
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+save_wave_config {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}

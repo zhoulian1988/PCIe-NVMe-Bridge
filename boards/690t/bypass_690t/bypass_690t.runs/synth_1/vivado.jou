@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 24 09:35:00 2023
+# Process ID: 85236
+# Current directory: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1
+# Command line: vivado -log bypass_690t.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bypass_690t.tcl
+# Log file: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/bypass_690t.vds
+# Journal file: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source bypass_690t.tcl -notrace

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 24 09:31:09 2023
+# Process ID: 64545
+# Current directory: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t
+# Command line: vivado bypass_690t.runs
+# Log file: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/vivado.log
+# Journal file: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/vavido/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:21 . Memory (MB): peak = 6383.430 ; gain = 210.527 ; free physical = 309 ; free virtual = 46613
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1157 -to_step write_bitstream -jobs 8
+[Fri Nov 24 09:34:58 2023] Launched synth_1...
+Run output will be captured here: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1/runme.log
+[Fri Nov 24 09:34:58 2023] Launched impl_1157...
+Run output will be captured here: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1157/runme.log

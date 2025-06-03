@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Mar 16 09:36:12 2023
+# Process ID: 3885
+# Current directory: /home/jzhang/bypass/boards/690t/bypass_690t
+# Command line: vivado bypass_690t.xpr
+# Log file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.log
+# Journal file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project bypass_690t.xpr
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.pf0_dev_cap_max_payload {128_bytes} CONFIG.perf_level {Extreme}] [get_ips rp_690t]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/rp_690t/rp_690t.xci]
+catch { config_ip_cache -export [get_ips -all rp_690t] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/rp_690t/rp_690t.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/jzhang/bypass/ips_690t/rp_690t/rp_690t.xci]
+launch_runs -jobs 8 rp_690t_synth_1
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/rp_690t/rp_690t.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.TL_PF_ENABLE_REG {false} CONFIG.extended_tag_field {true} CONFIG.PF0_DEVICE_ID {0100} CONFIG.perf_level {Good} CONFIG.PF1_DEVICE_ID {7011} CONFIG.pf1_bar0_enabled {false} CONFIG.pf1_bar0_type {N/A} CONFIG.pf1_bar0_size {2} CONFIG.PF0_SRIOV_CAP_INITIAL_VF {0} CONFIG.PF1_SRIOV_CAP_INITIAL_VF {0} CONFIG.PF0_MSIX_CAP_TABLE_BIR {BAR_1:0} CONFIG.PF0_MSIX_CAP_PBA_BIR {BAR_1:0} CONFIG.PF1_MSIX_CAP_TABLE_BIR {BAR_0} CONFIG.PF1_MSIX_CAP_PBA_BIR {BAR_0}] [get_ips ep_690t_veiglo_u2]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/ep_690t_veiglo_u2/ep_690t_veiglo_u2.xci]
+catch { config_ip_cache -export [get_ips -all ep_690t_veiglo_u2] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/ep_690t_veiglo_u2/ep_690t_veiglo_u2.xci] -no_script -sync -force -quiet
+reset_run ep_690t_veiglo_u2_synth_1
+launch_runs -jobs 8 ep_690t_veiglo_u2_synth_1
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/ep_690t_veiglo_u2/ep_690t_veiglo_u2.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+open_hw
+connect_hw_server -url 192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.9]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.9]
+open_hw_target
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ep_m_axis_rc_tvalid} }
+write_hw_ila_data {/home/jzhang/bypass/VCD/ep_rc_error.ila} hw_ila_data_1
+write_hw_ila_data {/home/jzhang/bypass/VCD/rp.ila} hw_ila_data_2
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ep_s_axis_rq_tkeep} }
+save_wave_config {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+read_hw_ila_data {/home/jzhang/bypass/VCD/ep_rc_error.ila}
+display_hw_ila_data

@@ -1,0 +1,6 @@
+verilog xil_defaultlib --include "../../../../../../../ips_690t/top_ep_ila_2/hdl/verilog" \
+"../../../../../../../ips_690t/top_ep_ila_2/sim/top_ep_ila.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

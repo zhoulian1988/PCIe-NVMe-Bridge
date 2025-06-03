@@ -1,0 +1,841 @@
+<?xml version="1.0"?>
+<!-- 2004-2006, Copyright Xilinx, Inc. -->
+<!-- RfVersion = 1000 ArchVersion = 1000 -->
+<!-- Besides the name, all other attributes on package specify -->
+<!-- the default value of that attribute as applied to pins -->
+<!-- So Vref = "0", means that wherever not specified, the value -->
+<!-- of Vref attribute for a pin is 0 -->
+<Package name="xc7a50tfgg484" GlobalClock="0" ClockCapable="0" LowCap="0" Vrn="0" Vrp="0" Vref="0" TraceLen2DelMin="0" TraceLen2DelMax="0" PinoutVersion="FINAL 2013-11-27" DelayVersion="VERS. 2.0 2013-11-27">
+ <Pin Name="M10" IOB="IPAD_X0Y1" External="1" SiteType="VN_0" VccoBank="0" VrefBank="0" MinDelay="91362" MaxDelay="92280" Row="11" Col="8"/>
+ <Pin Name="M14" IOB="IPAD_X0Y0" External="1" SiteType="VP_0" VccoBank="0" VrefBank="0" MinDelay="95885" MaxDelay="96849" Row="10" Col="9"/>
+ <Pin Name="T21" IOB="IOB_X0Y49" External="1" SiteType="IO_0_14" VccoBank="14" VrefBank="14" MinDelay="64397" MaxDelay="65044" Row="13" Col="19"/>
+ <Pin Name="U22" IOB="IOB_X0Y48" External="1" SiteType="IO_L1P_T0_D00_MOSI_14" VccoBank="14" VrefBank="14" MinDelay="86980" MaxDelay="87854" Row="13" Col="21"/>
+ <Pin Name="V22" IOB="IOB_X0Y47" External="1" SiteType="IO_L1N_T0_D01_DIN_14" VccoBank="14" VrefBank="14" MinDelay="86859" MaxDelay="87732" Row="14" Col="21"/>
+ <Pin Name="V21" IOB="IOB_X0Y46" External="1" SiteType="IO_L2P_T0_D02_14" VccoBank="14" VrefBank="14" MinDelay="78705" MaxDelay="79496" Row="13" Col="20"/>
+ <Pin Name="W21" IOB="IOB_X0Y45" External="1" SiteType="IO_L2N_T0_D03_14" VccoBank="14" VrefBank="14" MinDelay="78050" MaxDelay="78834" Row="14" Col="20"/>
+ <Pin Name="Y22" IOB="IOB_X0Y44" External="1" SiteType="IO_L3P_T0_DQS_PUDC_B_14" VccoBank="14" VrefBank="14" MinDelay="104805" MaxDelay="105858" Row="16" Col="21"/>
+ <Pin Name="AA22" IOB="IOB_X0Y43" External="1" SiteType="IO_L3N_T0_DQS_EMCCLK_14" VccoBank="14" VrefBank="14" MinDelay="105047" MaxDelay="106102" Row="17" Col="21"/>
+ <Pin Name="T20" IOB="IOB_X0Y42" External="1" SiteType="IO_L4P_T0_D04_14" VccoBank="14" VrefBank="14" MinDelay="84974" MaxDelay="85828" Row="15" Col="20"/>
+ <Pin Name="T19" IOB="IOB_X0Y41" External="1" SiteType="IO_L4N_T0_D05_14" VccoBank="14" VrefBank="14" MinDelay="85041" MaxDelay="85896" Row="16" Col="20"/>
+ <Pin Name="U20" IOB="IOB_X0Y40" External="1" SiteType="IO_L5P_T0_D06_14" VccoBank="14" VrefBank="14" MinDelay="79606" MaxDelay="80406" Row="13" Col="18"/>
+ <Pin Name="U19" IOB="IOB_X0Y39" External="1" SiteType="IO_L5N_T0_D07_14" VccoBank="14" VrefBank="14" MinDelay="79848" MaxDelay="80651" Row="14" Col="18"/>
+ <Pin Name="V20" IOB="IOB_X0Y38" External="1" SiteType="IO_L6P_T0_FCS_B_14" VccoBank="14" VrefBank="14" MinDelay="79951" MaxDelay="80754" Row="15" Col="18"/>
+ <Pin Name="V19" IOB="IOB_X0Y37" External="1" SiteType="IO_L6N_T0_D08_VREF_14" VccoBank="14" VrefBank="14" MinDelay="83364" MaxDelay="84202" Vref="1" Row="15" Col="19"/>
+ <Pin Name="Y20" IOB="IOB_X0Y36" External="1" SiteType="IO_L7P_T1_D09_14" VccoBank="14" VrefBank="14" MinDelay="106321" MaxDelay="107390" Row="18" Col="20"/>
+ <Pin Name="W20" IOB="IOB_X0Y35" External="1" SiteType="IO_L7N_T1_D10_14" VccoBank="14" VrefBank="14" MinDelay="104249" MaxDelay="105297" Row="18" Col="21"/>
+ <Pin Name="AA19" IOB="IOB_X0Y34" External="1" SiteType="IO_L8P_T1_D11_14" VccoBank="14" VrefBank="14" MinDelay="110342" MaxDelay="111451" Row="20" Col="19"/>
+ <Pin Name="Y19" IOB="IOB_X0Y33" External="1" SiteType="IO_L8N_T1_D12_14" VccoBank="14" VrefBank="14" MinDelay="119224" MaxDelay="120423" Row="20" Col="20"/>
+ <Pin Name="AA21" IOB="IOB_X0Y32" External="1" SiteType="IO_L9P_T1_DQS_14" VccoBank="14" VrefBank="14" MinDelay="109194" MaxDelay="110291" Row="19" Col="20"/>
+ <Pin Name="AA20" IOB="IOB_X0Y31" External="1" SiteType="IO_L9N_T1_DQS_D13_14" VccoBank="14" VrefBank="14" MinDelay="109497" MaxDelay="110598" Row="19" Col="21"/>
+ <Pin Name="AB19" IOB="IOB_X0Y30" External="1" SiteType="IO_L10P_T1_D14_14" VccoBank="14" VrefBank="14" MinDelay="121585" MaxDelay="122807" Row="21" Col="20"/>
+ <Pin Name="AB18" IOB="IOB_X0Y29" External="1" SiteType="IO_L10N_T1_D15_14" VccoBank="14" VrefBank="14" MinDelay="126144" MaxDelay="127412" Row="21" Col="21"/>
+ <Pin Name="AB21" IOB="IOB_X0Y28" External="1" SiteType="IO_L11P_T1_SRCC_14" VccoBank="14" VrefBank="14" MinDelay="92780" MaxDelay="93712" ClockCapable="1" Row="16" Col="19"/>
+ <Pin Name="AB20" IOB="IOB_X0Y27" External="1" SiteType="IO_L11N_T1_SRCC_14" VccoBank="14" VrefBank="14" MinDelay="95040" MaxDelay="95995" ClockCapable="1" Row="17" Col="19"/>
+ <Pin Name="AA18" IOB="IOB_X0Y26" External="1" SiteType="IO_L12P_T1_MRCC_14" VccoBank="14" VrefBank="14" MinDelay="87682" MaxDelay="88563" ClockCapable="1" Row="18" Col="18"/>
+ <Pin Name="AA17" IOB="IOB_X0Y25" External="1" SiteType="IO_L12N_T1_MRCC_14" VccoBank="14" VrefBank="14" MinDelay="87727" MaxDelay="88608" ClockCapable="1" Row="18" Col="19"/>
+ <Pin Name="W17" IOB="IOB_X0Y24" External="1" SiteType="IO_L13P_T2_MRCC_14" VccoBank="14" VrefBank="14" MinDelay="91025" MaxDelay="91940" ClockCapable="1" Row="19" Col="17"/>
+ <Pin Name="Y18" IOB="IOB_X0Y23" External="1" SiteType="IO_L13N_T2_MRCC_14" VccoBank="14" VrefBank="14" MinDelay="93423" MaxDelay="94362" ClockCapable="1" Row="19" Col="18"/>
+ <Pin Name="U18" IOB="IOB_X0Y22" External="1" SiteType="IO_L14P_T2_SRCC_14" VccoBank="14" VrefBank="14" MinDelay="78402" MaxDelay="79190" ClockCapable="1" Row="17" Col="17"/>
+ <Pin Name="U17" IOB="IOB_X0Y21" External="1" SiteType="IO_L14N_T2_SRCC_14" VccoBank="14" VrefBank="14" MinDelay="79201" MaxDelay="79997" ClockCapable="1" Row="17" Col="18"/>
+ <Pin Name="AA16" IOB="IOB_X0Y20" External="1" SiteType="IO_L15P_T2_DQS_RDWR_B_14" VccoBank="14" VrefBank="14" MinDelay="104825" MaxDelay="105878" Row="20" Col="18"/>
+ <Pin Name="AB17" IOB="IOB_X0Y19" External="1" SiteType="IO_L15N_T2_DQS_DOUT_CSO_B_14" VccoBank="14" VrefBank="14" MinDelay="104291" MaxDelay="105340" Row="21" Col="19"/>
+ <Pin Name="V18" IOB="IOB_X0Y18" External="1" SiteType="IO_L16P_T2_CSI_B_14" VccoBank="14" VrefBank="14" MinDelay="79350" MaxDelay="80148" Row="17" Col="16"/>
+ <Pin Name="V17" IOB="IOB_X0Y17" External="1" SiteType="IO_L16N_T2_A15_D31_14" VccoBank="14" VrefBank="14" MinDelay="81790" MaxDelay="82613" Row="18" Col="16"/>
+ <Pin Name="Y16" IOB="IOB_X0Y16" External="1" SiteType="IO_L17P_T2_A14_D30_14" VccoBank="14" VrefBank="14" MinDelay="93798" MaxDelay="94740" Row="20" Col="17"/>
+ <Pin Name="AA15" IOB="IOB_X0Y15" External="1" SiteType="IO_L17N_T2_A13_D29_14" VccoBank="14" VrefBank="14" MinDelay="93812" MaxDelay="94754" Row="21" Col="17"/>
+ <Pin Name="V16" IOB="IOB_X0Y14" External="1" SiteType="IO_L18P_T2_A12_D28_14" VccoBank="14" VrefBank="14" MinDelay="79104" MaxDelay="79899" Row="16" Col="16"/>
+ <Pin Name="U16" IOB="IOB_X0Y13" External="1" SiteType="IO_L18N_T2_A11_D27_14" VccoBank="14" VrefBank="14" MinDelay="83887" MaxDelay="84730" Row="16" Col="17"/>
+ <Pin Name="U15" IOB="IOB_X0Y12" External="1" SiteType="IO_L19P_T3_A10_D26_14" VccoBank="14" VrefBank="14" MinDelay="81778" MaxDelay="82600" Row="13" Col="13"/>
+ <Pin Name="W15" IOB="IOB_X0Y11" External="1" SiteType="IO_L19N_T3_A09_D25_VREF_14" VccoBank="14" VrefBank="14" MinDelay="82290" MaxDelay="83117" Vref="1" Row="14" Col="13"/>
+ <Pin Name="W16" IOB="IOB_X0Y10" External="1" SiteType="IO_L20P_T3_A08_D24_14" VccoBank="14" VrefBank="14" MinDelay="108290" MaxDelay="109378" Row="14" Col="17"/>
+ <Pin Name="V15" IOB="IOB_X0Y9" External="1" SiteType="IO_L20N_T3_A07_D23_14" VccoBank="14" VrefBank="14" MinDelay="91347" MaxDelay="92265" Row="15" Col="17"/>
+ <Pin Name="Y14" IOB="IOB_X0Y8" External="1" SiteType="IO_L21P_T3_DQS_14" VccoBank="14" VrefBank="14" MinDelay="109608" MaxDelay="110710" Row="12" Col="16"/>
+ <Pin Name="AA14" IOB="IOB_X0Y7" External="1" SiteType="IO_L21N_T3_DQS_A06_D22_14" VccoBank="14" VrefBank="14" MinDelay="105807" MaxDelay="106870" Row="13" Col="16"/>
+ <Pin Name="V13" IOB="IOB_X0Y6" External="1" SiteType="IO_L22P_T3_A05_D21_14" VccoBank="14" VrefBank="14" MinDelay="92260" MaxDelay="93187" Row="13" Col="14"/>
+ <Pin Name="W14" IOB="IOB_X0Y5" External="1" SiteType="IO_L22N_T3_A04_D20_14" VccoBank="14" VrefBank="14" MinDelay="86625" MaxDelay="87496" Row="14" Col="15"/>
+ <Pin Name="AB14" IOB="IOB_X0Y4" External="1" SiteType="IO_L23P_T3_A03_D19_14" VccoBank="14" VrefBank="14" MinDelay="82755" MaxDelay="83587" Row="12" Col="12"/>
+ <Pin Name="AB15" IOB="IOB_X0Y3" External="1" SiteType="IO_L23N_T3_A02_D18_14" VccoBank="14" VrefBank="14" MinDelay="80326" MaxDelay="81134" Row="12" Col="13"/>
+ <Pin Name="AB13" IOB="IOB_X0Y2" External="1" SiteType="IO_L24P_T3_A01_D17_14" VccoBank="14" VrefBank="14" MinDelay="82680" MaxDelay="83511" Row="13" Col="15"/>
+ <Pin Name="AA13" IOB="IOB_X0Y1" External="1" SiteType="IO_L24N_T3_A00_D16_14" VccoBank="14" VrefBank="14" MinDelay="79867" MaxDelay="80669" Row="14" Col="16"/>
+ <Pin Name="W13" IOB="IOB_X0Y0" External="1" SiteType="IO_25_14" VccoBank="14" VrefBank="14" MinDelay="50093" MaxDelay="50597" Row="12" Col="14"/>
+ <Pin Name="K16" IOB="IOB_X0Y99" External="1" SiteType="IO_0_15" VccoBank="15" VrefBank="15" MinDelay="42432" MaxDelay="42858" Row="8" Col="15"/>
+ <Pin Name="J16" IOB="IOB_X0Y98" External="1" SiteType="IO_L1P_T0_AD0P_15" VccoBank="15" VrefBank="15" MinDelay="106267" MaxDelay="107335" Row="7" Col="12"/>
+ <Pin Name="H16" IOB="IOB_X0Y97" External="1" SiteType="IO_L1N_T0_AD0N_15" VccoBank="15" VrefBank="15" MinDelay="91476" MaxDelay="92395" Row="6" Col="12"/>
+ <Pin Name="J17" IOB="IOB_X0Y96" External="1" SiteType="IO_L2P_T0_AD8P_15" VccoBank="15" VrefBank="15" MinDelay="91013" MaxDelay="91927" Row="6" Col="14"/>
+ <Pin Name="J18" IOB="IOB_X0Y95" External="1" SiteType="IO_L2N_T0_AD8N_15" VccoBank="15" VrefBank="15" MinDelay="79624" MaxDelay="80424" Row="6" Col="15"/>
+ <Pin Name="H17" IOB="IOB_X0Y94" External="1" SiteType="IO_L3P_T0_DQS_AD1P_15" VccoBank="15" VrefBank="15" MinDelay="84115" MaxDelay="84960" Row="8" Col="13"/>
+ <Pin Name="J19" IOB="IOB_X0Y93" External="1" SiteType="IO_L3N_T0_DQS_AD1N_15" VccoBank="15" VrefBank="15" MinDelay="85305" MaxDelay="86162" Row="7" Col="13"/>
+ <Pin Name="H19" IOB="IOB_X0Y92" External="1" SiteType="IO_L4P_T0_15" VccoBank="15" VrefBank="15" MinDelay="94586" MaxDelay="95537" Row="6" Col="16"/>
+ <Pin Name="H20" IOB="IOB_X0Y91" External="1" SiteType="IO_L4N_T0_15" VccoBank="15" VrefBank="15" MinDelay="97795" MaxDelay="98778" Row="6" Col="17"/>
+ <Pin Name="K17" IOB="IOB_X0Y90" External="1" SiteType="IO_L5P_T0_AD9P_15" VccoBank="15" VrefBank="15" MinDelay="69776" MaxDelay="70478" Row="8" Col="14"/>
+ <Pin Name="L17" IOB="IOB_X0Y89" External="1" SiteType="IO_L5N_T0_AD9N_15" VccoBank="15" VrefBank="15" MinDelay="83469" MaxDelay="84308" Row="7" Col="14"/>
+ <Pin Name="G21" IOB="IOB_X0Y88" External="1" SiteType="IO_L6P_T0_15" VccoBank="15" VrefBank="15" MinDelay="75889" MaxDelay="76652" Row="7" Col="16"/>
+ <Pin Name="G22" IOB="IOB_X0Y87" External="1" SiteType="IO_L6N_T0_VREF_15" VccoBank="15" VrefBank="15" MinDelay="74716" MaxDelay="75467" Vref="1" Row="7" Col="17"/>
+ <Pin Name="G18" IOB="IOB_X0Y86" External="1" SiteType="IO_L7P_T1_AD2P_15" VccoBank="15" VrefBank="15" MinDelay="90508" MaxDelay="91418" Row="8" Col="21"/>
+ <Pin Name="G19" IOB="IOB_X0Y85" External="1" SiteType="IO_L7N_T1_AD2N_15" VccoBank="15" VrefBank="15" MinDelay="92841" MaxDelay="93775" Row="7" Col="21"/>
+ <Pin Name="J20" IOB="IOB_X0Y84" External="1" SiteType="IO_L8P_T1_AD10P_15" VccoBank="15" VrefBank="15" MinDelay="90546" MaxDelay="91456" Row="7" Col="19"/>
+ <Pin Name="K19" IOB="IOB_X0Y83" External="1" SiteType="IO_L8N_T1_AD10N_15" VccoBank="15" VrefBank="15" MinDelay="101841" MaxDelay="102864" Row="6" Col="19"/>
+ <Pin Name="K20" IOB="IOB_X0Y82" External="1" SiteType="IO_L9P_T1_DQS_AD3P_15" VccoBank="15" VrefBank="15" MinDelay="84948" MaxDelay="85802" Row="9" Col="20"/>
+ <Pin Name="K21" IOB="IOB_X0Y81" External="1" SiteType="IO_L9N_T1_DQS_AD3N_15" VccoBank="15" VrefBank="15" MinDelay="87899" MaxDelay="88782" Row="9" Col="21"/>
+ <Pin Name="L18" IOB="IOB_X0Y80" External="1" SiteType="IO_L10P_T1_AD11P_15" VccoBank="15" VrefBank="15" MinDelay="90890" MaxDelay="91804" Row="11" Col="20"/>
+ <Pin Name="L19" IOB="IOB_X0Y79" External="1" SiteType="IO_L10N_T1_AD11N_15" VccoBank="15" VrefBank="15" MinDelay="89645" MaxDelay="90546" Row="10" Col="20"/>
+ <Pin Name="L21" IOB="IOB_X0Y78" External="1" SiteType="IO_L11P_T1_SRCC_15" VccoBank="15" VrefBank="15" MinDelay="80678" MaxDelay="81489" ClockCapable="1" Row="8" Col="19"/>
+ <Pin Name="L22" IOB="IOB_X0Y77" External="1" SiteType="IO_L11N_T1_SRCC_15" VccoBank="15" VrefBank="15" MinDelay="83057" MaxDelay="83891" ClockCapable="1" Row="8" Col="20"/>
+ <Pin Name="L16" IOB="IOB_X0Y76" External="1" SiteType="IO_L12P_T1_MRCC_15" VccoBank="15" VrefBank="15" MinDelay="90108" MaxDelay="91014" ClockCapable="1" Row="8" Col="18"/>
+ <Pin Name="M16" IOB="IOB_X0Y75" External="1" SiteType="IO_L12N_T1_MRCC_15" VccoBank="15" VrefBank="15" MinDelay="93451" MaxDelay="94390" ClockCapable="1" Row="7" Col="18"/>
+ <Pin Name="H22" IOB="IOB_X0Y74" External="1" SiteType="IO_L13P_T2_MRCC_15" VccoBank="15" VrefBank="15" MinDelay="72510" MaxDelay="73239" ClockCapable="1" Row="9" Col="17"/>
+ <Pin Name="H21" IOB="IOB_X0Y73" External="1" SiteType="IO_L13N_T2_MRCC_15" VccoBank="15" VrefBank="15" MinDelay="74378" MaxDelay="75126" ClockCapable="1" Row="9" Col="18"/>
+ <Pin Name="M20" IOB="IOB_X0Y72" External="1" SiteType="IO_L14P_T2_SRCC_15" VccoBank="15" VrefBank="15" MinDelay="72872" MaxDelay="73605" ClockCapable="1" Row="10" Col="18"/>
+ <Pin Name="M19" IOB="IOB_X0Y71" External="1" SiteType="IO_L14N_T2_SRCC_15" VccoBank="15" VrefBank="15" MinDelay="73236" MaxDelay="73972" ClockCapable="1" Row="10" Col="19"/>
+ <Pin Name="K22" IOB="IOB_X0Y70" External="1" SiteType="IO_L15P_T2_DQS_15" VccoBank="15" VrefBank="15" MinDelay="90823" MaxDelay="91735" Row="12" Col="21"/>
+ <Pin Name="J22" IOB="IOB_X0Y69" External="1" SiteType="IO_L15N_T2_DQS_ADV_B_15" VccoBank="15" VrefBank="15" MinDelay="86805" MaxDelay="87678" Row="11" Col="21"/>
+ <Pin Name="R22" IOB="IOB_X0Y68" External="1" SiteType="IO_L16P_T2_A28_15" VccoBank="15" VrefBank="15" MinDelay="65123" MaxDelay="65778" Row="11" Col="17"/>
+ <Pin Name="R21" IOB="IOB_X0Y67" External="1" SiteType="IO_L16N_T2_A27_15" VccoBank="15" VrefBank="15" MinDelay="65119" MaxDelay="65773" Row="10" Col="17"/>
+ <Pin Name="N21" IOB="IOB_X0Y66" External="1" SiteType="IO_L17P_T2_A26_15" VccoBank="15" VrefBank="15" MinDelay="67593" MaxDelay="68273" Row="12" Col="17"/>
+ <Pin Name="M21" IOB="IOB_X0Y65" External="1" SiteType="IO_L17N_T2_A25_15" VccoBank="15" VrefBank="15" MinDelay="68971" MaxDelay="69664" Row="12" Col="18"/>
+ <Pin Name="R20" IOB="IOB_X0Y64" External="1" SiteType="IO_L18P_T2_A24_15" VccoBank="15" VrefBank="15" MinDelay="71111" MaxDelay="71826" Row="12" Col="19"/>
+ <Pin Name="P20" IOB="IOB_X0Y63" External="1" SiteType="IO_L18N_T2_A23_15" VccoBank="15" VrefBank="15" MinDelay="70260" MaxDelay="70966" Row="11" Col="19"/>
+ <Pin Name="P22" IOB="IOB_X0Y62" External="1" SiteType="IO_L19P_T3_A22_15" VccoBank="15" VrefBank="15" MinDelay="86381" MaxDelay="87249" Row="9" Col="12"/>
+ <Pin Name="N22" IOB="IOB_X0Y61" External="1" SiteType="IO_L19N_T3_A21_VREF_15" VccoBank="15" VrefBank="15" MinDelay="69559" MaxDelay="70258" Vref="1" Row="9" Col="13"/>
+ <Pin Name="M17" IOB="IOB_X0Y60" External="1" SiteType="IO_L20P_T3_A20_15" VccoBank="15" VrefBank="15" MinDelay="89371" MaxDelay="90269" Row="11" Col="12"/>
+ <Pin Name="N17" IOB="IOB_X0Y59" External="1" SiteType="IO_L20N_T3_A19_15" VccoBank="15" VrefBank="15" MinDelay="74589" MaxDelay="75338" Row="10" Col="12"/>
+ <Pin Name="P18" IOB="IOB_X0Y58" External="1" SiteType="IO_L21P_T3_DQS_15" VccoBank="15" VrefBank="15" MinDelay="83254" MaxDelay="84090" Row="9" Col="16"/>
+ <Pin Name="P19" IOB="IOB_X0Y57" External="1" SiteType="IO_L21N_T3_DQS_A18_15" VccoBank="15" VrefBank="15" MinDelay="79249" MaxDelay="80046" Row="8" Col="16"/>
+ <Pin Name="N19" IOB="IOB_X0Y56" External="1" SiteType="IO_L22P_T3_A17_15" VccoBank="15" VrefBank="15" MinDelay="97478" MaxDelay="98457" Row="10" Col="13"/>
+ <Pin Name="N18" IOB="IOB_X0Y55" External="1" SiteType="IO_L22N_T3_A16_15" VccoBank="15" VrefBank="15" MinDelay="85147" MaxDelay="86003" Row="10" Col="14"/>
+ <Pin Name="R19" IOB="IOB_X0Y54" External="1" SiteType="IO_L23P_T3_FOE_B_15" VccoBank="15" VrefBank="15" MinDelay="96479" MaxDelay="97449" Row="10" Col="15"/>
+ <Pin Name="R18" IOB="IOB_X0Y53" External="1" SiteType="IO_L23N_T3_FWE_B_15" VccoBank="15" VrefBank="15" MinDelay="95191" MaxDelay="96148" Row="9" Col="15"/>
+ <Pin Name="P17" IOB="IOB_X0Y52" External="1" SiteType="IO_L24P_T3_RS1_15" VccoBank="15" VrefBank="15" MinDelay="60815" MaxDelay="61426" Row="11" Col="14"/>
+ <Pin Name="P16" IOB="IOB_X0Y51" External="1" SiteType="IO_L24N_T3_RS0_15" VccoBank="15" VrefBank="15" MinDelay="62650" MaxDelay="63280" Row="11" Col="15"/>
+ <Pin Name="T22" IOB="IOB_X0Y50" External="1" SiteType="IO_25_15" VccoBank="15" VrefBank="15" MinDelay="43254" MaxDelay="43688" Row="11" Col="16"/>
+ <Pin Name="F15" IOB="IOB_X0Y149" External="1" SiteType="IO_0_16" VccoBank="16" VrefBank="16" MinDelay="37333" MaxDelay="37709" Row="5" Col="14"/>
+ <Pin Name="F14" IOB="IOB_X0Y148" External="1" SiteType="IO_L1P_T0_16" VccoBank="16" VrefBank="16" MinDelay="59945" MaxDelay="60548" Row="5" Col="12"/>
+ <Pin Name="F13" IOB="IOB_X0Y147" External="1" SiteType="IO_L1N_T0_16" VccoBank="16" VrefBank="16" MinDelay="56744" MaxDelay="57314" Row="5" Col="13"/>
+ <Pin Name="E14" IOB="IOB_X0Y146" External="1" SiteType="IO_L2P_T0_16" VccoBank="16" VrefBank="16" MinDelay="54346" MaxDelay="54892" Row="5" Col="15"/>
+ <Pin Name="E13" IOB="IOB_X0Y145" External="1" SiteType="IO_L2N_T0_16" VccoBank="16" VrefBank="16" MinDelay="58017" MaxDelay="58600" Row="4" Col="16"/>
+ <Pin Name="D15" IOB="IOB_X0Y144" External="1" SiteType="IO_L3P_T0_DQS_16" VccoBank="16" VrefBank="16" MinDelay="69236" MaxDelay="69932" Row="2" Col="13"/>
+ <Pin Name="D14" IOB="IOB_X0Y143" External="1" SiteType="IO_L3N_T0_DQS_16" VccoBank="16" VrefBank="16" MinDelay="67914" MaxDelay="68597" Row="2" Col="14"/>
+ <Pin Name="C13" IOB="IOB_X0Y142" External="1" SiteType="IO_L4P_T0_16" VccoBank="16" VrefBank="16" MinDelay="74551" MaxDelay="75300" Row="4" Col="12"/>
+ <Pin Name="B13" IOB="IOB_X0Y141" External="1" SiteType="IO_L4N_T0_16" VccoBank="16" VrefBank="16" MinDelay="71516" MaxDelay="72234" Row="4" Col="13"/>
+ <Pin Name="B15" IOB="IOB_X0Y140" External="1" SiteType="IO_L5P_T0_16" VccoBank="16" VrefBank="16" MinDelay="60665" MaxDelay="61275" Row="4" Col="15"/>
+ <Pin Name="B16" IOB="IOB_X0Y139" External="1" SiteType="IO_L5N_T0_16" VccoBank="16" VrefBank="16" MinDelay="69025" MaxDelay="69719" Row="3" Col="15"/>
+ <Pin Name="A13" IOB="IOB_X0Y138" External="1" SiteType="IO_L6P_T0_16" VccoBank="16" VrefBank="16" MinDelay="69339" MaxDelay="70036" Row="3" Col="13"/>
+ <Pin Name="A14" IOB="IOB_X0Y137" External="1" SiteType="IO_L6N_T0_VREF_16" VccoBank="16" VrefBank="16" MinDelay="59725" MaxDelay="60325" Vref="1" Row="3" Col="14"/>
+ <Pin Name="A15" IOB="IOB_X0Y136" External="1" SiteType="IO_L7P_T1_16" VccoBank="16" VrefBank="16" MinDelay="85630" MaxDelay="86490" Row="1" Col="14"/>
+ <Pin Name="A16" IOB="IOB_X0Y135" External="1" SiteType="IO_L7N_T1_16" VccoBank="16" VrefBank="16" MinDelay="86732" MaxDelay="87603" Row="1" Col="15"/>
+ <Pin Name="C14" IOB="IOB_X0Y134" External="1" SiteType="IO_L8P_T1_16" VccoBank="16" VrefBank="16" MinDelay="97037" MaxDelay="98012" Row="2" Col="12"/>
+ <Pin Name="C15" IOB="IOB_X0Y133" External="1" SiteType="IO_L8N_T1_16" VccoBank="16" VrefBank="16" MinDelay="100318" MaxDelay="101326" Row="1" Col="12"/>
+ <Pin Name="D16" IOB="IOB_X0Y132" External="1" SiteType="IO_L9P_T1_DQS_16" VccoBank="16" VrefBank="16" MinDelay="96806" MaxDelay="97779" Row="0" Col="14"/>
+ <Pin Name="E16" IOB="IOB_X0Y131" External="1" SiteType="IO_L9N_T1_DQS_16" VccoBank="16" VrefBank="16" MinDelay="100917" MaxDelay="101931" Row="0" Col="15"/>
+ <Pin Name="E17" IOB="IOB_X0Y130" External="1" SiteType="IO_L10P_T1_16" VccoBank="16" VrefBank="16" MinDelay="117933" MaxDelay="119118" Row="0" Col="12"/>
+ <Pin Name="F16" IOB="IOB_X0Y129" External="1" SiteType="IO_L10N_T1_16" VccoBank="16" VrefBank="16" MinDelay="119651" MaxDelay="120853" Row="0" Col="13"/>
+ <Pin Name="B17" IOB="IOB_X0Y128" External="1" SiteType="IO_L11P_T1_SRCC_16" VccoBank="16" VrefBank="16" MinDelay="90880" MaxDelay="91793" ClockCapable="1" Row="1" Col="16"/>
+ <Pin Name="B18" IOB="IOB_X0Y127" External="1" SiteType="IO_L11N_T1_SRCC_16" VccoBank="16" VrefBank="16" MinDelay="91900" MaxDelay="92823" ClockCapable="1" Row="1" Col="17"/>
+ <Pin Name="C17" IOB="IOB_X0Y126" External="1" SiteType="IO_L12P_T1_MRCC_16" VccoBank="16" VrefBank="16" MinDelay="90689" MaxDelay="91600" ClockCapable="1" Row="3" Col="16"/>
+ <Pin Name="D17" IOB="IOB_X0Y125" External="1" SiteType="IO_L12N_T1_MRCC_16" VccoBank="16" VrefBank="16" MinDelay="91813" MaxDelay="92736" ClockCapable="1" Row="2" Col="16"/>
+ <Pin Name="A19" IOB="IOB_X0Y124" External="1" SiteType="IO_L13P_T2_MRCC_16" VccoBank="16" VrefBank="16" MinDelay="99395" MaxDelay="100394" ClockCapable="1" Row="2" Col="17"/>
+ <Pin Name="A18" IOB="IOB_X0Y123" External="1" SiteType="IO_L13N_T2_MRCC_16" VccoBank="16" VrefBank="16" MinDelay="100739" MaxDelay="101751" ClockCapable="1" Row="2" Col="18"/>
+ <Pin Name="G16" IOB="IOB_X0Y122" External="1" SiteType="IO_L14P_T2_SRCC_16" VccoBank="16" VrefBank="16" MinDelay="90565" MaxDelay="91475" ClockCapable="1" Row="4" Col="18"/>
+ <Pin Name="G17" IOB="IOB_X0Y121" External="1" SiteType="IO_L14N_T2_SRCC_16" VccoBank="16" VrefBank="16" MinDelay="91120" MaxDelay="92036" ClockCapable="1" Row="3" Col="18"/>
+ <Pin Name="C19" IOB="IOB_X0Y120" External="1" SiteType="IO_L15P_T2_DQS_16" VccoBank="16" VrefBank="16" MinDelay="92941" MaxDelay="93875" Row="5" Col="17"/>
+ <Pin Name="C18" IOB="IOB_X0Y119" External="1" SiteType="IO_L15N_T2_DQS_16" VccoBank="16" VrefBank="16" MinDelay="90492" MaxDelay="91401" Row="4" Col="17"/>
+ <Pin Name="D19" IOB="IOB_X0Y118" External="1" SiteType="IO_L16P_T2_16" VccoBank="16" VrefBank="16" MinDelay="111109" MaxDelay="112226" Row="1" Col="19"/>
+ <Pin Name="E19" IOB="IOB_X0Y117" External="1" SiteType="IO_L16N_T2_16" VccoBank="16" VrefBank="16" MinDelay="111215" MaxDelay="112333" Row="0" Col="19"/>
+ <Pin Name="B21" IOB="IOB_X0Y116" External="1" SiteType="IO_L17P_T2_16" VccoBank="16" VrefBank="16" MinDelay="114166" MaxDelay="115313" Row="0" Col="17"/>
+ <Pin Name="A21" IOB="IOB_X0Y115" External="1" SiteType="IO_L17N_T2_16" VccoBank="16" VrefBank="16" MinDelay="117348" MaxDelay="118527" Row="0" Col="18"/>
+ <Pin Name="A20" IOB="IOB_X0Y114" External="1" SiteType="IO_L18P_T2_16" VccoBank="16" VrefBank="16" MinDelay="79880" MaxDelay="80683" Row="5" Col="18"/>
+ <Pin Name="B20" IOB="IOB_X0Y113" External="1" SiteType="IO_L18N_T2_16" VccoBank="16" VrefBank="16" MinDelay="83662" MaxDelay="84503" Row="5" Col="19"/>
+ <Pin Name="F18" IOB="IOB_X0Y112" External="1" SiteType="IO_L19P_T3_16" VccoBank="16" VrefBank="16" MinDelay="99610" MaxDelay="100611" Row="3" Col="19"/>
+ <Pin Name="E18" IOB="IOB_X0Y111" External="1" SiteType="IO_L19N_T3_VREF_16" VccoBank="16" VrefBank="16" MinDelay="108156" MaxDelay="109243" Vref="1" Row="2" Col="19"/>
+ <Pin Name="B22" IOB="IOB_X0Y110" External="1" SiteType="IO_L20P_T3_16" VccoBank="16" VrefBank="16" MinDelay="124638" MaxDelay="125891" Row="2" Col="21"/>
+ <Pin Name="C22" IOB="IOB_X0Y109" External="1" SiteType="IO_L20N_T3_16" VccoBank="16" VrefBank="16" MinDelay="120626" MaxDelay="121838" Row="1" Col="21"/>
+ <Pin Name="D20" IOB="IOB_X0Y108" External="1" SiteType="IO_L21P_T3_DQS_16" VccoBank="16" VrefBank="16" MinDelay="121638" MaxDelay="122860" Row="1" Col="20"/>
+ <Pin Name="C20" IOB="IOB_X0Y107" External="1" SiteType="IO_L21N_T3_DQS_16" VccoBank="16" VrefBank="16" MinDelay="123790" MaxDelay="125034" Row="0" Col="20"/>
+ <Pin Name="D22" IOB="IOB_X0Y106" External="1" SiteType="IO_L22P_T3_16" VccoBank="16" VrefBank="16" MinDelay="117040" MaxDelay="118216" Row="4" Col="21"/>
+ <Pin Name="E22" IOB="IOB_X0Y105" External="1" SiteType="IO_L22N_T3_16" VccoBank="16" VrefBank="16" MinDelay="114166" MaxDelay="115313" Row="3" Col="21"/>
+ <Pin Name="E21" IOB="IOB_X0Y104" External="1" SiteType="IO_L23P_T3_16" VccoBank="16" VrefBank="16" MinDelay="103715" MaxDelay="104758" Row="4" Col="20"/>
+ <Pin Name="D21" IOB="IOB_X0Y103" External="1" SiteType="IO_L23N_T3_16" VccoBank="16" VrefBank="16" MinDelay="107029" MaxDelay="108105" Row="3" Col="20"/>
+ <Pin Name="F19" IOB="IOB_X0Y102" External="1" SiteType="IO_L24P_T3_16" VccoBank="16" VrefBank="16" MinDelay="90305" MaxDelay="91212" Row="6" Col="20"/>
+ <Pin Name="F20" IOB="IOB_X0Y101" External="1" SiteType="IO_L24N_T3_16" VccoBank="16" VrefBank="16" MinDelay="94157" MaxDelay="95103" Row="6" Col="21"/>
+ <Pin Name="F21" IOB="IOB_X0Y100" External="1" SiteType="IO_25_16" VccoBank="16" VrefBank="16" MinDelay="96735" MaxDelay="97708" Row="5" Col="20"/>
+ <Pin Name="T3" IOB="IOB_X1Y49" External="1" SiteType="IO_0_34" VccoBank="34" VrefBank="34" MinDelay="83550" MaxDelay="84390" Row="15" Col="2"/>
+ <Pin Name="R2" IOB="IOB_X1Y48" External="1" SiteType="IO_L1P_T0_34" VccoBank="34" VrefBank="34" MinDelay="106594" MaxDelay="107665" Row="15" Col="0"/>
+ <Pin Name="R3" IOB="IOB_X1Y47" External="1" SiteType="IO_L1N_T0_34" VccoBank="34" VrefBank="34" MinDelay="104325" MaxDelay="105373" Row="16" Col="0"/>
+ <Pin Name="U2" IOB="IOB_X1Y46" External="1" SiteType="IO_L2P_T0_34" VccoBank="34" VrefBank="34" MinDelay="118964" MaxDelay="120160" Row="16" Col="1"/>
+ <Pin Name="V2" IOB="IOB_X1Y45" External="1" SiteType="IO_L2N_T0_34" VccoBank="34" VrefBank="34" MinDelay="115632" MaxDelay="116794" Row="17" Col="1"/>
+ <Pin Name="T1" IOB="IOB_X1Y44" External="1" SiteType="IO_L3P_T0_DQS_34" VccoBank="34" VrefBank="34" MinDelay="103330" MaxDelay="104368" Row="14" Col="2"/>
+ <Pin Name="U1" IOB="IOB_X1Y43" External="1" SiteType="IO_L3N_T0_DQS_34" VccoBank="34" VrefBank="34" MinDelay="100297" MaxDelay="101305" Row="14" Col="1"/>
+ <Pin Name="W2" IOB="IOB_X1Y42" External="1" SiteType="IO_L4P_T0_34" VccoBank="34" VrefBank="34" MinDelay="118598" MaxDelay="119790" Row="18" Col="1"/>
+ <Pin Name="Y2" IOB="IOB_X1Y41" External="1" SiteType="IO_L4N_T0_34" VccoBank="34" VrefBank="34" MinDelay="116973" MaxDelay="118149" Row="19" Col="1"/>
+ <Pin Name="W1" IOB="IOB_X1Y40" External="1" SiteType="IO_L5P_T0_34" VccoBank="34" VrefBank="34" MinDelay="119016" MaxDelay="120212" Row="18" Col="0"/>
+ <Pin Name="Y1" IOB="IOB_X1Y39" External="1" SiteType="IO_L5N_T0_34" VccoBank="34" VrefBank="34" MinDelay="127064" MaxDelay="128341" Row="19" Col="0"/>
+ <Pin Name="T4" IOB="IOB_X1Y38" External="1" SiteType="IO_L6P_T0_34" VccoBank="34" VrefBank="34" MinDelay="99791" MaxDelay="100794" Row="16" Col="2"/>
+ <Pin Name="R4" IOB="IOB_X1Y37" External="1" SiteType="IO_L6N_T0_VREF_34" VccoBank="34" VrefBank="34" MinDelay="90816" MaxDelay="91728" Vref="1" Row="17" Col="2"/>
+ <Pin Name="AA1" IOB="IOB_X1Y36" External="1" SiteType="IO_L7P_T1_34" VccoBank="34" VrefBank="34" MinDelay="130607" MaxDelay="131920" Row="20" Col="0"/>
+ <Pin Name="AB1" IOB="IOB_X1Y35" External="1" SiteType="IO_L7N_T1_34" VccoBank="34" VrefBank="34" MinDelay="132478" MaxDelay="133810" Row="21" Col="0"/>
+ <Pin Name="U3" IOB="IOB_X1Y34" External="1" SiteType="IO_L8P_T1_34" VccoBank="34" VrefBank="34" MinDelay="129277" MaxDelay="130576" Row="21" Col="2"/>
+ <Pin Name="V3" IOB="IOB_X1Y33" External="1" SiteType="IO_L8N_T1_34" VccoBank="34" VrefBank="34" MinDelay="129113" MaxDelay="130411" Row="21" Col="1"/>
+ <Pin Name="T5" IOB="IOB_X1Y32" External="1" SiteType="IO_L9P_T1_DQS_34" VccoBank="34" VrefBank="34" MinDelay="107785" MaxDelay="108868" Row="19" Col="2"/>
+ <Pin Name="U5" IOB="IOB_X1Y31" External="1" SiteType="IO_L9N_T1_DQS_34" VccoBank="34" VrefBank="34" MinDelay="110126" MaxDelay="111233" Row="20" Col="2"/>
+ <Pin Name="AB2" IOB="IOB_X1Y30" External="1" SiteType="IO_L10P_T1_34" VccoBank="34" VrefBank="34" MinDelay="122534" MaxDelay="123766" Row="20" Col="4"/>
+ <Pin Name="AB3" IOB="IOB_X1Y29" External="1" SiteType="IO_L10N_T1_34" VccoBank="34" VrefBank="34" MinDelay="121265" MaxDelay="122484" Row="21" Col="4"/>
+ <Pin Name="Y3" IOB="IOB_X1Y28" External="1" SiteType="IO_L11P_T1_SRCC_34" VccoBank="34" VrefBank="34" MinDelay="102683" MaxDelay="103715" ClockCapable="1" Row="19" Col="3"/>
+ <Pin Name="AA3" IOB="IOB_X1Y27" External="1" SiteType="IO_L11N_T1_SRCC_34" VccoBank="34" VrefBank="34" MinDelay="103460" MaxDelay="104500" ClockCapable="1" Row="20" Col="3"/>
+ <Pin Name="V4" IOB="IOB_X1Y26" External="1" SiteType="IO_L12P_T1_MRCC_34" VccoBank="34" VrefBank="34" MinDelay="95214" MaxDelay="96171" ClockCapable="1" Row="17" Col="3"/>
+ <Pin Name="W4" IOB="IOB_X1Y25" External="1" SiteType="IO_L12N_T1_MRCC_34" VccoBank="34" VrefBank="34" MinDelay="93900" MaxDelay="94843" ClockCapable="1" Row="18" Col="3"/>
+ <Pin Name="AA5" IOB="IOB_X1Y24" External="1" SiteType="IO_L13P_T2_MRCC_34" VccoBank="34" VrefBank="34" MinDelay="96080" MaxDelay="97046" ClockCapable="1" Row="14" Col="3"/>
+ <Pin Name="AB5" IOB="IOB_X1Y23" External="1" SiteType="IO_L13N_T2_MRCC_34" VccoBank="34" VrefBank="34" MinDelay="99068" MaxDelay="100063" ClockCapable="1" Row="15" Col="3"/>
+ <Pin Name="V5" IOB="IOB_X1Y22" External="1" SiteType="IO_L14P_T2_SRCC_34" VccoBank="34" VrefBank="34" MinDelay="95434" MaxDelay="96393" ClockCapable="1" Row="15" Col="4"/>
+ <Pin Name="U6" IOB="IOB_X1Y21" External="1" SiteType="IO_L14N_T2_SRCC_34" VccoBank="34" VrefBank="34" MinDelay="96097" MaxDelay="97062" ClockCapable="1" Row="16" Col="4"/>
+ <Pin Name="T6" IOB="IOB_X1Y20" External="1" SiteType="IO_L15P_T2_DQS_34" VccoBank="34" VrefBank="34" MinDelay="87101" MaxDelay="87976" Row="18" Col="5"/>
+ <Pin Name="R6" IOB="IOB_X1Y19" External="1" SiteType="IO_L15N_T2_DQS_34" VccoBank="34" VrefBank="34" MinDelay="83999" MaxDelay="84843" Row="18" Col="4"/>
+ <Pin Name="Y4" IOB="IOB_X1Y18" External="1" SiteType="IO_L16P_T2_34" VccoBank="34" VrefBank="34" MinDelay="67996" MaxDelay="68680" Row="16" Col="5"/>
+ <Pin Name="AA4" IOB="IOB_X1Y17" External="1" SiteType="IO_L16N_T2_34" VccoBank="34" VrefBank="34" MinDelay="67576" MaxDelay="68255" Row="17" Col="4"/>
+ <Pin Name="W6" IOB="IOB_X1Y16" External="1" SiteType="IO_L17P_T2_34" VccoBank="34" VrefBank="34" MinDelay="66090" MaxDelay="66754" Row="14" Col="5"/>
+ <Pin Name="W5" IOB="IOB_X1Y15" External="1" SiteType="IO_L17N_T2_34" VccoBank="34" VrefBank="34" MinDelay="61567" MaxDelay="62186" Row="15" Col="5"/>
+ <Pin Name="Y6" IOB="IOB_X1Y14" External="1" SiteType="IO_L18P_T2_34" VccoBank="34" VrefBank="34" MinDelay="82370" MaxDelay="83198" Row="19" Col="5"/>
+ <Pin Name="AA6" IOB="IOB_X1Y13" External="1" SiteType="IO_L18N_T2_34" VccoBank="34" VrefBank="34" MinDelay="84487" MaxDelay="85336" Row="20" Col="5"/>
+ <Pin Name="V7" IOB="IOB_X1Y12" External="1" SiteType="IO_L19P_T3_34" VccoBank="34" VrefBank="34" MinDelay="68776" MaxDelay="69467" Row="17" Col="6"/>
+ <Pin Name="W7" IOB="IOB_X1Y11" External="1" SiteType="IO_L19N_T3_VREF_34" VccoBank="34" VrefBank="34" MinDelay="59162" MaxDelay="59757" Vref="1" Row="18" Col="6"/>
+ <Pin Name="AB6" IOB="IOB_X1Y10" External="1" SiteType="IO_L20P_T3_34" VccoBank="34" VrefBank="34" MinDelay="95173" MaxDelay="96129" Row="21" Col="6"/>
+ <Pin Name="AB7" IOB="IOB_X1Y9" External="1" SiteType="IO_L20N_T3_34" VccoBank="34" VrefBank="34" MinDelay="92641" MaxDelay="93572" Row="21" Col="5"/>
+ <Pin Name="V9" IOB="IOB_X1Y8" External="1" SiteType="IO_L21P_T3_DQS_34" VccoBank="34" VrefBank="34" MinDelay="69635" MaxDelay="70335" Row="17" Col="8"/>
+ <Pin Name="V8" IOB="IOB_X1Y7" External="1" SiteType="IO_L21N_T3_DQS_34" VccoBank="34" VrefBank="34" MinDelay="66642" MaxDelay="67311" Row="17" Col="7"/>
+ <Pin Name="AB8" IOB="IOB_X1Y6" External="1" SiteType="IO_L22P_T3_34" VccoBank="34" VrefBank="34" MinDelay="88517" MaxDelay="89406" Row="20" Col="7"/>
+ <Pin Name="AA8" IOB="IOB_X1Y5" External="1" SiteType="IO_L22N_T3_34" VccoBank="34" VrefBank="34" MinDelay="89913" MaxDelay="90817" Row="21" Col="7"/>
+ <Pin Name="Y8" IOB="IOB_X1Y4" External="1" SiteType="IO_L23P_T3_34" VccoBank="34" VrefBank="34" MinDelay="67680" MaxDelay="68361" Row="19" Col="7"/>
+ <Pin Name="Y7" IOB="IOB_X1Y3" External="1" SiteType="IO_L23N_T3_34" VccoBank="34" VrefBank="34" MinDelay="67729" MaxDelay="68410" Row="19" Col="6"/>
+ <Pin Name="W9" IOB="IOB_X1Y2" External="1" SiteType="IO_L24P_T3_34" VccoBank="34" VrefBank="34" MinDelay="57817" MaxDelay="58398" Row="18" Col="8"/>
+ <Pin Name="Y9" IOB="IOB_X1Y1" External="1" SiteType="IO_L24N_T3_34" VccoBank="34" VrefBank="34" MinDelay="60323" MaxDelay="60929" Row="19" Col="8"/>
+ <Pin Name="U7" IOB="IOB_X1Y0" External="1" SiteType="IO_25_34" VccoBank="34" VrefBank="34" MinDelay="41307" MaxDelay="41722" Row="16" Col="6"/>
+ <Pin Name="F4" IOB="IOB_X1Y99" External="1" SiteType="IO_0_35" VccoBank="35" VrefBank="35" MinDelay="70921" MaxDelay="71634" Row="5" Col="3"/>
+ <Pin Name="J6" IOB="IOB_X1Y98" External="1" SiteType="IO_L1P_T0_AD4P_35" VccoBank="35" VrefBank="35" MinDelay="127211" MaxDelay="128489" Row="1" Col="0"/>
+ <Pin Name="K6" IOB="IOB_X1Y97" External="1" SiteType="IO_L1N_T0_AD4N_35" VccoBank="35" VrefBank="35" MinDelay="127532" MaxDelay="128814" Row="0" Col="0"/>
+ <Pin Name="H4" IOB="IOB_X1Y96" External="1" SiteType="IO_L2P_T0_AD12P_35" VccoBank="35" VrefBank="35" MinDelay="125568" MaxDelay="126830" Row="2" Col="1"/>
+ <Pin Name="G4" IOB="IOB_X1Y95" External="1" SiteType="IO_L2N_T0_AD12N_35" VccoBank="35" VrefBank="35" MinDelay="121556" MaxDelay="122777" Row="1" Col="1"/>
+ <Pin Name="H5" IOB="IOB_X1Y94" External="1" SiteType="IO_L3P_T0_DQS_AD5P_35" VccoBank="35" VrefBank="35" MinDelay="106094" MaxDelay="107160" Row="4" Col="0"/>
+ <Pin Name="J5" IOB="IOB_X1Y93" External="1" SiteType="IO_L3N_T0_DQS_AD5N_35" VccoBank="35" VrefBank="35" MinDelay="107539" MaxDelay="108620" Row="3" Col="0"/>
+ <Pin Name="E3" IOB="IOB_X1Y92" External="1" SiteType="IO_L4P_T0_35" VccoBank="35" VrefBank="35" MinDelay="110237" MaxDelay="111345" Row="4" Col="1"/>
+ <Pin Name="F3" IOB="IOB_X1Y91" External="1" SiteType="IO_L4N_T0_35" VccoBank="35" VrefBank="35" MinDelay="112513" MaxDelay="113644" Row="3" Col="1"/>
+ <Pin Name="G3" IOB="IOB_X1Y90" External="1" SiteType="IO_L5P_T0_AD13P_35" VccoBank="35" VrefBank="35" MinDelay="93472" MaxDelay="94411" Row="6" Col="0"/>
+ <Pin Name="H3" IOB="IOB_X1Y89" External="1" SiteType="IO_L5N_T0_AD13N_35" VccoBank="35" VrefBank="35" MinDelay="95264" MaxDelay="96222" Row="5" Col="0"/>
+ <Pin Name="B2" IOB="IOB_X1Y88" External="1" SiteType="IO_L6P_T0_35" VccoBank="35" VrefBank="35" MinDelay="100100" MaxDelay="101106" Row="5" Col="2"/>
+ <Pin Name="C2" IOB="IOB_X1Y87" External="1" SiteType="IO_L6N_T0_VREF_35" VccoBank="35" VrefBank="35" MinDelay="95139" MaxDelay="96096" Vref="1" Row="4" Col="2"/>
+ <Pin Name="D1" IOB="IOB_X1Y86" External="1" SiteType="IO_L7P_T1_AD6P_35" VccoBank="35" VrefBank="35" MinDelay="95568" MaxDelay="96528" Row="9" Col="0"/>
+ <Pin Name="E1" IOB="IOB_X1Y85" External="1" SiteType="IO_L7N_T1_AD6N_35" VccoBank="35" VrefBank="35" MinDelay="93597" MaxDelay="94537" Row="8" Col="0"/>
+ <Pin Name="D2" IOB="IOB_X1Y84" External="1" SiteType="IO_L8P_T1_AD14P_35" VccoBank="35" VrefBank="35" MinDelay="99974" MaxDelay="100978" Row="7" Col="1"/>
+ <Pin Name="E2" IOB="IOB_X1Y83" External="1" SiteType="IO_L8N_T1_AD14N_35" VccoBank="35" VrefBank="35" MinDelay="103636" MaxDelay="104677" Row="6" Col="1"/>
+ <Pin Name="B1" IOB="IOB_X1Y82" External="1" SiteType="IO_L9P_T1_DQS_AD7P_35" VccoBank="35" VrefBank="35" MinDelay="90189" MaxDelay="91095" Row="9" Col="1"/>
+ <Pin Name="A1" IOB="IOB_X1Y81" External="1" SiteType="IO_L9N_T1_DQS_AD7N_35" VccoBank="35" VrefBank="35" MinDelay="91742" MaxDelay="92664" Row="8" Col="1"/>
+ <Pin Name="K4" IOB="IOB_X1Y80" External="1" SiteType="IO_L10P_T1_AD15P_35" VccoBank="35" VrefBank="35" MinDelay="69459" MaxDelay="70157" Row="8" Col="4"/>
+ <Pin Name="J4" IOB="IOB_X1Y79" External="1" SiteType="IO_L10N_T1_AD15N_35" VccoBank="35" VrefBank="35" MinDelay="74671" MaxDelay="75421" Row="7" Col="4"/>
+ <Pin Name="K3" IOB="IOB_X1Y78" External="1" SiteType="IO_L11P_T1_SRCC_35" VccoBank="35" VrefBank="35" MinDelay="99423" MaxDelay="100422" ClockCapable="1" Row="7" Col="2"/>
+ <Pin Name="L3" IOB="IOB_X1Y77" External="1" SiteType="IO_L11N_T1_SRCC_35" VccoBank="35" VrefBank="35" MinDelay="100278" MaxDelay="101285" ClockCapable="1" Row="6" Col="2"/>
+ <Pin Name="H2" IOB="IOB_X1Y76" External="1" SiteType="IO_L12P_T1_MRCC_35" VccoBank="35" VrefBank="35" MinDelay="90425" MaxDelay="91334" ClockCapable="1" Row="7" Col="3"/>
+ <Pin Name="G2" IOB="IOB_X1Y75" External="1" SiteType="IO_L12N_T1_MRCC_35" VccoBank="35" VrefBank="35" MinDelay="94566" MaxDelay="95516" ClockCapable="1" Row="6" Col="3"/>
+ <Pin Name="L4" IOB="IOB_X1Y74" External="1" SiteType="IO_L13P_T2_MRCC_35" VccoBank="35" VrefBank="35" MinDelay="96249" MaxDelay="97216" ClockCapable="1" Row="9" Col="3"/>
+ <Pin Name="L5" IOB="IOB_X1Y73" External="1" SiteType="IO_L13N_T2_MRCC_35" VccoBank="35" VrefBank="35" MinDelay="99117" MaxDelay="100113" ClockCapable="1" Row="8" Col="3"/>
+ <Pin Name="J1" IOB="IOB_X1Y72" External="1" SiteType="IO_L14P_T2_SRCC_35" VccoBank="35" VrefBank="35" MinDelay="90739" MaxDelay="91651" ClockCapable="1" Row="10" Col="2"/>
+ <Pin Name="K1" IOB="IOB_X1Y71" External="1" SiteType="IO_L14N_T2_SRCC_35" VccoBank="35" VrefBank="35" MinDelay="90405" MaxDelay="91313" ClockCapable="1" Row="9" Col="2"/>
+ <Pin Name="K2" IOB="IOB_X1Y70" External="1" SiteType="IO_L15P_T2_DQS_35" VccoBank="35" VrefBank="35" MinDelay="90251" MaxDelay="91158" Row="11" Col="0"/>
+ <Pin Name="J2" IOB="IOB_X1Y69" External="1" SiteType="IO_L15N_T2_DQS_35" VccoBank="35" VrefBank="35" MinDelay="88265" MaxDelay="89152" Row="10" Col="0"/>
+ <Pin Name="L1" IOB="IOB_X1Y68" External="1" SiteType="IO_L16P_T2_35" VccoBank="35" VrefBank="35" MinDelay="74992" MaxDelay="75746" Row="11" Col="2"/>
+ <Pin Name="M1" IOB="IOB_X1Y67" External="1" SiteType="IO_L16N_T2_35" VccoBank="35" VrefBank="35" MinDelay="76729" MaxDelay="77500" Row="11" Col="1"/>
+ <Pin Name="F1" IOB="IOB_X1Y66" External="1" SiteType="IO_L17P_T2_35" VccoBank="35" VrefBank="35" MinDelay="81249" MaxDelay="82065" Row="9" Col="5"/>
+ <Pin Name="G1" IOB="IOB_X1Y65" External="1" SiteType="IO_L17N_T2_35" VccoBank="35" VrefBank="35" MinDelay="68478" MaxDelay="69167" Row="8" Col="5"/>
+ <Pin Name="M6" IOB="IOB_X1Y64" External="1" SiteType="IO_L18P_T2_35" VccoBank="35" VrefBank="35" MinDelay="73149" MaxDelay="73884" Row="10" Col="4"/>
+ <Pin Name="M5" IOB="IOB_X1Y63" External="1" SiteType="IO_L18N_T2_35" VccoBank="35" VrefBank="35" MinDelay="63301" MaxDelay="63937" Row="10" Col="3"/>
+ <Pin Name="M2" IOB="IOB_X1Y62" External="1" SiteType="IO_L19P_T3_35" VccoBank="35" VrefBank="35" MinDelay="73942" MaxDelay="74685" Row="12" Col="3"/>
+ <Pin Name="M3" IOB="IOB_X1Y61" External="1" SiteType="IO_L19N_T3_VREF_35" VccoBank="35" VrefBank="35" MinDelay="73814" MaxDelay="74556" Vref="1" Row="12" Col="2"/>
+ <Pin Name="N2" IOB="IOB_X1Y60" External="1" SiteType="IO_L20P_T3_35" VccoBank="35" VrefBank="35" MinDelay="100771" MaxDelay="101783" Row="14" Col="0"/>
+ <Pin Name="P2" IOB="IOB_X1Y59" External="1" SiteType="IO_L20N_T3_35" VccoBank="35" VrefBank="35" MinDelay="98273" MaxDelay="99261" Row="13" Col="0"/>
+ <Pin Name="N4" IOB="IOB_X1Y58" External="1" SiteType="IO_L21P_T3_DQS_35" VccoBank="35" VrefBank="35" MinDelay="75089" MaxDelay="75843" Row="13" Col="4"/>
+ <Pin Name="N3" IOB="IOB_X1Y57" External="1" SiteType="IO_L21N_T3_DQS_35" VccoBank="35" VrefBank="35" MinDelay="70914" MaxDelay="71627" Row="13" Col="3"/>
+ <Pin Name="N5" IOB="IOB_X1Y56" External="1" SiteType="IO_L22P_T3_35" VccoBank="35" VrefBank="35" MinDelay="84330" MaxDelay="85178" Row="13" Col="1"/>
+ <Pin Name="P6" IOB="IOB_X1Y55" External="1" SiteType="IO_L22N_T3_35" VccoBank="35" VrefBank="35" MinDelay="81425" MaxDelay="82243" Row="12" Col="1"/>
+ <Pin Name="R1" IOB="IOB_X1Y54" External="1" SiteType="IO_L23P_T3_35" VccoBank="35" VrefBank="35" MinDelay="62988" MaxDelay="63621" Row="11" Col="5"/>
+ <Pin Name="P1" IOB="IOB_X1Y53" External="1" SiteType="IO_L23N_T3_35" VccoBank="35" VrefBank="35" MinDelay="63746" MaxDelay="64387" Row="11" Col="4"/>
+ <Pin Name="P4" IOB="IOB_X1Y52" External="1" SiteType="IO_L24P_T3_35" VccoBank="35" VrefBank="35" MinDelay="72067" MaxDelay="72791" Row="13" Col="5"/>
+ <Pin Name="P5" IOB="IOB_X1Y51" External="1" SiteType="IO_L24N_T3_35" VccoBank="35" VrefBank="35" MinDelay="73631" MaxDelay="74371" Row="12" Col="4"/>
+ <Pin Name="L6" IOB="IOB_X1Y50" External="1" SiteType="IO_25_35" VccoBank="35" VrefBank="35" MinDelay="61835" MaxDelay="62456" Row="10" Col="5"/>
+ <Pin Name="F6" IOB="IPAD_X1Y15" External="1" SiteType="MGTREFCLK0N_216" MgtBank="216" MinDelay="65843" MaxDelay="66504" Row="4" Col="5"/>
+ <Pin Name="E6" IOB="IPAD_X1Y14" External="1" SiteType="MGTREFCLK0P_216" MgtBank="216" MinDelay="63928" MaxDelay="64570" Row="5" Col="5"/>
+ <Pin Name="C11" IOB="IPAD_X1Y13" External="1" SiteType="MGTPRXP1_216" MgtBank="216" MinDelay="55662" MaxDelay="56221" Row="3" Col="10"/>
+ <Pin Name="A10" IOB="IPAD_X1Y25" External="1" SiteType="MGTPRXP2_216" MgtBank="216" MinDelay="69599" MaxDelay="70299" Row="1" Col="9"/>
+ <Pin Name="D9" IOB="IPAD_X1Y31" External="1" SiteType="MGTPRXP3_216" MgtBank="216" MinDelay="54161" MaxDelay="54705" Row="3" Col="8"/>
+ <Pin Name="B8" IOB="IPAD_X1Y7" External="1" SiteType="MGTPRXP0_216" MgtBank="216" MinDelay="69099" MaxDelay="69794" Row="1" Col="7"/>
+ <Pin Name="C7" IOB="OPAD_X0Y7" External="1" SiteType="MGTPTXP3_216" MgtBank="216" MinDelay="56241" MaxDelay="56807" Row="3" Col="6"/>
+ <Pin Name="A6" IOB="OPAD_X0Y5" External="1" SiteType="MGTPTXP2_216" MgtBank="216" MinDelay="75398" MaxDelay="76155" Row="1" Col="5"/>
+ <Pin Name="E10" IOB="IPAD_X1Y16" External="1" SiteType="MGTREFCLK1P_216" MgtBank="216" MinDelay="41671" MaxDelay="42089" Row="5" Col="9"/>
+ <Pin Name="F10" IOB="IPAD_X1Y17" External="1" SiteType="MGTREFCLK1N_216" MgtBank="216" MinDelay="42184" MaxDelay="42608" Row="4" Col="9"/>
+ <Pin Name="D11" IOB="IPAD_X1Y12" External="1" SiteType="MGTPRXN1_216" MgtBank="216" MinDelay="56035" MaxDelay="56599" Row="2" Col="10"/>
+ <Pin Name="B10" IOB="IPAD_X1Y24" External="1" SiteType="MGTPRXN2_216" MgtBank="216" MinDelay="69868" MaxDelay="70570" Row="0" Col="9"/>
+ <Pin Name="C9" IOB="IPAD_X1Y30" External="1" SiteType="MGTPRXN3_216" MgtBank="216" MinDelay="54230" MaxDelay="54775" Row="2" Col="8"/>
+ <Pin Name="A8" IOB="IPAD_X1Y6" External="1" SiteType="MGTPRXN0_216" MgtBank="216" MinDelay="68803" MaxDelay="69494" Row="0" Col="7"/>
+ <Pin Name="D7" IOB="OPAD_X0Y6" External="1" SiteType="MGTPTXN3_216" MgtBank="216" MinDelay="56470" MaxDelay="57038" Row="2" Col="6"/>
+ <Pin Name="B6" IOB="OPAD_X0Y4" External="1" SiteType="MGTPTXN2_216" MgtBank="216" MinDelay="75752" MaxDelay="76513" Row="0" Col="5"/>
+ <Pin Name="C5" IOB="OPAD_X0Y3" External="1" SiteType="MGTPTXP1_216" MgtBank="216" MinDelay="71108" MaxDelay="71823" Row="3" Col="4"/>
+ <Pin Name="D5" IOB="OPAD_X0Y2" External="1" SiteType="MGTPTXN1_216" MgtBank="216" MinDelay="71429" MaxDelay="72147" Row="2" Col="4"/>
+ <Pin Name="A4" IOB="OPAD_X0Y1" External="1" SiteType="MGTPTXP0_216" MgtBank="216" MinDelay="93871" MaxDelay="94815" Row="1" Col="3"/>
+ <Pin Name="B4" IOB="OPAD_X0Y0" External="1" SiteType="MGTPTXN0_216" MgtBank="216" MinDelay="94188" MaxDelay="95134" Row="0" Col="3"/>
+ <Pin Name="R13" External="1" SiteType="DONE_0" VccoBank="0" MinDelay="131452" MaxDelay="132773" Row="6" Col="10"/>
+ <Pin Name="K14" External="1" SiteType="DXP_0" VccoBank="0" MinDelay="116716" MaxDelay="117889" Row="12" Col="9"/>
+ <Pin Name="L13" External="1" SiteType="GNDADC_0" VccoBank="0" MinDelay="0" MaxDelay="0" Row="9" Col="8"/>
+ <Pin Name="K11" External="1" SiteType="VCCADC_0" VccoBank="0" MinDelay="0" MaxDelay="0" Row="9" Col="9"/>
+ <Pin Name="L14" External="1" SiteType="VREFP_0" VccoBank="0" MinDelay="88652" MaxDelay="89543" Row="11" Col="9"/>
+ <Pin Name="M13" External="1" SiteType="VCCBATT_0" VccoBank="0" MinDelay="0" MaxDelay="0" Row="4" Col="11"/>
+ <Pin Name="N13" External="1" SiteType="TCK_0" VccoBank="0" MinDelay="150566" MaxDelay="152079" Row="17" Col="11"/>
+ <Pin Name="J14" External="1" SiteType="DXN_0" VccoBank="0" MinDelay="126041" MaxDelay="127308" Row="12" Col="8"/>
+ <Pin Name="L10" External="1" SiteType="VREFN_0" VccoBank="0" MinDelay="87901" MaxDelay="88785" Row="10" Col="8"/>
+ <Pin Name="N14" External="1" SiteType="CCLK_0" VccoBank="0" MinDelay="97028" MaxDelay="98003" Row="10" Col="11"/>
+ <Pin Name="U14" External="1" SiteType="M0_0" VccoBank="0" MinDelay="56288" MaxDelay="56854" Row="16" Col="10"/>
+ <Pin Name="T13" External="1" SiteType="M1_0" VccoBank="0" MinDelay="63377" MaxDelay="64014" Row="16" Col="9"/>
+ <Pin Name="P11" External="1" SiteType="INIT_B_0" VccoBank="0" MinDelay="43814" MaxDelay="44254" Row="16" Col="11"/>
+ <Pin Name="P13" External="1" SiteType="TDI_0" VccoBank="0" MinDelay="65807" MaxDelay="66468" Row="14" Col="12"/>
+ <Pin Name="P14" External="1" SiteType="TDO_0" VccoBank="0" MinDelay="50613" MaxDelay="51121" Row="16" Col="12"/>
+ <Pin Name="U11" External="1" SiteType="M2_0" VccoBank="0" MinDelay="59962" MaxDelay="60565" Row="16" Col="8"/>
+ <Pin Name="R11" External="1" SiteType="CFGBVS_0" VccoBank="0" MinDelay="65977" MaxDelay="66640" Row="16" Col="7"/>
+ <Pin Name="T14" External="1" SiteType="PROGRAM_B_0" VccoBank="0" MinDelay="63384" MaxDelay="64021" Row="12" Col="11"/>
+ <Pin Name="N10" External="1" SiteType="TMS_0" VccoBank="0" MinDelay="37912" MaxDelay="38293" Row="15" Col="12"/>
+ <Pin Name="F8" External="1" SiteType="MGTRREF_216" MgtBank="216" MinDelay="46741" MaxDelay="47210" Row="5" Col="7"/>
+ <Pin Name="D6" External="1" SiteType="MGTAVCC" MinDelay="0" MaxDelay="0" Row="3" Col="5"/>
+ <Pin Name="D10" External="1" SiteType="MGTAVCC" MinDelay="0" MaxDelay="0" Row="3" Col="9"/>
+ <Pin Name="F7" External="1" SiteType="MGTAVCC" MinDelay="0" MaxDelay="0" Row="5" Col="6"/>
+ <Pin Name="F9" External="1" SiteType="MGTAVCC" MinDelay="0" MaxDelay="0" Row="5" Col="8"/>
+ <Pin Name="E8" External="1" SiteType="MGTAVCC" MinDelay="0" MaxDelay="0" Row="4" Col="7"/>
+ <Pin Name="B5" External="1" SiteType="MGTAVTT" MinDelay="0" MaxDelay="0" Row="1" Col="4"/>
+ <Pin Name="B7" External="1" SiteType="MGTAVTT" MinDelay="0" MaxDelay="0" Row="1" Col="6"/>
+ <Pin Name="B9" External="1" SiteType="MGTAVTT" MinDelay="0" MaxDelay="0" Row="1" Col="8"/>
+ <Pin Name="B11" External="1" SiteType="MGTAVTT" MinDelay="0" MaxDelay="0" Row="1" Col="10"/>
+ <Pin Name="C4" External="1" SiteType="MGTAVTT" MinDelay="0" MaxDelay="0" Row="2" Col="3"/>
+ <Pin Name="C8" External="1" SiteType="MGTAVTT" MinDelay="0" MaxDelay="0" Row="2" Col="7"/>
+ <Pin Name="D8" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="3" Col="7"/>
+ <Pin Name="A2" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="0" Col="1"/>
+ <Pin Name="A3" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="0" Col="2"/>
+ <Pin Name="A5" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="0" Col="4"/>
+ <Pin Name="A7" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="0" Col="6"/>
+ <Pin Name="A9" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="0" Col="8"/>
+ <Pin Name="A11" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="0" Col="10"/>
+ <Pin Name="A12" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="0" Col="11"/>
+ <Pin Name="A22" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="0" Col="21"/>
+ <Pin Name="AA2" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="20" Col="1"/>
+ <Pin Name="AA12" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="20" Col="11"/>
+ <Pin Name="F12" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="20" Col="21"/>
+ <Pin Name="AB9" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="21" Col="8"/>
+ <Pin Name="J21" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="21" Col="18"/>
+ <Pin Name="B3" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="1" Col="2"/>
+ <Pin Name="B12" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="1" Col="11"/>
+ <Pin Name="B19" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="1" Col="18"/>
+ <Pin Name="C3" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="2" Col="2"/>
+ <Pin Name="C6" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="2" Col="5"/>
+ <Pin Name="C10" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="2" Col="9"/>
+ <Pin Name="C12" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="2" Col="11"/>
+ <Pin Name="C16" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="2" Col="15"/>
+ <Pin Name="D3" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="3" Col="2"/>
+ <Pin Name="D4" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="3" Col="3"/>
+ <Pin Name="D12" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="3" Col="11"/>
+ <Pin Name="D13" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="3" Col="12"/>
+ <Pin Name="E4" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="4" Col="3"/>
+ <Pin Name="E5" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="4" Col="4"/>
+ <Pin Name="E7" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="4" Col="6"/>
+ <Pin Name="E9" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="4" Col="8"/>
+ <Pin Name="E11" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="4" Col="10"/>
+ <Pin Name="E20" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="4" Col="19"/>
+ <Pin Name="F5" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="5" Col="4"/>
+ <Pin Name="F11" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="5" Col="10"/>
+ <Pin Name="F17" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="5" Col="16"/>
+ <Pin Name="G5" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="6" Col="4"/>
+ <Pin Name="G6" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="6" Col="5"/>
+ <Pin Name="G7" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="6" Col="6"/>
+ <Pin Name="G8" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="6" Col="7"/>
+ <Pin Name="G9" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="6" Col="8"/>
+ <Pin Name="G10" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="6" Col="9"/>
+ <Pin Name="G12" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="6" Col="11"/>
+ <Pin Name="G15" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="6" Col="13"/>
+ <Pin Name="H1" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="7" Col="0"/>
+ <Pin Name="H7" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="7" Col="6"/>
+ <Pin Name="H9" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="7" Col="8"/>
+ <Pin Name="H11" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="7" Col="10"/>
+ <Pin Name="K13" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="7" Col="20"/>
+ <Pin Name="K18" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="8" Col="7"/>
+ <Pin Name="M15" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="8" Col="9"/>
+ <Pin Name="J12" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="8" Col="11"/>
+ <Pin Name="M22" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="8" Col="17"/>
+ <Pin Name="K5" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="9" Col="4"/>
+ <Pin Name="K7" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="9" Col="6"/>
+ <Pin Name="N12" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="9" Col="10"/>
+ <Pin Name="K15" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="9" Col="14"/>
+ <Pin Name="L2" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="10" Col="1"/>
+ <Pin Name="L8" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="10" Col="7"/>
+ <Pin Name="N20" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="10" Col="21"/>
+ <Pin Name="M7" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="11" Col="6"/>
+ <Pin Name="M11" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="11" Col="10"/>
+ <Pin Name="R14" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="11" Col="18"/>
+ <Pin Name="N6" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="12" Col="5"/>
+ <Pin Name="N8" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="12" Col="7"/>
+ <Pin Name="N16" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="12" Col="15"/>
+ <Pin Name="P3" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="13" Col="2"/>
+ <Pin Name="P7" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="13" Col="6"/>
+ <Pin Name="P9" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="13" Col="8"/>
+ <Pin Name="T11" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="13" Col="10"/>
+ <Pin Name="T17" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="13" Col="12"/>
+ <Pin Name="R8" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="14" Col="7"/>
+ <Pin Name="R10" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="14" Col="9"/>
+ <Pin Name="U4" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="14" Col="11"/>
+ <Pin Name="U8" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="14" Col="19"/>
+ <Pin Name="U10" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="15" Col="6"/>
+ <Pin Name="U21" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="15" Col="8"/>
+ <Pin Name="Y13" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="15" Col="10"/>
+ <Pin Name="Y21" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="15" Col="16"/>
+ <Pin Name="AB16" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="16" Col="3"/>
+ <Pin Name="AB22" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="16" Col="13"/>
+ <Pin Name="V1" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="17" Col="0"/>
+ <Pin Name="V11" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="17" Col="10"/>
+ <Pin Name="E12" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="17" Col="20"/>
+ <Pin Name="W8" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="18" Col="7"/>
+ <Pin Name="W18" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="18" Col="17"/>
+ <Pin Name="Y5" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="19" Col="4"/>
+ <Pin Name="Y15" External="1" SiteType="GND" MinDelay="0" MaxDelay="0" Row="19" Col="14"/>
+ <Pin Name="L9" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="7" Col="7"/>
+ <Pin Name="M9" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="7" Col="9"/>
+ <Pin Name="J7" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="8" Col="6"/>
+ <Pin Name="N9" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="8" Col="8"/>
+ <Pin Name="K8" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="9" Col="7"/>
+ <Pin Name="L7" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="10" Col="6"/>
+ <Pin Name="M8" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="11" Col="7"/>
+ <Pin Name="N7" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="12" Col="6"/>
+ <Pin Name="P8" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="13" Col="7"/>
+ <Pin Name="P10" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="13" Col="9"/>
+ <Pin Name="R7" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="14" Col="6"/>
+ <Pin Name="R9" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="14" Col="8"/>
+ <Pin Name="T8" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="15" Col="7"/>
+ <Pin Name="T10" External="1" SiteType="VCCINT" MinDelay="0" MaxDelay="0" Row="15" Col="9"/>
+ <Pin Name="H12" External="1" SiteType="VCCAUX" MinDelay="0" MaxDelay="0" Row="7" Col="11"/>
+ <Pin Name="K12" External="1" SiteType="VCCAUX" MinDelay="0" MaxDelay="0" Row="9" Col="11"/>
+ <Pin Name="M12" External="1" SiteType="VCCAUX" MinDelay="0" MaxDelay="0" Row="11" Col="11"/>
+ <Pin Name="P12" External="1" SiteType="VCCAUX" MinDelay="0" MaxDelay="0" Row="13" Col="11"/>
+ <Pin Name="T12" External="1" SiteType="VCCAUX" MinDelay="0" MaxDelay="0" Row="14" Col="10"/>
+ <Pin Name="R12" External="1" SiteType="VCCO_0" VccoBank="0" MinDelay="0" MaxDelay="0" Row="5" Col="11"/>
+ <Pin Name="U13" External="1" SiteType="VCCO_0" VccoBank="0" MinDelay="0" MaxDelay="0" Row="15" Col="11"/>
+ <Pin Name="P15" External="1" SiteType="VCCO_13" VccoBank="13" MinDelay="0" MaxDelay="0" Row="20" Col="16"/>
+ <Pin Name="R15" External="1" SiteType="VCCO_13" VccoBank="13" MinDelay="0" MaxDelay="0" Row="21" Col="13"/>
+ <Pin Name="R16" External="1" SiteType="VCCO_13" VccoBank="13" MinDelay="0" MaxDelay="0" Row="17" Col="15"/>
+ <Pin Name="T16" External="1" SiteType="VCCO_13" VccoBank="13" MinDelay="0" MaxDelay="0" Row="18" Col="12"/>
+ <Pin Name="R17" External="1" SiteType="VCCO_13" VccoBank="13" MinDelay="0" MaxDelay="0" Row="19" Col="9"/>
+ <Pin Name="T15" External="1" SiteType="VCCO_14" VccoBank="14" MinDelay="0" MaxDelay="0" Row="11" Col="13"/>
+ <Pin Name="Y17" External="1" SiteType="VCCO_14" VccoBank="14" MinDelay="0" MaxDelay="0" Row="13" Col="17"/>
+ <Pin Name="T18" External="1" SiteType="VCCO_14" VccoBank="14" MinDelay="0" MaxDelay="0" Row="14" Col="14"/>
+ <Pin Name="W19" External="1" SiteType="VCCO_14" VccoBank="14" MinDelay="0" MaxDelay="0" Row="15" Col="21"/>
+ <Pin Name="W22" External="1" SiteType="VCCO_14" VccoBank="14" MinDelay="0" MaxDelay="0" Row="16" Col="18"/>
+ <Pin Name="V14" External="1" SiteType="VCCO_14" VccoBank="14" MinDelay="0" MaxDelay="0" Row="19" Col="19"/>
+ <Pin Name="N15" External="1" SiteType="VCCO_15" VccoBank="15" MinDelay="0" MaxDelay="0" Row="6" Col="18"/>
+ <Pin Name="P21" External="1" SiteType="VCCO_15" VccoBank="15" MinDelay="0" MaxDelay="0" Row="7" Col="15"/>
+ <Pin Name="M18" External="1" SiteType="VCCO_15" VccoBank="15" MinDelay="0" MaxDelay="0" Row="8" Col="12"/>
+ <Pin Name="G20" External="1" SiteType="VCCO_15" VccoBank="15" MinDelay="0" MaxDelay="0" Row="9" Col="19"/>
+ <Pin Name="H18" External="1" SiteType="VCCO_15" VccoBank="15" MinDelay="0" MaxDelay="0" Row="10" Col="16"/>
+ <Pin Name="L20" External="1" SiteType="VCCO_15" VccoBank="15" MinDelay="0" MaxDelay="0" Row="12" Col="20"/>
+ <Pin Name="F22" External="1" SiteType="VCCO_16" VccoBank="16" MinDelay="0" MaxDelay="0" Row="0" Col="16"/>
+ <Pin Name="E15" External="1" SiteType="VCCO_16" VccoBank="16" MinDelay="0" MaxDelay="0" Row="1" Col="13"/>
+ <Pin Name="D18" External="1" SiteType="VCCO_16" VccoBank="16" MinDelay="0" MaxDelay="0" Row="2" Col="20"/>
+ <Pin Name="C21" External="1" SiteType="VCCO_16" VccoBank="16" MinDelay="0" MaxDelay="0" Row="3" Col="17"/>
+ <Pin Name="B14" External="1" SiteType="VCCO_16" VccoBank="16" MinDelay="0" MaxDelay="0" Row="4" Col="14"/>
+ <Pin Name="A17" External="1" SiteType="VCCO_16" VccoBank="16" MinDelay="0" MaxDelay="0" Row="5" Col="21"/>
+ <Pin Name="R5" External="1" SiteType="VCCO_34" VccoBank="34" MinDelay="0" MaxDelay="0" Row="20" Col="6"/>
+ <Pin Name="T2" External="1" SiteType="VCCO_34" VccoBank="34" MinDelay="0" MaxDelay="0" Row="21" Col="3"/>
+ <Pin Name="V6" External="1" SiteType="VCCO_34" VccoBank="34" MinDelay="0" MaxDelay="0" Row="14" Col="4"/>
+ <Pin Name="W3" External="1" SiteType="VCCO_34" VccoBank="34" MinDelay="0" MaxDelay="0" Row="15" Col="1"/>
+ <Pin Name="AA7" External="1" SiteType="VCCO_34" VccoBank="34" MinDelay="0" MaxDelay="0" Row="17" Col="5"/>
+ <Pin Name="AB4" External="1" SiteType="VCCO_34" VccoBank="34" MinDelay="0" MaxDelay="0" Row="18" Col="2"/>
+ <Pin Name="C1" External="1" SiteType="VCCO_35" VccoBank="35" MinDelay="0" MaxDelay="0" Row="2" Col="0"/>
+ <Pin Name="F2" External="1" SiteType="VCCO_35" VccoBank="35" MinDelay="0" MaxDelay="0" Row="5" Col="1"/>
+ <Pin Name="H6" External="1" SiteType="VCCO_35" VccoBank="35" MinDelay="0" MaxDelay="0" Row="7" Col="5"/>
+ <Pin Name="J3" External="1" SiteType="VCCO_35" VccoBank="35" MinDelay="0" MaxDelay="0" Row="8" Col="2"/>
+ <Pin Name="M4" External="1" SiteType="VCCO_35" VccoBank="35" MinDelay="0" MaxDelay="0" Row="11" Col="3"/>
+ <Pin Name="N1" External="1" SiteType="VCCO_35" VccoBank="35" MinDelay="0" MaxDelay="0" Row="12" Col="0"/>
+ <Pin Name="J11" External="1" SiteType="VCCBRAM" MinDelay="0" MaxDelay="0" Row="8" Col="10"/>
+ <Pin Name="L11" External="1" SiteType="VCCBRAM" MinDelay="0" MaxDelay="0" Row="10" Col="10"/>
+ <Pin Name="N11" External="1" SiteType="VCCBRAM" MinDelay="0" MaxDelay="0" Row="12" Col="10"/>
+ <Pin Name="T7" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="15" Col="13"/>
+ <Pin Name="H8" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="15" Col="14"/>
+ <Pin Name="J8" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="15" Col="15"/>
+ <Pin Name="J9" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="16" Col="14"/>
+ <Pin Name="K9" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="16" Col="15"/>
+ <Pin Name="T9" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="17" Col="9"/>
+ <Pin Name="U9" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="17" Col="12"/>
+ <Pin Name="AA9" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="17" Col="13"/>
+ <Pin Name="H10" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="17" Col="14"/>
+ <Pin Name="J10" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="18" Col="9"/>
+ <Pin Name="K10" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="18" Col="10"/>
+ <Pin Name="V10" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="18" Col="11"/>
+ <Pin Name="W10" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="18" Col="13"/>
+ <Pin Name="Y10" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="18" Col="14"/>
+ <Pin Name="AA10" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="18" Col="15"/>
+ <Pin Name="AB10" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="19" Col="10"/>
+ <Pin Name="G11" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="19" Col="11"/>
+ <Pin Name="W11" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="19" Col="12"/>
+ <Pin Name="Y11" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="19" Col="13"/>
+ <Pin Name="AA11" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="19" Col="15"/>
+ <Pin Name="AB11" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="19" Col="16"/>
+ <Pin Name="L12" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="20" Col="8"/>
+ <Pin Name="U12" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="20" Col="9"/>
+ <Pin Name="V12" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="20" Col="10"/>
+ <Pin Name="W12" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="20" Col="12"/>
+ <Pin Name="Y12" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="20" Col="13"/>
+ <Pin Name="AB12" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="20" Col="14"/>
+ <Pin Name="G13" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="20" Col="15"/>
+ <Pin Name="H13" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="21" Col="9"/>
+ <Pin Name="J13" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="21" Col="10"/>
+ <Pin Name="G14" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="21" Col="11"/>
+ <Pin Name="H14" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="21" Col="12"/>
+ <Pin Name="H15" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="21" Col="14"/>
+ <Pin Name="J15" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="21" Col="15"/>
+ <Pin Name="L15" External="1" SiteType="NC" MinDelay="0" MaxDelay="0" Row="21" Col="16"/>
+<!-- Two diff pairs may have the same id if they are in different banks -->
+ <DiffPairs>
+  <Pair Id="10" Pos="AB19" Neg="AB18"></Pair>
+  <Pair Id="10" Pos="L18" Neg="L19"></Pair>
+  <Pair Id="10" Pos="E17" Neg="F16"></Pair>
+  <Pair Id="10" Pos="AB2" Neg="AB3"></Pair>
+  <Pair Id="10" Pos="K4" Neg="J4"></Pair>
+  <Pair Id="11" Pos="AB21" Neg="AB20"></Pair>
+  <Pair Id="11" Pos="L21" Neg="L22"></Pair>
+  <Pair Id="11" Pos="B17" Neg="B18"></Pair>
+  <Pair Id="11" Pos="Y3" Neg="AA3"></Pair>
+  <Pair Id="11" Pos="K3" Neg="L3"></Pair>
+  <Pair Id="12" Pos="AA18" Neg="AA17"></Pair>
+  <Pair Id="12" Pos="L16" Neg="M16"></Pair>
+  <Pair Id="12" Pos="C17" Neg="D17"></Pair>
+  <Pair Id="12" Pos="V4" Neg="W4"></Pair>
+  <Pair Id="12" Pos="H2" Neg="G2"></Pair>
+  <Pair Id="13" Pos="W17" Neg="Y18"></Pair>
+  <Pair Id="13" Pos="H22" Neg="H21"></Pair>
+  <Pair Id="13" Pos="A19" Neg="A18"></Pair>
+  <Pair Id="13" Pos="AA5" Neg="AB5"></Pair>
+  <Pair Id="13" Pos="L4" Neg="L5"></Pair>
+  <Pair Id="14" Pos="U18" Neg="U17"></Pair>
+  <Pair Id="14" Pos="M20" Neg="M19"></Pair>
+  <Pair Id="14" Pos="G16" Neg="G17"></Pair>
+  <Pair Id="14" Pos="V5" Neg="U6"></Pair>
+  <Pair Id="14" Pos="J1" Neg="K1"></Pair>
+  <Pair Id="15" Pos="AA16" Neg="AB17"></Pair>
+  <Pair Id="15" Pos="K22" Neg="J22"></Pair>
+  <Pair Id="15" Pos="C19" Neg="C18"></Pair>
+  <Pair Id="15" Pos="T6" Neg="R6"></Pair>
+  <Pair Id="15" Pos="K2" Neg="J2"></Pair>
+  <Pair Id="16" Pos="V18" Neg="V17"></Pair>
+  <Pair Id="16" Pos="R22" Neg="R21"></Pair>
+  <Pair Id="16" Pos="D19" Neg="E19"></Pair>
+  <Pair Id="16" Pos="Y4" Neg="AA4"></Pair>
+  <Pair Id="16" Pos="L1" Neg="M1"></Pair>
+  <Pair Id="17" Pos="Y16" Neg="AA15"></Pair>
+  <Pair Id="17" Pos="N21" Neg="M21"></Pair>
+  <Pair Id="17" Pos="B21" Neg="A21"></Pair>
+  <Pair Id="17" Pos="W6" Neg="W5"></Pair>
+  <Pair Id="17" Pos="F1" Neg="G1"></Pair>
+  <Pair Id="18" Pos="V16" Neg="U16"></Pair>
+  <Pair Id="18" Pos="R20" Neg="P20"></Pair>
+  <Pair Id="18" Pos="A20" Neg="B20"></Pair>
+  <Pair Id="18" Pos="Y6" Neg="AA6"></Pair>
+  <Pair Id="18" Pos="M6" Neg="M5"></Pair>
+  <Pair Id="19" Pos="U15" Neg="W15"></Pair>
+  <Pair Id="19" Pos="P22" Neg="N22"></Pair>
+  <Pair Id="19" Pos="F18" Neg="E18"></Pair>
+  <Pair Id="19" Pos="V7" Neg="W7"></Pair>
+  <Pair Id="19" Pos="M2" Neg="M3"></Pair>
+  <Pair Id="1" Pos="U22" Neg="V22"></Pair>
+  <Pair Id="1" Pos="J16" Neg="H16"></Pair>
+  <Pair Id="1" Pos="F14" Neg="F13"></Pair>
+  <Pair Id="1" Pos="R2" Neg="R3"></Pair>
+  <Pair Id="1" Pos="J6" Neg="K6"></Pair>
+  <Pair Id="20" Pos="W16" Neg="V15"></Pair>
+  <Pair Id="20" Pos="M17" Neg="N17"></Pair>
+  <Pair Id="20" Pos="B22" Neg="C22"></Pair>
+  <Pair Id="20" Pos="AB6" Neg="AB7"></Pair>
+  <Pair Id="20" Pos="N2" Neg="P2"></Pair>
+  <Pair Id="21" Pos="Y14" Neg="AA14"></Pair>
+  <Pair Id="21" Pos="P18" Neg="P19"></Pair>
+  <Pair Id="21" Pos="D20" Neg="C20"></Pair>
+  <Pair Id="21" Pos="V9" Neg="V8"></Pair>
+  <Pair Id="21" Pos="N4" Neg="N3"></Pair>
+  <Pair Id="22" Pos="V13" Neg="W14"></Pair>
+  <Pair Id="22" Pos="N19" Neg="N18"></Pair>
+  <Pair Id="22" Pos="D22" Neg="E22"></Pair>
+  <Pair Id="22" Pos="AB8" Neg="AA8"></Pair>
+  <Pair Id="22" Pos="N5" Neg="P6"></Pair>
+  <Pair Id="23" Pos="AB14" Neg="AB15"></Pair>
+  <Pair Id="23" Pos="R19" Neg="R18"></Pair>
+  <Pair Id="23" Pos="E21" Neg="D21"></Pair>
+  <Pair Id="23" Pos="Y8" Neg="Y7"></Pair>
+  <Pair Id="23" Pos="R1" Neg="P1"></Pair>
+  <Pair Id="24" Pos="AB13" Neg="AA13"></Pair>
+  <Pair Id="24" Pos="P17" Neg="P16"></Pair>
+  <Pair Id="24" Pos="F19" Neg="F20"></Pair>
+  <Pair Id="24" Pos="W9" Neg="Y9"></Pair>
+  <Pair Id="24" Pos="P4" Neg="P5"></Pair>
+  <Pair Id="2" Pos="V21" Neg="W21"></Pair>
+  <Pair Id="2" Pos="J17" Neg="J18"></Pair>
+  <Pair Id="2" Pos="E14" Neg="E13"></Pair>
+  <Pair Id="2" Pos="U2" Neg="V2"></Pair>
+  <Pair Id="2" Pos="H4" Neg="G4"></Pair>
+  <Pair Id="3" Pos="Y22" Neg="AA22"></Pair>
+  <Pair Id="3" Pos="H17" Neg="J19"></Pair>
+  <Pair Id="3" Pos="D15" Neg="D14"></Pair>
+  <Pair Id="3" Pos="T1" Neg="U1"></Pair>
+  <Pair Id="3" Pos="H5" Neg="J5"></Pair>
+  <Pair Id="4" Pos="T20" Neg="T19"></Pair>
+  <Pair Id="4" Pos="H19" Neg="H20"></Pair>
+  <Pair Id="4" Pos="C13" Neg="B13"></Pair>
+  <Pair Id="4" Pos="W2" Neg="Y2"></Pair>
+  <Pair Id="4" Pos="E3" Neg="F3"></Pair>
+  <Pair Id="5" Pos="U20" Neg="U19"></Pair>
+  <Pair Id="5" Pos="K17" Neg="L17"></Pair>
+  <Pair Id="5" Pos="B15" Neg="B16"></Pair>
+  <Pair Id="5" Pos="W1" Neg="Y1"></Pair>
+  <Pair Id="5" Pos="G3" Neg="H3"></Pair>
+  <Pair Id="6" Pos="V20" Neg="V19"></Pair>
+  <Pair Id="6" Pos="G21" Neg="G22"></Pair>
+  <Pair Id="6" Pos="A13" Neg="A14"></Pair>
+  <Pair Id="6" Pos="T4" Neg="R4"></Pair>
+  <Pair Id="6" Pos="B2" Neg="C2"></Pair>
+  <Pair Id="7" Pos="Y20" Neg="W20"></Pair>
+  <Pair Id="7" Pos="G18" Neg="G19"></Pair>
+  <Pair Id="7" Pos="A15" Neg="A16"></Pair>
+  <Pair Id="7" Pos="AA1" Neg="AB1"></Pair>
+  <Pair Id="7" Pos="D1" Neg="E1"></Pair>
+  <Pair Id="8" Pos="AA19" Neg="Y19"></Pair>
+  <Pair Id="8" Pos="J20" Neg="K19"></Pair>
+  <Pair Id="8" Pos="C14" Neg="C15"></Pair>
+  <Pair Id="8" Pos="U3" Neg="V3"></Pair>
+  <Pair Id="8" Pos="D2" Neg="E2"></Pair>
+  <Pair Id="9" Pos="AA21" Neg="AA20"></Pair>
+  <Pair Id="9" Pos="K20" Neg="K21"></Pair>
+  <Pair Id="9" Pos="D16" Neg="E16"></Pair>
+  <Pair Id="9" Pos="T5" Neg="U5"></Pair>
+  <Pair Id="9" Pos="B1" Neg="A1"></Pair>
+  <Pair Id="MGT_DX_0" Pos="K14" Neg="J14"></Pair>
+  <Pair Id="MGT_MGTPRX0_216" Pos="B8" Neg="A8"></Pair>
+  <Pair Id="MGT_MGTPRX1_216" Pos="C11" Neg="D11"></Pair>
+  <Pair Id="MGT_MGTPRX2_216" Pos="A10" Neg="B10"></Pair>
+  <Pair Id="MGT_MGTPRX3_216" Pos="D9" Neg="C9"></Pair>
+  <Pair Id="MGT_MGTPTX0_216" Pos="A4" Neg="B4"></Pair>
+  <Pair Id="MGT_MGTPTX1_216" Pos="C5" Neg="D5"></Pair>
+  <Pair Id="MGT_MGTPTX2_216" Pos="A6" Neg="B6"></Pair>
+  <Pair Id="MGT_MGTPTX3_216" Pos="C7" Neg="D7"></Pair>
+  <Pair Id="MGT_MGTREFCLK0_216" Pos="E6" Neg="F6"></Pair>
+  <Pair Id="MGT_MGTREFCLK1_216" Pos="E10" Neg="F10"></Pair>
+  <Pair Id="MGT_VREF_0" Pos="L14" Neg="L10"></Pair>
+  <Pair Id="MGT_V_0" Pos="M14" Neg="M10"></Pair>
+ </DiffPairs>
+ <BankProhib>
+  <StdProhibit IOStd="LVDCI_18" Bank="14"/>
+  <StdProhibit IOStd="LVDCI_18" Bank="15"/>
+  <StdProhibit IOStd="LVDCI_18" Bank="16"/>
+  <StdProhibit IOStd="LVDCI_18" Bank="34"/>
+  <StdProhibit IOStd="LVDCI_18" Bank="35"/>
+  <StdProhibit IOStd="LVDCI_15" Bank="14"/>
+  <StdProhibit IOStd="LVDCI_15" Bank="15"/>
+  <StdProhibit IOStd="LVDCI_15" Bank="16"/>
+  <StdProhibit IOStd="LVDCI_15" Bank="34"/>
+  <StdProhibit IOStd="LVDCI_15" Bank="35"/>
+  <StdProhibit IOStd="HSUL_12_DCI" Bank="14"/>
+  <StdProhibit IOStd="HSUL_12_DCI" Bank="15"/>
+  <StdProhibit IOStd="HSUL_12_DCI" Bank="16"/>
+  <StdProhibit IOStd="HSUL_12_DCI" Bank="34"/>
+  <StdProhibit IOStd="HSUL_12_DCI" Bank="35"/>
+  <StdProhibit IOStd="HSLVDCI_18" Bank="14"/>
+  <StdProhibit IOStd="HSLVDCI_18" Bank="15"/>
+  <StdProhibit IOStd="HSLVDCI_18" Bank="16"/>
+  <StdProhibit IOStd="HSLVDCI_18" Bank="34"/>
+  <StdProhibit IOStd="HSLVDCI_18" Bank="35"/>
+  <StdProhibit IOStd="HSLVDCI_15" Bank="14"/>
+  <StdProhibit IOStd="HSLVDCI_15" Bank="15"/>
+  <StdProhibit IOStd="HSLVDCI_15" Bank="16"/>
+  <StdProhibit IOStd="HSLVDCI_15" Bank="34"/>
+  <StdProhibit IOStd="HSLVDCI_15" Bank="35"/>
+  <StdProhibit IOStd="LVDCI_DV2_18" Bank="14"/>
+  <StdProhibit IOStd="LVDCI_DV2_18" Bank="15"/>
+  <StdProhibit IOStd="LVDCI_DV2_18" Bank="16"/>
+  <StdProhibit IOStd="LVDCI_DV2_18" Bank="34"/>
+  <StdProhibit IOStd="LVDCI_DV2_18" Bank="35"/>
+  <StdProhibit IOStd="LVDCI_DV2_15" Bank="14"/>
+  <StdProhibit IOStd="LVDCI_DV2_15" Bank="15"/>
+  <StdProhibit IOStd="LVDCI_DV2_15" Bank="16"/>
+  <StdProhibit IOStd="LVDCI_DV2_15" Bank="34"/>
+  <StdProhibit IOStd="LVDCI_DV2_15" Bank="35"/>
+  <StdProhibit IOStd="HSTL_I_DCI" Bank="14"/>
+  <StdProhibit IOStd="HSTL_I_DCI" Bank="15"/>
+  <StdProhibit IOStd="HSTL_I_DCI" Bank="16"/>
+  <StdProhibit IOStd="HSTL_I_DCI" Bank="34"/>
+  <StdProhibit IOStd="HSTL_I_DCI" Bank="35"/>
+  <StdProhibit IOStd="HSTL_II_DCI" Bank="14"/>
+  <StdProhibit IOStd="HSTL_II_DCI" Bank="15"/>
+  <StdProhibit IOStd="HSTL_II_DCI" Bank="16"/>
+  <StdProhibit IOStd="HSTL_II_DCI" Bank="34"/>
+  <StdProhibit IOStd="HSTL_II_DCI" Bank="35"/>
+  <StdProhibit IOStd="HSTL_II_T_DCI" Bank="14"/>
+  <StdProhibit IOStd="HSTL_II_T_DCI" Bank="15"/>
+  <StdProhibit IOStd="HSTL_II_T_DCI" Bank="16"/>
+  <StdProhibit IOStd="HSTL_II_T_DCI" Bank="34"/>
+  <StdProhibit IOStd="HSTL_II_T_DCI" Bank="35"/>
+  <StdProhibit IOStd="HSTL_I_DCI_18" Bank="14"/>
+  <StdProhibit IOStd="HSTL_I_DCI_18" Bank="15"/>
+  <StdProhibit IOStd="HSTL_I_DCI_18" Bank="16"/>
+  <StdProhibit IOStd="HSTL_I_DCI_18" Bank="34"/>
+  <StdProhibit IOStd="HSTL_I_DCI_18" Bank="35"/>
+  <StdProhibit IOStd="HSTL_II_DCI_18" Bank="14"/>
+  <StdProhibit IOStd="HSTL_II_DCI_18" Bank="15"/>
+  <StdProhibit IOStd="HSTL_II_DCI_18" Bank="16"/>
+  <StdProhibit IOStd="HSTL_II_DCI_18" Bank="34"/>
+  <StdProhibit IOStd="HSTL_II_DCI_18" Bank="35"/>
+  <StdProhibit IOStd="HSTL_II_T_DCI_18" Bank="14"/>
+  <StdProhibit IOStd="HSTL_II_T_DCI_18" Bank="15"/>
+  <StdProhibit IOStd="HSTL_II_T_DCI_18" Bank="16"/>
+  <StdProhibit IOStd="HSTL_II_T_DCI_18" Bank="34"/>
+  <StdProhibit IOStd="HSTL_II_T_DCI_18" Bank="35"/>
+  <StdProhibit IOStd="HSTL_I_12" Bank="14"/>
+  <StdProhibit IOStd="HSTL_I_12" Bank="15"/>
+  <StdProhibit IOStd="HSTL_I_12" Bank="16"/>
+  <StdProhibit IOStd="HSTL_I_12" Bank="34"/>
+  <StdProhibit IOStd="HSTL_I_12" Bank="35"/>
+  <StdProhibit IOStd="SSTL12" Bank="14"/>
+  <StdProhibit IOStd="SSTL12" Bank="15"/>
+  <StdProhibit IOStd="SSTL12" Bank="16"/>
+  <StdProhibit IOStd="SSTL12" Bank="34"/>
+  <StdProhibit IOStd="SSTL12" Bank="35"/>
+  <StdProhibit IOStd="SSTL18_I_DCI" Bank="14"/>
+  <StdProhibit IOStd="SSTL18_I_DCI" Bank="15"/>
+  <StdProhibit IOStd="SSTL18_I_DCI" Bank="16"/>
+  <StdProhibit IOStd="SSTL18_I_DCI" Bank="34"/>
+  <StdProhibit IOStd="SSTL18_I_DCI" Bank="35"/>
+  <StdProhibit IOStd="SSTL18_II_DCI" Bank="14"/>
+  <StdProhibit IOStd="SSTL18_II_DCI" Bank="15"/>
+  <StdProhibit IOStd="SSTL18_II_DCI" Bank="16"/>
+  <StdProhibit IOStd="SSTL18_II_DCI" Bank="34"/>
+  <StdProhibit IOStd="SSTL18_II_DCI" Bank="35"/>
+  <StdProhibit IOStd="SSTL18_II_T_DCI" Bank="14"/>
+  <StdProhibit IOStd="SSTL18_II_T_DCI" Bank="15"/>
+  <StdProhibit IOStd="SSTL18_II_T_DCI" Bank="16"/>
+  <StdProhibit IOStd="SSTL18_II_T_DCI" Bank="34"/>
+  <StdProhibit IOStd="SSTL18_II_T_DCI" Bank="35"/>
+  <StdProhibit IOStd="SSTL15_DCI" Bank="14"/>
+  <StdProhibit IOStd="SSTL15_DCI" Bank="15"/>
+  <StdProhibit IOStd="SSTL15_DCI" Bank="16"/>
+  <StdProhibit IOStd="SSTL15_DCI" Bank="34"/>
+  <StdProhibit IOStd="SSTL15_DCI" Bank="35"/>
+  <StdProhibit IOStd="SSTL15_T_DCI" Bank="14"/>
+  <StdProhibit IOStd="SSTL15_T_DCI" Bank="15"/>
+  <StdProhibit IOStd="SSTL15_T_DCI" Bank="16"/>
+  <StdProhibit IOStd="SSTL15_T_DCI" Bank="34"/>
+  <StdProhibit IOStd="SSTL15_T_DCI" Bank="35"/>
+  <StdProhibit IOStd="SSTL135_DCI" Bank="14"/>
+  <StdProhibit IOStd="SSTL135_DCI" Bank="15"/>
+  <StdProhibit IOStd="SSTL135_DCI" Bank="16"/>
+  <StdProhibit IOStd="SSTL135_DCI" Bank="34"/>
+  <StdProhibit IOStd="SSTL135_DCI" Bank="35"/>
+  <StdProhibit IOStd="SSTL135_T_DCI" Bank="14"/>
+  <StdProhibit IOStd="SSTL135_T_DCI" Bank="15"/>
+  <StdProhibit IOStd="SSTL135_T_DCI" Bank="16"/>
+  <StdProhibit IOStd="SSTL135_T_DCI" Bank="34"/>
+  <StdProhibit IOStd="SSTL135_T_DCI" Bank="35"/>
+  <StdProhibit IOStd="SSTL12_DCI" Bank="14"/>
+  <StdProhibit IOStd="SSTL12_DCI" Bank="15"/>
+  <StdProhibit IOStd="SSTL12_DCI" Bank="16"/>
+  <StdProhibit IOStd="SSTL12_DCI" Bank="34"/>
+  <StdProhibit IOStd="SSTL12_DCI" Bank="35"/>
+  <StdProhibit IOStd="SSTL12_T_DCI" Bank="14"/>
+  <StdProhibit IOStd="SSTL12_T_DCI" Bank="15"/>
+  <StdProhibit IOStd="SSTL12_T_DCI" Bank="16"/>
+  <StdProhibit IOStd="SSTL12_T_DCI" Bank="34"/>
+  <StdProhibit IOStd="SSTL12_T_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_SSTL12" Bank="14"/>
+  <StdProhibit IOStd="DIFF_SSTL12" Bank="15"/>
+  <StdProhibit IOStd="DIFF_SSTL12" Bank="16"/>
+  <StdProhibit IOStd="DIFF_SSTL12" Bank="34"/>
+  <StdProhibit IOStd="DIFF_SSTL12" Bank="35"/>
+  <StdProhibit IOStd="DIFF_HSTL_I_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_HSTL_I_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_HSTL_I_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_HSTL_I_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_HSTL_I_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_T_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_T_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_T_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_T_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_T_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_HSTL_I_DCI_18" Bank="14"/>
+  <StdProhibit IOStd="DIFF_HSTL_I_DCI_18" Bank="15"/>
+  <StdProhibit IOStd="DIFF_HSTL_I_DCI_18" Bank="16"/>
+  <StdProhibit IOStd="DIFF_HSTL_I_DCI_18" Bank="34"/>
+  <StdProhibit IOStd="DIFF_HSTL_I_DCI_18" Bank="35"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_DCI_18" Bank="14"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_DCI_18" Bank="15"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_DCI_18" Bank="16"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_DCI_18" Bank="34"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_DCI_18" Bank="35"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_T_DCI_18" Bank="14"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_T_DCI_18" Bank="15"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_T_DCI_18" Bank="16"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_T_DCI_18" Bank="34"/>
+  <StdProhibit IOStd="DIFF_HSTL_II_T_DCI_18" Bank="35"/>
+  <StdProhibit IOStd="DIFF_SSTL18_I_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_SSTL18_I_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_SSTL18_I_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_SSTL18_I_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_SSTL18_I_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_SSTL18_II_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_SSTL18_II_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_SSTL18_II_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_SSTL18_II_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_SSTL18_II_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_SSTL18_II_T_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_SSTL18_II_T_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_SSTL18_II_T_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_SSTL18_II_T_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_SSTL18_II_T_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_SSTL15_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_SSTL15_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_SSTL15_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_SSTL15_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_SSTL15_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_SSTL15_T_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_SSTL15_T_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_SSTL15_T_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_SSTL15_T_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_SSTL15_T_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_SSTL135_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_SSTL135_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_SSTL135_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_SSTL135_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_SSTL135_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_SSTL135_T_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_SSTL135_T_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_SSTL135_T_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_SSTL135_T_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_SSTL135_T_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_SSTL12_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_SSTL12_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_SSTL12_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_SSTL12_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_SSTL12_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_SSTL12_T_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_SSTL12_T_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_SSTL12_T_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_SSTL12_T_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_SSTL12_T_DCI" Bank="35"/>
+  <StdProhibit IOStd="DIFF_HSUL_12_DCI" Bank="14"/>
+  <StdProhibit IOStd="DIFF_HSUL_12_DCI" Bank="15"/>
+  <StdProhibit IOStd="DIFF_HSUL_12_DCI" Bank="16"/>
+  <StdProhibit IOStd="DIFF_HSUL_12_DCI" Bank="34"/>
+  <StdProhibit IOStd="DIFF_HSUL_12_DCI" Bank="35"/>
+  <StdProhibit IOStd="LVDS" Bank="14"/>
+  <StdProhibit IOStd="LVDS" Bank="15"/>
+  <StdProhibit IOStd="LVDS" Bank="16"/>
+  <StdProhibit IOStd="LVDS" Bank="34"/>
+  <StdProhibit IOStd="LVDS" Bank="35"/>
+ </BankProhib>
+</Package>

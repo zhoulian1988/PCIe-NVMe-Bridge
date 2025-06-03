@@ -1,0 +1,684 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Fri Nov 24 10:11:09 2023
+| Host         : 192.168.2.204 running 64-bit unknown
+| Command      : report_clock_utilization -file bypass_690t_clock_utilization_routed.rpt
+| Design       : bypass_690t
+| Device       : 7vx690t-ffg1157
+| Speed File   : -2  PRODUCTION 1.11 2014-09-11
+-----------------------------------------------------------------------------------------
+
+Clock Utilization Report
+
+Table of Contents
+-----------------
+1. Clock Primitive Utilization
+2. Global Clock Resources
+3. Global Clock Source Details
+4. Local Clock Details
+5. Clock Regions: Key Resource Utilization
+6. Clock Regions : Global Clock Summary
+7. Device Cell Placement Summary for Global Clock g0
+8. Device Cell Placement Summary for Global Clock g1
+9. Device Cell Placement Summary for Global Clock g2
+10. Device Cell Placement Summary for Global Clock g3
+11. Device Cell Placement Summary for Global Clock g4
+12. Device Cell Placement Summary for Global Clock g5
+13. Device Cell Placement Summary for Global Clock g6
+14. Device Cell Placement Summary for Global Clock g7
+15. Device Cell Placement Summary for Global Clock g8
+16. Device Cell Placement Summary for Global Clock g9
+17. Device Cell Placement Summary for Global Clock g10
+18. Clock Region Cell Placement per Global Clock: Region X1Y4
+19. Clock Region Cell Placement per Global Clock: Region X1Y5
+20. Clock Region Cell Placement per Global Clock: Region X1Y6
+21. Clock Region Cell Placement per Global Clock: Region X1Y7
+22. Clock Region Cell Placement per Global Clock: Region X1Y8
+
+1. Clock Primitive Utilization
+------------------------------
+
++----------+------+-----------+-----+--------------+--------+
+| Type     | Used | Available | LOC | Clock Region | Pblock |
++----------+------+-----------+-----+--------------+--------+
+| BUFGCTRL |   11 |        32 |   0 |            0 |      0 |
+| BUFH     |    0 |       240 |   0 |            0 |      0 |
+| BUFIO    |    0 |        80 |   0 |            0 |      0 |
+| BUFMR    |    0 |        40 |   0 |            0 |      0 |
+| BUFR     |    0 |        80 |   0 |            0 |      0 |
+| MMCM     |    2 |        20 |   0 |            0 |      0 |
+| PLL      |    0 |        20 |   0 |            0 |      0 |
++----------+------+-----------+-----+--------------+--------+
+
+
+2. Global Clock Resources
+-------------------------
+
++-----------+-----------+-----------------+------------+----------------+--------------+-------------------+-------------+-----------------+--------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| Global Id | Source Id | Driver Type/Pin | Constraint | Site           | Clock Region | Load Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock                                                                                      | Driver Pin                                                                                                          | Net                                                                                                                   |
++-----------+-----------+-----------------+------------+----------------+--------------+-------------------+-------------+-----------------+--------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| g0        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y16 | n/a          |                 5 |        7809 |               0 |              |                                                                                            | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2_i1.usrclk2_i1/O   | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk                     |
+| g1        | src0      | BUFGCTRL/O      | None       | BUFGCTRL_X0Y18 | n/a          |                 3 |        1403 |               0 |        4.000 | Multiple                                                                                   | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1/O | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0 |
+| g2        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y21 | n/a          |                 2 |         413 |               0 |        8.000 | clk_125mhz_x0y2                                                                            | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/dclk_i_bufg.dclk_i/O       | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK                          |
+| g3        | src1      | BUFGCTRL/O      | None       | BUFGCTRL_X0Y17 | n/a          |                 2 |        1402 |               0 |        8.000 | Multiple                                                                                   | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1/O                  | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0                  |
+| g4        | src1      | BUFG/O          | None       | BUFGCTRL_X0Y20 | n/a          |                 2 |         413 |               0 |        8.000 | clk_125mhz_x0y1                                                                            | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/dclk_i_bufg.dclk_i/O                        | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK                                           |
+| g5        | src1      | BUFG/O          | None       | BUFGCTRL_X0Y19 | n/a          |                 4 |         959 |               0 |              |                                                                                            | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2_i1.usrclk2_i1/O                    | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk                                      |
+| g6        | src2      | BUFG/O          | None       | BUFGCTRL_X0Y0  | n/a          |                 1 |         465 |               0 |       33.000 | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.u_bufg_icon_tck/O                                                | dbg_hub/inst/BSCANID.u_xsdbm_id/itck_i                                                                                |
+| g7        | src1      | BUFG/O          | None       | BUFGCTRL_X0Y22 | n/a          |                 2 |          45 |               0 |        4.000 | userclk1                                                                                   | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1/O                    | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out                              |
+| g8        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y23 | n/a          |                 2 |          45 |               0 |        4.000 | userclk1_1                                                                                 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1/O   | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out             |
+| g9        | src3      | BUFG/O          | None       | BUFGCTRL_X0Y24 | n/a          |                 1 |          36 |               0 |       10.000 | ep_sys_clk                                                                                 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/cpllpd_refclk_inst/O                                                    | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk                                                           |
+| g10       | src4      | BUFG/O          | None       | BUFGCTRL_X0Y25 | n/a          |                 2 |          36 |               0 |       10.000 | rp_sys_clk                                                                                 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/cpllpd_refclk_inst/O                                   | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk                                          |
++-----------+-----------+-----------------+------------+----------------+--------------+-------------------+-------------+-----------------+--------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+* Clock Loads column represents the clock pin loads (pin count)
+** Non-Clock Loads column represents the non-clock pin loads (pin count)
+
+
+3. Global Clock Source Details
+------------------------------
+
++-----------+-----------+--------------------+-------------------+-------------------+--------------+-------------+-----------------+---------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+| Source Id | Global Id | Driver Type/Pin    | Constraint        | Site              | Clock Region | Clock Loads | Non-Clock Loads | Source Clock Period | Source Clock                                                                               | Driver Pin                                                                                              | Net                                                                                                 |
++-----------+-----------+--------------------+-------------------+-------------------+--------------+-------------+-----------------+---------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+| src0      | g1, g2    | MMCME2_ADV/CLKOUT0 | None              | MMCME2_ADV_X1Y8   | X1Y8         |           2 |               0 |               8.000 | clk_125mhz_x0y2                                                                            | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/mmcm_i/CLKOUT0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz |
+| src0      | g8        | MMCME2_ADV/CLKOUT2 | None              | MMCME2_ADV_X1Y8   | X1Y8         |           1 |               0 |               4.000 | userclk1_1                                                                                 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/mmcm_i/CLKOUT2 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1   |
+| src0      | g0        | MMCME2_ADV/CLKOUT3 | None              | MMCME2_ADV_X1Y8   | X1Y8         |           1 |               0 |               8.000 | userclk2_1                                                                                 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/mmcm_i/CLKOUT3 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2   |
+| src1      | g3, g4    | MMCME2_ADV/CLKOUT0 | None              | MMCME2_ADV_X1Y5   | X1Y5         |           2 |               0 |               8.000 | clk_125mhz_x0y1                                                                            | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/mmcm_i/CLKOUT0                  | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz                  |
+| src1      | g7        | MMCME2_ADV/CLKOUT2 | None              | MMCME2_ADV_X1Y5   | X1Y5         |           1 |               0 |               4.000 | userclk1                                                                                   | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/mmcm_i/CLKOUT2                  | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1                    |
+| src1      | g5        | MMCME2_ADV/CLKOUT3 | None              | MMCME2_ADV_X1Y5   | X1Y5         |           1 |               0 |               8.000 | userclk2                                                                                   | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/mmcm_i/CLKOUT3                  | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2                    |
+| src2      | g6        | BSCANE2/TCK        | None              | BSCAN_X0Y0        | X0Y4         |           1 |               0 |              33.000 | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK              | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/tck_bs                                |
+| src3      | g9        | IBUFDS_GTE2/O      | IBUFDS_GTE2_X1Y10 | IBUFDS_GTE2_X1Y10 | X1Y5         |           6 |               0 |              10.000 | ep_sys_clk                                                                                 | ep_i/refclk_ibuf/O                                                                                      | ep_i/sys_clk                                                                                        |
+| src4      | g10       | IBUFDS_GTE2/O      | IBUFDS_GTE2_X1Y16 | IBUFDS_GTE2_X1Y16 | X1Y8         |           6 |               0 |              10.000 | rp_sys_clk                                                                                 | rp_i/refclk_ibuf/O                                                                                      | rp_i/sys_clk                                                                                        |
++-----------+-----------+--------------------+-------------------+-------------------+--------------+-------------+-----------------+---------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+* Clock Loads column represents the clock pin loads (pin count)
+** Non-Clock Loads column represents the non-clock pin loads (pin count)
+
+
+4. Local Clock Details
+----------------------
+
++----------+------------------------+---------------------+-----------------------------------+--------------+-------------+-----------------+--------------+---------------+-----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+
+| Local Id | Driver Type/Pin        | Constraint          | Site/BEL                          | Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock         | Driver Pin                                                                                                                  | Net                                                                                                      |
++----------+------------------------+---------------------+-----------------------------------+--------------+-------------+-----------------+--------------+---------------+-----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------||
+| 0        | GTHE2_CHANNEL/TXOUTCLK | GTHE2_CHANNEL_X1Y23 | GTHE2_CHANNEL_X1Y23/GTHE2_CHANNEL | X1Y5         |           1 |               0 |       10.000 | txoutclk_x0y1 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/gth_channel.gthe2_channel_i/TXOUTCLK                  | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/pipe_txoutclk_out                  - Static -
+| 1        | FDRE/Q                 | None                | SLICE_X221Y293/A5FF               | X1Y5         |           1 |               0 |              |               | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i/oobclk_div.oobclk_reg/Q                                | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i/USER_OOBCLK                         - Static -
+| 2        | FDRE/Q                 | None                | SLICE_X221Y282/A5FF               | X1Y5         |           1 |               0 |              |               | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i/oobclk_div.oobclk_reg/Q                                | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i/USER_OOBCLK                         - Static -
+| 3        | FDRE/Q                 | None                | SLICE_X221Y264/A5FF               | X1Y5         |           1 |               0 |              |               | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/oobclk_div.oobclk_reg/Q                                | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/USER_OOBCLK                         - Static -
+| 4        | FDRE/Q                 | None                | SLICE_X221Y254/A5FF               | X1Y5         |           1 |               0 |              |               | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/oobclk_div.oobclk_reg/Q                                | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/USER_OOBCLK                         - Static -
+| 5        | GTHE2_CHANNEL/TXOUTCLK | GTHE2_CHANNEL_X1Y35 | GTHE2_CHANNEL_X1Y35/GTHE2_CHANNEL | X1Y8         |           1 |               0 |       10.000 | txoutclk_x0y2 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/gth_channel.gthe2_channel_i/TXOUTCLK | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/pipe_txoutclk_out - Static -
+| 6        | FDRE/Q                 | None                | SLICE_X193Y389/BFF                | X1Y7         |           1 |               0 |              |               | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i/oobclk_div.oobclk_reg/Q               | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i/USER_OOBCLK        - Static -
+| 7        | FDRE/Q                 | None                | SLICE_X193Y389/CFF                | X1Y7         |           1 |               0 |              |               | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i/oobclk_div.oobclk_reg/Q               | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i/USER_OOBCLK        - Static -
+| 8        | FDRE/Q                 | None                | SLICE_X219Y407/AFF                | X1Y8         |           1 |               0 |              |               | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/oobclk_div.oobclk_reg/Q               | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/USER_OOBCLK        - Static -
+| 9        | FDRE/Q                 | None                | SLICE_X219Y397/AFF                | X1Y7         |           1 |               0 |              |               | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/oobclk_div.oobclk_reg/Q               | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/USER_OOBCLK        - Static -
++----------+------------------------+---------------------+-----------------------------------+--------------+-------------+-----------------+--------------+---------------+-----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------||
+* Local Clocks in this context represents only clocks driven by non-global buffers
+** Clock Loads column represents the clock pin loads (pin count)
+*** Non-Clock Loads column represents the non-clock pin loads (pin count)
+
+
+5. Clock Regions: Key Resource Utilization
+------------------------------------------
+
++-------------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
+|                   | Global Clock |     BUFRs    |    BUFMRs    |    BUFIOs    |     MMCM     |      PLL     |      GT      |      PCI     |    ILOGIC    |    OLOGIC    |      FF      |     LUTM     |    RAMB18    |    RAMB36    |    DSP48E2   |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+| Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+| X0Y0              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5300 |    0 |  1850 |    0 |   140 |    0 |    70 |    0 |   140 |
+| X1Y0              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5800 |    0 |  2550 |    0 |   160 |    0 |    80 |    0 |   220 |
+| X0Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5300 |    0 |  1850 |    0 |   140 |    0 |    70 |    0 |   140 |
+| X1Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5550 |    0 |  2475 |    0 |   150 |    0 |    75 |    0 |   220 |
+| X0Y2              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5300 |    0 |  1850 |    0 |   140 |    0 |    70 |    0 |   140 |
+| X1Y2              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     1 |    0 |    50 |    0 |    50 |    0 |  5550 |    0 |  2475 |    0 |   150 |    0 |    75 |    0 |   220 |
+| X0Y3              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5300 |    0 |  1850 |    0 |   140 |    0 |    70 |    0 |   140 |
+| X1Y3              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5800 |    0 |  2550 |    0 |   160 |    0 |    80 |    0 |   220 |
+| X0Y4              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  4700 |    0 |  1850 |    0 |   140 |    0 |    70 |    0 |   140 |
+| X1Y4              |    5 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |  447 |  5550 |  214 |  2475 |    4 |   150 |    4 |    75 |    0 |   220 |
+| X0Y5              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  4700 |    0 |  1850 |    0 |   140 |    0 |    70 |    0 |   140 |
+| X1Y5              |    6 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    4 |     4 |    1 |     1 |    0 |    50 |    0 |    50 | 4229 |  5550 | 1502 |  2475 |    0 |   150 |    7 |    75 |    0 |   220 |
+| X0Y6              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5300 |    0 |  1850 |    0 |   140 |    0 |    70 |    0 |   140 |
+| X1Y6              |    4 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 | 4586 |  5800 | 1652 |  2550 |    1 |   160 |   16 |    80 |    0 |   220 |
+| X0Y7              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5300 |    0 |  1850 |    0 |   140 |    0 |    70 |    0 |   140 |
+| X1Y7              |    6 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 | 1809 |  5550 |  690 |  2475 |    4 |   150 |   10 |    75 |    0 |   220 |
+| X0Y8              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5300 |    0 |  1850 |    0 |   140 |    0 |    70 |    0 |   140 |
+| X1Y8              |    5 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    4 |     4 |    1 |     1 |    0 |    50 |    0 |    50 | 1089 |  5550 |  489 |  2475 |    0 |   150 |    7 |    75 |    0 |   220 |
+| X0Y9              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5300 |    0 |  1850 |    0 |   140 |    0 |    70 |    0 |   140 |
+| X1Y9              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     4 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  5800 |    0 |  2550 |    0 |   160 |    0 |    80 |    0 |   220 |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+* Global Clock column represents track count; while other columns represents cell counts
+
+
+6. Clock Regions : Global Clock Summary
+---------------------------------------
+
+All Modules
++----+----+----+
+|    | X0 | X1 |
++----+----+----+
+| Y9 |  0 |  0 |
+| Y8 |  0 |  5 |
+| Y7 |  0 |  6 |
+| Y6 |  0 |  4 |
+| Y5 |  0 |  6 |
+| Y4 |  0 |  5 |
+| Y3 |  0 |  0 |
+| Y2 |  0 |  0 |
+| Y1 |  0 |  0 |
+| Y0 |  0 |  0 |
++----+----+----+
+
+
+7. Device Cell Placement Summary for Global Clock g0
+----------------------------------------------------
+
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+---------------------------------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                                               |
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+---------------------------------------------------------------------------------------------------+
+| g0        | BUFG/O          | n/a               |       |             |               |        7364 |        0 |              0 |        0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk |
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+---------------------------------------------------------------------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+-------+
+|    | X0 | X1    |
++----+----+-------+
+| Y9 |  0 |     0 |
+| Y8 |  0 |    65 |
+| Y7 |  0 |  1018 |
+| Y6 |  0 |  3874 |
+| Y5 |  0 |  2394 |
+| Y4 |  0 |    13 |
+| Y3 |  0 |     0 |
+| Y2 |  0 |     0 |
+| Y1 |  0 |     0 |
+| Y0 |  0 |     0 |
++----+----+-------+
+
+
+8. Device Cell Placement Summary for Global Clock g1
+----------------------------------------------------
+
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------------------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock    | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                                                                   |
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------------------------------------------------------------------------------------+
+| g1        | BUFGCTRL/O      | n/a               | Multiple |       4.000 | {0.000 2.000} |        1386 |        0 |              0 |        4 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0 |
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------------------------------------------------------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+------+
+|    | X0 | X1   |
++----+----+------+
+| Y9 |  0 |    0 |
+| Y8 |  0 |  660 |
+| Y7 |  0 |  721 |
+| Y6 |  0 |    9 |
+| Y5 |  0 |    0 |
+| Y4 |  0 |    0 |
+| Y3 |  0 |    0 |
+| Y2 |  0 |    0 |
+| Y1 |  0 |    0 |
+| Y0 |  0 |    0 |
++----+----+------+
+
+
+9. Device Cell Placement Summary for Global Clock g2
+----------------------------------------------------
+
++-----------+-----------------+-------------------+-----------------+-------------+---------------+-------------+----------+----------------+----------+----------------------------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock           | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                                          |
++-----------+-----------------+-------------------+-----------------+-------------+---------------+-------------+----------+----------------+----------+----------------------------------------------------------------------------------------------+
+| g2        | BUFG/O          | n/a               | clk_125mhz_x0y2 |       8.000 | {0.000 4.000} |         408 |        0 |              0 |        5 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK |
++-----------+-----------------+-------------------+-----------------+-------------+---------------+-------------+----------+----------------+----------+----------------------------------------------------------------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+------+
+|    | X0 | X1   |
++----+----+------+
+| Y9 |  0 |    0 |
+| Y8 |  0 |  365 |
+| Y7 |  0 |   48 |
+| Y6 |  0 |    0 |
+| Y5 |  0 |    0 |
+| Y4 |  0 |    0 |
+| Y3 |  0 |    0 |
+| Y2 |  0 |    0 |
+| Y1 |  0 |    0 |
+| Y0 |  0 |    0 |
++----+----+------+
+
+
+10. Device Cell Placement Summary for Global Clock g3
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+------------------------------------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock    | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                                                  |
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+------------------------------------------------------------------------------------------------------+
+| g3        | BUFGCTRL/O      | n/a               | Multiple |       8.000 | {0.000 4.000} |        1385 |        0 |              0 |        4 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0 |
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+------------------------------------------------------------------------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+------+
+|    | X0 | X1   |
++----+----+------+
+| Y9 |  0 |    0 |
+| Y8 |  0 |    0 |
+| Y7 |  0 |    0 |
+| Y6 |  0 |    0 |
+| Y5 |  0 |  997 |
+| Y4 |  0 |  392 |
+| Y3 |  0 |    0 |
+| Y2 |  0 |    0 |
+| Y1 |  0 |    0 |
+| Y0 |  0 |    0 |
++----+----+------+
+
+
+11. Device Cell Placement Summary for Global Clock g4
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+-----------------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock           | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                         |
++-----------+-----------------+-------------------+-----------------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------------------------------------------+
+| g4        | BUFG/O          | n/a               | clk_125mhz_x0y1 |       8.000 | {0.000 4.000} |         408 |        0 |              0 |        5 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK |
++-----------+-----------------+-------------------+-----------------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+------+
+|    | X0 | X1   |
++----+----+------+
+| Y9 |  0 |    0 |
+| Y8 |  0 |    0 |
+| Y7 |  0 |    0 |
+| Y6 |  0 |    0 |
+| Y5 |  0 |  385 |
+| Y4 |  0 |   28 |
+| Y3 |  0 |    0 |
+| Y2 |  0 |    0 |
+| Y1 |  0 |    0 |
+| Y0 |  0 |    0 |
++----+----+------+
+
+
+12. Device Cell Placement Summary for Global Clock g5
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+----------------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                              |
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+----------------------------------------------------------------------------------+
+| g5        | BUFG/O          | n/a               |       |             |               |         958 |        0 |              0 |        0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk |
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+----------------------------------------------------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+------+
+|    | X0 | X1   |
++----+----+------+
+| Y9 |  0 |    0 |
+| Y8 |  0 |    0 |
+| Y7 |  0 |   36 |
+| Y6 |  0 |  362 |
+| Y5 |  0 |  538 |
+| Y4 |  0 |   22 |
+| Y3 |  0 |    0 |
+| Y2 |  0 |    0 |
+| Y1 |  0 |    0 |
+| Y0 |  0 |    0 |
++----+----+------+
+
+
+13. Device Cell Placement Summary for Global Clock g6
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+--------------------------------------------------------------------------------------------+-------------+----------------+-------------+----------+----------------+----------+----------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock                                                                                      | Period (ns) | Waveform (ns)  | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                    |
++-----------+-----------------+-------------------+--------------------------------------------------------------------------------------------+-------------+----------------+-------------+----------+----------------+----------+----------------------------------------+
+| g6        | BUFG/O          | n/a               | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK |      33.000 | {0.000 16.500} |         462 |        0 |              0 |        0 | dbg_hub/inst/BSCANID.u_xsdbm_id/itck_i |
++-----------+-----------------+-------------------+--------------------------------------------------------------------------------------------+-------------+----------------+-------------+----------+----------------+----------+----------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+------+
+|    | X0 | X1   |
++----+----+------+
+| Y9 |  0 |    0 |
+| Y8 |  0 |    0 |
+| Y7 |  0 |    0 |
+| Y6 |  0 |  462 |
+| Y5 |  0 |    0 |
+| Y4 |  0 |    0 |
+| Y3 |  0 |    0 |
+| Y2 |  0 |    0 |
+| Y1 |  0 |    0 |
+| Y0 |  0 |    0 |
++----+----+------+
+
+
+14. Device Cell Placement Summary for Global Clock g7
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+------------------------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock    | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                                      |
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+------------------------------------------------------------------------------------------+
+| g7        | BUFG/O          | n/a               | userclk1 |       4.000 | {0.000 2.000} |          23 |        0 |              0 |        0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out |
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+------------------------------------------------------------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+-----+
+|    | X0 | X1  |
++----+----+-----+
+| Y9 |  0 |   0 |
+| Y8 |  0 |   0 |
+| Y7 |  0 |   0 |
+| Y6 |  0 |   0 |
+| Y5 |  0 |  11 |
+| Y4 |  0 |  12 |
+| Y3 |  0 |   0 |
+| Y2 |  0 |   0 |
+| Y1 |  0 |   0 |
+| Y0 |  0 |   0 |
++----+----+-----+
+
+
+15. Device Cell Placement Summary for Global Clock g8
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock      | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                                                       |
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------------------------------------------------------------------------+
+| g8        | BUFG/O          | n/a               | userclk1_1 |       4.000 | {0.000 2.000} |          23 |        0 |              0 |        0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out |
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------------------------------------------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+-----+
+|    | X0 | X1  |
++----+----+-----+
+| Y9 |  0 |   0 |
+| Y8 |  0 |  11 |
+| Y7 |  0 |  12 |
+| Y6 |  0 |   0 |
+| Y5 |  0 |   0 |
+| Y4 |  0 |   0 |
+| Y3 |  0 |   0 |
+| Y2 |  0 |   0 |
+| Y1 |  0 |   0 |
+| Y0 |  0 |   0 |
++----+----+-----+
+
+
+16. Device Cell Placement Summary for Global Clock g9
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+-------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock      | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                         |
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+-------------------------------------------------------------+
+| g9        | BUFG/O          | n/a               | ep_sys_clk |      10.000 | {0.000 5.000} |          36 |        0 |              0 |        0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk |
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+-------------------------------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+-----+
+|    | X0 | X1  |
++----+----+-----+
+| Y9 |  0 |   0 |
+| Y8 |  0 |   0 |
+| Y7 |  0 |   0 |
+| Y6 |  0 |   0 |
+| Y5 |  0 |  36 |
+| Y4 |  0 |   0 |
+| Y3 |  0 |   0 |
+| Y2 |  0 |   0 |
+| Y1 |  0 |   0 |
+| Y0 |  0 |   0 |
++----+----+-----+
+
+
+17. Device Cell Placement Summary for Global Clock g10
+------------------------------------------------------
+
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+------------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock      | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                          |
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+------------------------------------------------------------------------------+
+| g10       | BUFG/O          | n/a               | rp_sys_clk |      10.000 | {0.000 5.000} |          36 |        0 |              0 |        0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk |
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+------------------------------------------------------------------------------+
+* Logic Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+-----+
+|    | X0 | X1  |
++----+----+-----+
+| Y9 |  0 |   0 |
+| Y8 |  0 |  31 |
+| Y7 |  0 |   5 |
+| Y6 |  0 |   0 |
+| Y5 |  0 |   0 |
+| Y4 |  0 |   0 |
+| Y3 |  0 |   0 |
+| Y2 |  0 |   0 |
+| Y1 |  0 |   0 |
+| Y0 |  0 |   0 |
++----+----+-----+
+
+
+18. Clock Region Cell Placement per Global Clock: Region X1Y4
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF  | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                                                  |
++-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |          13 |               0 |   9 |      4 |    0 |   0 |  0 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk    |
+| g3        | n/a   | BUFGCTRL/O      | None       |         392 |               0 | 392 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0 |
+| g5        | n/a   | BUFG/O          | None       |          22 |               0 |  18 |      4 |    0 |   0 |  0 |    0 |   0 |       0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk                     |
+| g4        | n/a   | BUFG/O          | None       |          28 |               0 |  28 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK                          |
+| g7        | n/a   | BUFG/O          | None       |          12 |               0 |   0 |      0 |    8 |   0 |  0 |    0 |   0 |       0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out             |
++-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------------------------------------------+
+* Clock Loads column represents the clock pin loads (pin count)
+** Non-Clock Loads column represents the non-clock pin loads (pin count)
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+19. Clock Region Cell Placement per Global Clock: Region X1Y5
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                                                  |
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |        2394 |               0 | 2322 |     71 |    0 |   0 |  0 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk    |
+| g3        | n/a   | BUFGCTRL/O      | None       |         997 |               0 |  992 |      0 |    0 |   0 |  4 |    0 |   0 |       1 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0 |
+| g5        | n/a   | BUFG/O          | None       |         538 |               0 |  523 |     12 |    1 |   0 |  0 |    0 |   0 |       1 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk                     |
+| g4        | n/a   | BUFG/O          | None       |         385 |               0 |  380 |      0 |    0 |   0 |  4 |    0 |   0 |       0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK                          |
+| g7        | n/a   | BUFG/O          | None       |          11 |               0 |    4 |      0 |    6 |   0 |  0 |    0 |   0 |       1 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out             |
+| g9        | n/a   | BUFG/O          | None       |          36 |               0 |    8 |     28 |    0 |   0 |  0 |    0 |   0 |       0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk                                          |
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------------------------------------------+
+* Clock Loads column represents the clock pin loads (pin count)
+** Non-Clock Loads column represents the non-clock pin loads (pin count)
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+20. Clock Region Cell Placement per Global Clock: Region X1Y6
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                                                                   |
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |        3874 |               0 | 3772 |     83 |   17 |   0 |  0 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk                     |
+| g1        | n/a   | BUFGCTRL/O      | None       |           9 |               0 |    9 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0 |
+| g5        | n/a   | BUFG/O          | None       |         362 |               0 |  343 |      1 |   17 |   0 |  0 |    0 |   0 |       0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk                                      |
+| g6        | n/a   | BUFG/O          | None       |         462 |               0 |  462 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | dbg_hub/inst/BSCANID.u_xsdbm_id/itck_i                                                                                |
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------------------------------------------------------------+
+* Clock Loads column represents the clock pin loads (pin count)
+** Non-Clock Loads column represents the non-clock pin loads (pin count)
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+21. Clock Region Cell Placement per Global Clock: Region X1Y7
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                                                                   |
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |        1018 |               0 | 1010 |      2 |    6 |   0 |  0 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk                     |
+| g1        | n/a   | BUFGCTRL/O      | None       |         721 |               0 |  721 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0 |
+| g5        | n/a   | BUFG/O          | None       |          36 |               0 |   29 |      1 |    6 |   0 |  0 |    0 |   0 |       0 | ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk                                      |
+| g2        | n/a   | BUFG/O          | None       |          48 |               0 |   48 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK                          |
+| g8        | n/a   | BUFG/O          | None       |          12 |               0 |    0 |      0 |    8 |   0 |  0 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out             |
+| g10       | n/a   | BUFG/O          | None       |           5 |               0 |    1 |      4 |    0 |   0 |  0 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk                                          |
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------------------------------------------------------------+
+* Clock Loads column represents the clock pin loads (pin count)
+** Non-Clock Loads column represents the non-clock pin loads (pin count)
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+22. Clock Region Cell Placement per Global Clock: Region X1Y8
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF  | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                                                                   |
++-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |          65 |               0 |  63 |      0 |    1 |   0 |  0 |    0 |   0 |       1 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk                     |
+| g1        | n/a   | BUFGCTRL/O      | None       |         660 |               0 | 655 |      0 |    0 |   0 |  4 |    0 |   0 |       1 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0 |
+| g2        | n/a   | BUFG/O          | None       |         365 |               0 | 360 |      0 |    0 |   0 |  4 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK                          |
+| g8        | n/a   | BUFG/O          | None       |          11 |               0 |   4 |      0 |    6 |   0 |  0 |    0 |   0 |       1 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out             |
+| g10       | n/a   | BUFG/O          | None       |          31 |               0 |   7 |     24 |    0 |   0 |  0 |    0 |   0 |       0 | rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk                                          |
++-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------------------------------------------------------------+
+* Clock Loads column represents the clock pin loads (pin count)
+** Non-Clock Loads column represents the non-clock pin loads (pin count)
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+
+# Location of BUFG Primitives 
+set_property LOC BUFGCTRL_X0Y16 [get_cells rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2_i1.usrclk2_i1]
+set_property LOC BUFGCTRL_X0Y18 [get_cells rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1]
+set_property LOC BUFGCTRL_X0Y23 [get_cells rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1]
+set_property LOC BUFGCTRL_X0Y21 [get_cells rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/dclk_i_bufg.dclk_i]
+set_property LOC BUFGCTRL_X0Y25 [get_cells rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/cpllpd_refclk_inst]
+set_property LOC BUFGCTRL_X0Y19 [get_cells ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2_i1.usrclk2_i1]
+set_property LOC BUFGCTRL_X0Y17 [get_cells ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1]
+set_property LOC BUFGCTRL_X0Y22 [get_cells ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1]
+set_property LOC BUFGCTRL_X0Y20 [get_cells ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/dclk_i_bufg.dclk_i]
+set_property LOC BUFGCTRL_X0Y24 [get_cells ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/cpllpd_refclk_inst]
+set_property LOC BUFGCTRL_X0Y0 [get_cells dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.u_bufg_icon_tck]
+
+# Location of IO Primitives which is load of clock spine
+
+# Location of clock ports
+set_property LOC IPAD_X2Y159 [get_ports ep_sys_clk_n]
+set_property LOC IPAD_X2Y158 [get_ports ep_sys_clk_p]
+set_property LOC IPAD_X2Y255 [get_ports rp_sys_clk_n]
+set_property LOC IPAD_X2Y254 [get_ports rp_sys_clk_p]
+
+# Clock net "rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk" driven by instance "rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2_i1.usrclk2_i1" located at site "BUFGCTRL_X0Y16"
+#startgroup
+create_pblock {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk}
+add_cells_to_pblock [get_pblocks  {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk"}]]]
+resize_pblock [get_pblocks {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk}] -add {CLOCKREGION_X1Y4:CLOCKREGION_X1Y4 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5 CLOCKREGION_X1Y6:CLOCKREGION_X1Y6 CLOCKREGION_X1Y7:CLOCKREGION_X1Y7 CLOCKREGION_X1Y8:CLOCKREGION_X1Y8}
+#endgroup
+
+# Clock net "rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0" driven by instance "rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1" located at site "BUFGCTRL_X0Y18"
+#startgroup
+create_pblock {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0"}]]]
+resize_pblock [get_pblocks {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0}] -add {CLOCKREGION_X1Y6:CLOCKREGION_X1Y6 CLOCKREGION_X1Y7:CLOCKREGION_X1Y7 CLOCKREGION_X1Y8:CLOCKREGION_X1Y8}
+#endgroup
+
+# Clock net "rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out" driven by instance "rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1" located at site "BUFGCTRL_X0Y23"
+#startgroup
+create_pblock {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out}
+add_cells_to_pblock [get_pblocks  {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out"}]]]
+resize_pblock [get_pblocks {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out}] -add {CLOCKREGION_X1Y7:CLOCKREGION_X1Y7 CLOCKREGION_X1Y8:CLOCKREGION_X1Y8}
+#endgroup
+
+# Clock net "rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK" driven by instance "rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/dclk_i_bufg.dclk_i" located at site "BUFGCTRL_X0Y21"
+#startgroup
+create_pblock {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK}
+add_cells_to_pblock [get_pblocks  {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK"}]]]
+resize_pblock [get_pblocks {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK}] -add {CLOCKREGION_X1Y7:CLOCKREGION_X1Y7 CLOCKREGION_X1Y8:CLOCKREGION_X1Y8}
+#endgroup
+
+# Clock net "rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk" driven by instance "rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/cpllpd_refclk_inst" located at site "BUFGCTRL_X0Y25"
+#startgroup
+create_pblock {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk}
+add_cells_to_pblock [get_pblocks  {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk"}]]]
+resize_pblock [get_pblocks {CLKAG_rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk}] -add {CLOCKREGION_X1Y7:CLOCKREGION_X1Y7 CLOCKREGION_X1Y8:CLOCKREGION_X1Y8}
+#endgroup
+
+# Clock net "ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk" driven by instance "ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2_i1.usrclk2_i1" located at site "BUFGCTRL_X0Y19"
+#startgroup
+create_pblock {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk}
+add_cells_to_pblock [get_pblocks  {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk"}]]]
+resize_pblock [get_pblocks {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/user_clk}] -add {CLOCKREGION_X1Y4:CLOCKREGION_X1Y4 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5 CLOCKREGION_X1Y6:CLOCKREGION_X1Y6 CLOCKREGION_X1Y7:CLOCKREGION_X1Y7}
+#endgroup
+
+# Clock net "ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0" driven by instance "ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1" located at site "BUFGCTRL_X0Y17"
+#startgroup
+create_pblock {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0"}]]]
+resize_pblock [get_pblocks {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_sel_slave_reg2_reg[3]_0}] -add {CLOCKREGION_X1Y4:CLOCKREGION_X1Y4 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5}
+#endgroup
+
+# Clock net "ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out" driven by instance "ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1" located at site "BUFGCTRL_X0Y22"
+#startgroup
+create_pblock {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out}
+add_cells_to_pblock [get_pblocks  {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out"}]]]
+resize_pblock [get_pblocks {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/int_userclk1_out}] -add {CLOCKREGION_X1Y4:CLOCKREGION_X1Y4 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5}
+#endgroup
+
+# Clock net "ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK" driven by instance "ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/dclk_i_bufg.dclk_i" located at site "BUFGCTRL_X0Y20"
+#startgroup
+create_pblock {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK}
+add_cells_to_pblock [get_pblocks  {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK"}]]]
+resize_pblock [get_pblocks {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK}] -add {CLOCKREGION_X1Y4:CLOCKREGION_X1Y4 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5}
+#endgroup
+
+# Clock net "ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk" driven by instance "ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/cpllpd_refclk_inst" located at site "BUFGCTRL_X0Y24"
+#startgroup
+create_pblock {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk}
+add_cells_to_pblock [get_pblocks  {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk"}]]]
+resize_pblock [get_pblocks {CLKAG_ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/gt_cpllpdrefclk}] -add {CLOCKREGION_X1Y5:CLOCKREGION_X1Y5}
+#endgroup
+
+# Clock net "dbg_hub/inst/BSCANID.u_xsdbm_id/itck_i" driven by instance "dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.u_bufg_icon_tck" located at site "BUFGCTRL_X0Y0"
+#startgroup
+create_pblock {CLKAG_dbg_hub/inst/BSCANID.u_xsdbm_id/itck_i}
+add_cells_to_pblock [get_pblocks  {CLKAG_dbg_hub/inst/BSCANID.u_xsdbm_id/itck_i}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dbg_hub/inst/BSCANID.u_xsdbm_id/itck_i"}]]]
+resize_pblock [get_pblocks {CLKAG_dbg_hub/inst/BSCANID.u_xsdbm_id/itck_i}] -add {CLOCKREGION_X1Y6:CLOCKREGION_X1Y6}
+#endgroup

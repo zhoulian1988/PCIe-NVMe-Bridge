@@ -1,0 +1,5 @@
+xpm_cdc.sv,systemverilog,xil_defaultlib,../../../home/vavido/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../../../../../ips_690t/ep_ila_1/hdl/verilog"incdir="../../../../../../../ips_690t/top_ep_ila_2/hdl/verilog"
+xpm_memory.sv,systemverilog,xil_defaultlib,../../../home/vavido/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,incdir="../../../../../../../ips_690t/ep_ila_1/hdl/verilog"incdir="../../../../../../../ips_690t/top_ep_ila_2/hdl/verilog"
+xpm_VCOMP.vhd,vhdl,xpm,../../../home/vavido/Vivado/2018.2/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../../../../../ips_690t/ep_ila_1/hdl/verilog"incdir="../../../../../../../ips_690t/top_ep_ila_2/hdl/verilog"
+ep_ila.v,verilog,xil_defaultlib,../../../../../../../ips_690t/ep_ila_1/sim/ep_ila.v,incdir="../../../../../../../ips_690t/ep_ila_1/hdl/verilog"incdir="../../../../../../../ips_690t/top_ep_ila_2/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v

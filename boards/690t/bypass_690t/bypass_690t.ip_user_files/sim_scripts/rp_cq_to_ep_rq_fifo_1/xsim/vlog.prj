@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../../../../ips_690t/rp_cq_to_ep_rq_fifo_1/sim/rp_cq_to_ep_rq_fifo.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

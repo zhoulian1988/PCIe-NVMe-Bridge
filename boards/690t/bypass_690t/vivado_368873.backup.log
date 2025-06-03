@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar  5 10:44:17 2023
+# Process ID: 368873
+# Current directory: /home/jzhang/bypass/boards/690t/bypass_690t
+# Command line: vivado bypass_690t.xpr
+# Log file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.log
+# Journal file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project bypass_690t.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rp_ila' generated file not found '/home/jzhang/bypass/ips_690t/rp_ila/rp_ila_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:45 ; elapsed = 00:00:23 . Memory (MB): peak = 6407.934 ; gain = 245.629 ; free physical = 14693 ; free virtual = 41444
+update_compile_order -fileset sources_1
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+connect_hw_server -url 192.168.2.177:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.13]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.13]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.13
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1435] Device xc7vx690t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1434] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'top_ep_ila_i' at location 'uuid_4D6D4CBAF63E549098BEEF5B073FFD9B' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'rp_i/cgator_wrapper_i/top_rp_ila_i' at location 'uuid_8ACC42E1BC595C858E5BA42A93659066' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1434] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'top_ep_ila_i' at location 'uuid_4D6D4CBAF63E549098BEEF5B073FFD9B' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'rp_i/cgator_wrapper_i/top_rp_ila_i' at location 'uuid_8ACC42E1BC595C858E5BA42A93659066' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1434] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'top_ep_ila_i' at location 'uuid_4D6D4CBAF63E549098BEEF5B073FFD9B' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'rp_i/cgator_wrapper_i/top_rp_ila_i' at location 'uuid_8ACC42E1BC595C858E5BA42A93659066' from probes file, since it cannot be found on the programmed device.
+disconnect_hw_server 192.168.2.177:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+connect_hw_server -url 192.168.2.177:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.13]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.13]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.13
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1435] Device xc7vx690t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1434] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'top_ep_ila_i' at location 'uuid_4D6D4CBAF63E549098BEEF5B073FFD9B' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'rp_i/cgator_wrapper_i/top_rp_ila_i' at location 'uuid_8ACC42E1BC595C858E5BA42A93659066' from probes file, since it cannot be found on the programmed device.
+disconnect_hw_server 192.168.2.177:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+connect_hw_server -url 192.168.2.177:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.13]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.13]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.13
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1435] Device xc7vx690t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1434] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'top_ep_ila_i' at location 'uuid_4D6D4CBAF63E549098BEEF5B073FFD9B' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'rp_i/cgator_wrapper_i/top_rp_ila_i' at location 'uuid_8ACC42E1BC595C858E5BA42A93659066' from probes file, since it cannot be found on the programmed device.
+ERROR: [Labtoolstcl 44-514] HW Server shutdown. Disconnecting from server: 192.168.2.177:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+connect_hw_server -url 192.168.2.177:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.13]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.13]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 192.168.2.177:3121/xilinx_tcf/Xilinx/usb1.13
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1435] Device xc7vx690t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1434] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'top_ep_ila_i' at location 'uuid_4D6D4CBAF63E549098BEEF5B073FFD9B' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'rp_i/cgator_wrapper_i/top_rp_ila_i' at location 'uuid_8ACC42E1BC595C858E5BA42A93659066' from probes file, since it cannot be found on the programmed device.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  5 10:54:00 2023...

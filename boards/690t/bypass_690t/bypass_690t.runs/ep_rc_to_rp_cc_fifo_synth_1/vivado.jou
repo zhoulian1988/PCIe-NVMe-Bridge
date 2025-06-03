@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Sep 11 12:44:12 2023
+# Process ID: 367739
+# Current directory: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/ep_rc_to_rp_cc_fifo_synth_1
+# Command line: vivado -log ep_rc_to_rp_cc_fifo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ep_rc_to_rp_cc_fifo.tcl
+# Log file: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/ep_rc_to_rp_cc_fifo_synth_1/ep_rc_to_rp_cc_fifo.vds
+# Journal file: /home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.runs/ep_rc_to_rp_cc_fifo_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ep_rc_to_rp_cc_fifo.tcl -notrace

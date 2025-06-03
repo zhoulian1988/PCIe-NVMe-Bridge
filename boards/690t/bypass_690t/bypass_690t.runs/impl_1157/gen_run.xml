@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1157" LaunchPart="xc7vx690tffg1157-2" LaunchTime="1700789697">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="bypass_690t.drc"/>
+  <File Type="BG-BGN" Name="bypass_690t.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="bypass_690t.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="bypass_690t.ltx"/>
+  <File Type="BITSTR-MMI" Name="bypass_690t.mmi"/>
+  <File Type="BITSTR-BMM" Name="bypass_690t_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="bypass_690t.nky"/>
+  <File Type="BITSTR-RBT" Name="bypass_690t.rbt"/>
+  <File Type="BITSTR-MSK" Name="bypass_690t.msk"/>
+  <File Type="BG-BIN" Name="bypass_690t.bin"/>
+  <File Type="BG-BIT" Name="bypass_690t.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="bypass_690t_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="bypass_690t_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="bypass_690t_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="bypass_690t.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="bypass_690t_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="bypass_690t_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="bypass_690t_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="bypass_690t_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="bypass_690t_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="bypass_690t_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="bypass_690t_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="bypass_690t_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="bypass_690t_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="bypass_690t_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="bypass_690t_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="bypass_690t_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="bypass_690t_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="bypass_690t_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="bypass_690t_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="bypass_690t_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="bypass_690t_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="bypass_690t_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="bypass_690t_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="bypass_690t_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="bypass_690t_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="bypass_690t_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="bypass_690t_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="bypass_690t_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="bypass_690t_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="bypass_690t_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="bypass_690t_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="bypass_690t_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="bypass_690t_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="bypass_690t_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="bypass_690t_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="bypass_690t_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="bypass_690t_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="bypass_690t_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="bypass_690t_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="bypass_690t_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="bypass_690t_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="bypass_690t_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="bypass_690t_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="bypass_690t_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="bypass_690t_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="bypass_690t_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="bypass_690t_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="bypass_690t.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="bypass_690t_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="bypass_690t_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="bypass_690t_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="bypass_690t_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="bypass_690t_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="bypass_690t_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="bypass_690t_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="bypass_690t.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../src_690t/cgator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/cgator_controller.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/cgator_cpl_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/cgator_pkt_generator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/cgator_tx_mux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/cgator_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/ep.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/rp.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/bypass_690t.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/dna.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/dna_des.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/dna_read.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/dna_reg.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../src_690t/dna_top.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../rom/cgator_cfg_rom_yh_server_veiglo_xmc.data">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="bypass_690t"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../../xdc_690t/bypass.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design" PreStepTclHook="/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/ip_patch/process_control/implementation_opt_pre.tcl" PostStepTclHook="/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/ip_patch/process_control/implementation_opt_post.tcl"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream" PreStepTclHook="/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/ip_patch/process_control/write_bitstream_pre.tcl" PostStepTclHook="/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/ip_patch/process_control/write_bitstream_post.tcl">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="rp_rc_to_ep_cc_fifo"/>
+  <BlockFileSet Type="BlockSrcs" Name="rp_cq_to_ep_rq_fifo"/>
+  <BlockFileSet Type="BlockSrcs" Name="rp_690t"/>
+  <BlockFileSet Type="BlockSrcs" Name="ep_rc_to_rp_cc_fifo"/>
+  <BlockFileSet Type="BlockSrcs" Name="ep_ila"/>
+  <BlockFileSet Type="BlockSrcs" Name="ep_cq_to_rp_rq_fifo"/>
+  <BlockFileSet Type="BlockSrcs" Name="ep_690t_veiglo_xmc"/>
+</GenRun>

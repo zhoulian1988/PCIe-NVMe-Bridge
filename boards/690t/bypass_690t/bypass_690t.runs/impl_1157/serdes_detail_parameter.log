@@ -1,0 +1,56 @@
+cell_name =  ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/gth_channel.gthe2_channel_i
+LOC       =  GTHE2_CHANNEL_X1Y23
+QUAD      =  quad115
+CHANNEL   =  GTH_CHANNEL_3
+RXOUT_DIV =  2
+D         =  The D Divider of ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/gth_channel.gthe2_channel_i is used in multiple line rate applications, and the RXRATE port is used to dynamically select the D divider value.
+
+cell_name =  ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[1].gt_wrapper_i/gth_channel.gthe2_channel_i
+LOC       =  GTHE2_CHANNEL_X1Y22
+QUAD      =  quad115
+CHANNEL   =  GTH_CHANNEL_2
+RXOUT_DIV =  2
+D         =  The D Divider of ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[1].gt_wrapper_i/gth_channel.gthe2_channel_i is used in multiple line rate applications, and the RXRATE port is used to dynamically select the D divider value.
+
+cell_name =  ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/gth_channel.gthe2_channel_i
+LOC       =  GTHE2_CHANNEL_X1Y21
+QUAD      =  quad115
+CHANNEL   =  GTH_CHANNEL_1
+RXOUT_DIV =  2
+D         =  The D Divider of ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/gth_channel.gthe2_channel_i is used in multiple line rate applications, and the RXRATE port is used to dynamically select the D divider value.
+
+cell_name =  ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/gth_channel.gthe2_channel_i
+LOC       =  GTHE2_CHANNEL_X1Y20
+QUAD      =  quad115
+CHANNEL   =  GTH_CHANNEL_0
+RXOUT_DIV =  2
+D         =  The D Divider of ep_i/ep_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/gth_channel.gthe2_channel_i is used in multiple line rate applications, and the RXRATE port is used to dynamically select the D divider value.
+
+cell_name =  rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/gth_channel.gthe2_channel_i
+LOC       =  GTHE2_CHANNEL_X1Y35
+QUAD      =  quad118
+CHANNEL   =  GTH_CHANNEL_3
+RXOUT_DIV =  2
+D         =  The D Divider of rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/gth_channel.gthe2_channel_i is used in multiple line rate applications, and the RXRATE port is used to dynamically select the D divider value.
+
+cell_name =  rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[1].gt_wrapper_i/gth_channel.gthe2_channel_i
+LOC       =  GTHE2_CHANNEL_X1Y34
+QUAD      =  quad118
+CHANNEL   =  GTH_CHANNEL_2
+RXOUT_DIV =  2
+D         =  The D Divider of rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[1].gt_wrapper_i/gth_channel.gthe2_channel_i is used in multiple line rate applications, and the RXRATE port is used to dynamically select the D divider value.
+
+cell_name =  rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/gth_channel.gthe2_channel_i
+LOC       =  GTHE2_CHANNEL_X1Y33
+QUAD      =  quad118
+CHANNEL   =  GTH_CHANNEL_1
+RXOUT_DIV =  2
+D         =  The D Divider of rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/gth_channel.gthe2_channel_i is used in multiple line rate applications, and the RXRATE port is used to dynamically select the D divider value.
+
+cell_name =  rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/gth_channel.gthe2_channel_i
+LOC       =  GTHE2_CHANNEL_X1Y32
+QUAD      =  quad118
+CHANNEL   =  GTH_CHANNEL_0
+RXOUT_DIV =  2
+D         =  The D Divider of rp_i/cgator_wrapper_i/rp_690t_i/inst/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/gth_channel.gthe2_channel_i is used in multiple line rate applications, and the RXRATE port is used to dynamically select the D divider value.
+

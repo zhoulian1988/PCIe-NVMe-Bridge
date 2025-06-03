@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.hw/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="152001fs"></ZoomEndTime>
+      <Cursor1Time time="8000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="362"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/admin_sq_bs_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/admin_sq_bs_addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">admin_sq_bs_addr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/admin_sq_size">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/admin_sq_size[11:0]</obj_property>
+      <obj_property name="ObjectShortName">admin_sq_size[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/cur_rcmd_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/cur_rcmd_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_rcmd_state[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/cur_wcmd_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/cur_wcmd_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_wcmd_state[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/nrx_mrd_fifo_dout">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/nrx_mrd_fifo_dout[127:0]</obj_property>
+      <obj_property name="ObjectShortName">nrx_mrd_fifo_dout[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/nrx_mrd_fifo_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/nrx_mrd_fifo_valid</obj_property>
+      <obj_property name="ObjectShortName">nrx_mrd_fifo_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/pref_clr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/pref_clr</obj_property>
+      <obj_property name="ObjectShortName">pref_clr</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/pref_clr_tag">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/pref_clr_tag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pref_clr_tag[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/r_is_io_sq_mrd">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/r_is_io_sq_mrd</obj_property>
+      <obj_property name="ObjectShortName">r_is_io_sq_mrd</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/sq1_bs_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/sq1_bs_addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sq1_bs_addr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/sq1_size">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/sq1_size[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sq1_size[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/sq_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/sq_valid[1:1]</obj_property>
+      <obj_property name="ObjectShortName">sq_valid[1:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/tag_cpld_info_wr_en</obj_property>
+      <obj_property name="ObjectShortName">tag_cpld_info_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/tag_cpld_info_tag">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/tag_cpld_info_tag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_cpld_info_tag[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_tag_last">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/tag_cpld_info_tag_last</obj_property>
+      <obj_property name="ObjectShortName">tag_cpld_info_tag_last</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/tag_cpld_info_wr_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_cpld_info_wr_data[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus530">
+      <obj_property name="label">cpld_31-00</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[31]">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[30]">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[29]">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[28]">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[27]">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[26]">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[25]">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[24]">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[23]">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[22]">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[21]">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[20]">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[19]">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[18]">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[17]">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[16]">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[15]">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[14]">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[13]">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[12]">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[11]">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[10]">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[9]">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[8]">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[6]">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[5]">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[4]">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[3]">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[0]">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus563">
+      <obj_property name="label">cpld_63-32</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[63]">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">[63]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[62]">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">[62]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[61]">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">[61]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[60]">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">[60]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[59]">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">[59]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[58]">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">[58]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[57]">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">[57]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[56]">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">[56]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[55]">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">[55]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[54]">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">[54]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[53]">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">[53]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[52]">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">[52]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[51]">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">[51]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[50]">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">[50]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[49]">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">[49]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[48]">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">[48]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[47]">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">[47]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[46]">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">[46]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[45]">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">[45]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[44]">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">[44]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[43]">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">[43]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[42]">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">[42]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[41]">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">[41]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[40]">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">[40]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[39]">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">[39]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[38]">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">[38]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[37]">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">[37]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[36]">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">[36]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[35]">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">[35]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[34]">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">[34]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[33]">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">[33]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[32]">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">[32]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus596">
+      <obj_property name="label">cpld_95-64</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[95]">
+         <obj_property name="ElementShortName">[95]</obj_property>
+         <obj_property name="ObjectShortName">[95]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[94]">
+         <obj_property name="ElementShortName">[94]</obj_property>
+         <obj_property name="ObjectShortName">[94]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[93]">
+         <obj_property name="ElementShortName">[93]</obj_property>
+         <obj_property name="ObjectShortName">[93]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[92]">
+         <obj_property name="ElementShortName">[92]</obj_property>
+         <obj_property name="ObjectShortName">[92]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[91]">
+         <obj_property name="ElementShortName">[91]</obj_property>
+         <obj_property name="ObjectShortName">[91]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[90]">
+         <obj_property name="ElementShortName">[90]</obj_property>
+         <obj_property name="ObjectShortName">[90]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[89]">
+         <obj_property name="ElementShortName">[89]</obj_property>
+         <obj_property name="ObjectShortName">[89]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[88]">
+         <obj_property name="ElementShortName">[88]</obj_property>
+         <obj_property name="ObjectShortName">[88]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[87]">
+         <obj_property name="ElementShortName">[87]</obj_property>
+         <obj_property name="ObjectShortName">[87]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[86]">
+         <obj_property name="ElementShortName">[86]</obj_property>
+         <obj_property name="ObjectShortName">[86]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[85]">
+         <obj_property name="ElementShortName">[85]</obj_property>
+         <obj_property name="ObjectShortName">[85]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[84]">
+         <obj_property name="ElementShortName">[84]</obj_property>
+         <obj_property name="ObjectShortName">[84]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[83]">
+         <obj_property name="ElementShortName">[83]</obj_property>
+         <obj_property name="ObjectShortName">[83]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[82]">
+         <obj_property name="ElementShortName">[82]</obj_property>
+         <obj_property name="ObjectShortName">[82]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[81]">
+         <obj_property name="ElementShortName">[81]</obj_property>
+         <obj_property name="ObjectShortName">[81]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[80]">
+         <obj_property name="ElementShortName">[80]</obj_property>
+         <obj_property name="ObjectShortName">[80]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[79]">
+         <obj_property name="ElementShortName">[79]</obj_property>
+         <obj_property name="ObjectShortName">[79]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[78]">
+         <obj_property name="ElementShortName">[78]</obj_property>
+         <obj_property name="ObjectShortName">[78]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[77]">
+         <obj_property name="ElementShortName">[77]</obj_property>
+         <obj_property name="ObjectShortName">[77]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[76]">
+         <obj_property name="ElementShortName">[76]</obj_property>
+         <obj_property name="ObjectShortName">[76]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[75]">
+         <obj_property name="ElementShortName">[75]</obj_property>
+         <obj_property name="ObjectShortName">[75]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[74]">
+         <obj_property name="ElementShortName">[74]</obj_property>
+         <obj_property name="ObjectShortName">[74]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[73]">
+         <obj_property name="ElementShortName">[73]</obj_property>
+         <obj_property name="ObjectShortName">[73]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[72]">
+         <obj_property name="ElementShortName">[72]</obj_property>
+         <obj_property name="ObjectShortName">[72]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[71]">
+         <obj_property name="ElementShortName">[71]</obj_property>
+         <obj_property name="ObjectShortName">[71]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[70]">
+         <obj_property name="ElementShortName">[70]</obj_property>
+         <obj_property name="ObjectShortName">[70]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[69]">
+         <obj_property name="ElementShortName">[69]</obj_property>
+         <obj_property name="ObjectShortName">[69]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[68]">
+         <obj_property name="ElementShortName">[68]</obj_property>
+         <obj_property name="ObjectShortName">[68]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[67]">
+         <obj_property name="ElementShortName">[67]</obj_property>
+         <obj_property name="ObjectShortName">[67]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[66]">
+         <obj_property name="ElementShortName">[66]</obj_property>
+         <obj_property name="ObjectShortName">[66]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[65]">
+         <obj_property name="ElementShortName">[65]</obj_property>
+         <obj_property name="ObjectShortName">[65]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[64]">
+         <obj_property name="ElementShortName">[64]</obj_property>
+         <obj_property name="ObjectShortName">[64]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus497">
+      <obj_property name="label">cpld_127-96</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[127]">
+         <obj_property name="ElementShortName">[127]</obj_property>
+         <obj_property name="ObjectShortName">[127]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[126]">
+         <obj_property name="ElementShortName">[126]</obj_property>
+         <obj_property name="ObjectShortName">[126]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[125]">
+         <obj_property name="ElementShortName">[125]</obj_property>
+         <obj_property name="ObjectShortName">[125]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[124]">
+         <obj_property name="ElementShortName">[124]</obj_property>
+         <obj_property name="ObjectShortName">[124]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[123]">
+         <obj_property name="ElementShortName">[123]</obj_property>
+         <obj_property name="ObjectShortName">[123]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[122]">
+         <obj_property name="ElementShortName">[122]</obj_property>
+         <obj_property name="ObjectShortName">[122]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[121]">
+         <obj_property name="ElementShortName">[121]</obj_property>
+         <obj_property name="ObjectShortName">[121]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[120]">
+         <obj_property name="ElementShortName">[120]</obj_property>
+         <obj_property name="ObjectShortName">[120]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[119]">
+         <obj_property name="ElementShortName">[119]</obj_property>
+         <obj_property name="ObjectShortName">[119]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[118]">
+         <obj_property name="ElementShortName">[118]</obj_property>
+         <obj_property name="ObjectShortName">[118]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[117]">
+         <obj_property name="ElementShortName">[117]</obj_property>
+         <obj_property name="ObjectShortName">[117]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[116]">
+         <obj_property name="ElementShortName">[116]</obj_property>
+         <obj_property name="ObjectShortName">[116]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[115]">
+         <obj_property name="ElementShortName">[115]</obj_property>
+         <obj_property name="ObjectShortName">[115]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[114]">
+         <obj_property name="ElementShortName">[114]</obj_property>
+         <obj_property name="ObjectShortName">[114]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[113]">
+         <obj_property name="ElementShortName">[113]</obj_property>
+         <obj_property name="ObjectShortName">[113]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[112]">
+         <obj_property name="ElementShortName">[112]</obj_property>
+         <obj_property name="ObjectShortName">[112]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[111]">
+         <obj_property name="ElementShortName">[111]</obj_property>
+         <obj_property name="ObjectShortName">[111]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[110]">
+         <obj_property name="ElementShortName">[110]</obj_property>
+         <obj_property name="ObjectShortName">[110]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[109]">
+         <obj_property name="ElementShortName">[109]</obj_property>
+         <obj_property name="ObjectShortName">[109]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[108]">
+         <obj_property name="ElementShortName">[108]</obj_property>
+         <obj_property name="ObjectShortName">[108]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[107]">
+         <obj_property name="ElementShortName">[107]</obj_property>
+         <obj_property name="ObjectShortName">[107]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[106]">
+         <obj_property name="ElementShortName">[106]</obj_property>
+         <obj_property name="ObjectShortName">[106]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[105]">
+         <obj_property name="ElementShortName">[105]</obj_property>
+         <obj_property name="ObjectShortName">[105]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[104]">
+         <obj_property name="ElementShortName">[104]</obj_property>
+         <obj_property name="ObjectShortName">[104]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[103]">
+         <obj_property name="ElementShortName">[103]</obj_property>
+         <obj_property name="ObjectShortName">[103]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[102]">
+         <obj_property name="ElementShortName">[102]</obj_property>
+         <obj_property name="ObjectShortName">[102]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[101]">
+         <obj_property name="ElementShortName">[101]</obj_property>
+         <obj_property name="ObjectShortName">[101]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[100]">
+         <obj_property name="ElementShortName">[100]</obj_property>
+         <obj_property name="ObjectShortName">[100]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[99]">
+         <obj_property name="ElementShortName">[99]</obj_property>
+         <obj_property name="ObjectShortName">[99]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[98]">
+         <obj_property name="ElementShortName">[98]</obj_property>
+         <obj_property name="ObjectShortName">[98]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[97]">
+         <obj_property name="ElementShortName">[97]</obj_property>
+         <obj_property name="ObjectShortName">[97]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_data[96]">
+         <obj_property name="ElementShortName">[96]</obj_property>
+         <obj_property name="ObjectShortName">[96]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_hit_c">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/tag_hit_c</obj_property>
+      <obj_property name="ObjectShortName">tag_hit_c</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/acmd_cmd_cpld_info_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/acmd_cmd_cpld_info_wr_en</obj_property>
+      <obj_property name="ObjectShortName">acmd_cmd_cpld_info_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/rcmd_cmd_cpld_info_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/rcmd_cmd_cpld_info_wr_en</obj_property>
+      <obj_property name="ObjectShortName">rcmd_cmd_cpld_info_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/wcmd_cmd_cpld_info_tag">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/wcmd_cmd_cpld_info_tag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cmd_cpld_info_tag[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/wcmd_cmd_cpld_info_tag_last">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/wcmd_cmd_cpld_info_tag_last</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cmd_cpld_info_tag_last</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/wcmd_cmd_cpld_info_wr_data">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/wcmd_cmd_cpld_info_wr_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cmd_cpld_info_wr_data[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/wcmd_cmd_cpld_info_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/wcmd_cmd_cpld_info_wr_en</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cmd_cpld_info_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/tag_cpld_info_wr_en_cycle_cnt">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/tag_cpld_info_wr_en_cycle_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_cpld_info_wr_en_cycle_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/tag_htx_pref_mrd_fifo_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/tag_htx_pref_mrd_fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">tag_htx_pref_mrd_fifo_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/tag_htx_pref_mrd_fifo_din">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/tag_htx_pref_mrd_fifo_din[133:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_htx_pref_mrd_fifo_din[133:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_tag_i/tag_info_f">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/tag_info_f[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_info_f[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/wcmd_cpld_dat_buf_count_err">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/wcmd_cpld_dat_buf_count_err</obj_property>
+      <obj_property name="ObjectShortName">wcmd_cpld_dat_buf_count_err</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/wcmd_dat_cpld_info_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/wcmd_dat_cpld_info_wr_en</obj_property>
+      <obj_property name="ObjectShortName">wcmd_dat_cpld_info_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_tag_i/wcmd_ne_orig_mrd_is_dat_mrd">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_tag_i/wcmd_ne_orig_mrd_is_dat_mrd</obj_property>
+      <obj_property name="ObjectShortName">wcmd_ne_orig_mrd_is_dat_mrd</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

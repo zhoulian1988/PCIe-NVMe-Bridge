@@ -1,0 +1,3 @@
+Now check BITSTREAM.CONFIG.TIMER_CFG!
+time_value is 
+Critical Warning:please make sure BITSTREAM.CONFIG.TIMER_CFG is blank.

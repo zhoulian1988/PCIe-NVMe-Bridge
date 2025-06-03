@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="monitor_ila_synth_1" LaunchDir="/home/zhoulian/work/hxzy/2500_patch/bypass/boards/690t/bypass_690t/bypass_690t.runs/monitor_ila_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/zhoulian/work/hxzy/2500_patch/bypass/boards/690t/bypass_690t/bypass_690t.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="monitor_ila_synth_1"/>
+	</Run>
+	<Run Id="impl_1157" LaunchDir="/home/zhoulian/work/hxzy/2500_patch/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1157" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="monitor_ila_synth_1"/>
+	</Run>
+</Runs>
+

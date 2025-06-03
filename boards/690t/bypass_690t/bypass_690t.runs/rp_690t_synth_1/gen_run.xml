@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="rp_690t_synth_1" LaunchPart="xc7vx690tffg1157-2" LaunchTime="1694410453">
+  <File Type="PA-TCL" Name="rp_690t.tcl"/>
+  <File Type="RDS-DCP" Name="rp_690t.dcp"/>
+  <File Type="REPORTS-TCL" Name="rp_690t_reports.tcl"/>
+  <File Type="RDS-RDS" Name="rp_690t.vds"/>
+  <File Type="RDS-UTIL-PB" Name="rp_690t_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="rp_690t_utilization_synth.rpt"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rp_690t">
+    <File Path="$PPRDIR/../../../ips_690t/rp_690t_1/rp_690t.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="rp_690t"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rp_690t">
+    <File Path="$PPRDIR/../../../ips_690t/rp_690t_1/rp_690t.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="rp_690t"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

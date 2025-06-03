@@ -1,0 +1,97 @@
+(edif get_fpga_version
+  (edifversion 2 0 0)
+  (edifLevel 0)
+  (keywordmap (keywordlevel 0))
+(status
+ (written
+  (timeStamp 2022 07 24 11 04 53)
+  (program "Vivado" (version "2018.3"))
+  (comment "Built on 'Thu Dec  6 23:38:27 MST 2018'")
+  (comment "Built by 'xbuild'")
+ )
+)
+  (Library hdi_primitives
+    (edifLevel 0)
+    (technology (numberDefinition ))
+   (cell LUT6 (celltype GENERIC)
+     (view netlist (viewtype NETLIST)
+       (interface 
+        (port O (direction OUTPUT))
+        (port I0 (direction INPUT))
+        (port I1 (direction INPUT))
+        (port I2 (direction INPUT))
+        (port I3 (direction INPUT))
+        (port I4 (direction INPUT))
+        (port I5 (direction INPUT))
+       )
+     )
+   )
+   (cell INV (celltype GENERIC)
+     (view netlist (viewtype NETLIST)
+       (interface
+         (port I (direction INPUT))
+         (port O (direction OUTPUT))
+       )
+     )
+   )
+  )
+  (Library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+   (cell get_fpga_version (celltype GENERIC)
+     (view get_fpga_version (viewtype NETLIST)
+       (interface 
+        (port dna_valid (direction OUTPUT))
+        (port (array (rename dna_value_i "dna_value_i[56:0]") 57) (direction INPUT))
+       )
+       (contents
+         (instance dna_valid_INST_0 (viewref netlist (cellref LUT6 (libraryref hdi_primitives)))
+           (property INIT (string "64'hEFFFFFFFFFFFFFFF"))
+         )
+         (net dna_valid (joined
+          (portref O (instanceref dna_valid_INST_0))
+          (portref dna_valid)
+          )
+         )
+         (net (rename dna_value_i_30_ "dna_value_i[30]") (joined
+          (portref I4 (instanceref dna_valid_INST_0))
+          (portref (member dna_value_i 26))
+          )
+         )
+         (net (rename dna_value_i_31_ "dna_value_i[31]") (joined
+          (portref I1 (instanceref dna_valid_INST_0))
+          (portref (member dna_value_i 25))
+          )
+         )
+         (net (rename dna_value_i_32_ "dna_value_i[32]") (joined
+          (portref I5 (instanceref dna_valid_INST_0))
+          (portref (member dna_value_i 24))
+          )
+         )
+         (net (rename dna_value_i_33_ "dna_value_i[33]") (joined
+          (portref I3 (instanceref dna_valid_INST_0))
+          (portref (member dna_value_i 23))
+          )
+         )
+         (net (rename dna_value_i_34_ "dna_value_i[34]") (joined
+          (portref I2 (instanceref dna_valid_INST_0))
+          (portref (member dna_value_i 22))
+          )
+         )
+         (net (rename dna_value_i_35_ "dna_value_i[35]") (joined
+          (portref I0 (instanceref dna_valid_INST_0))
+          (portref (member dna_value_i 21))
+          )
+         )
+       )
+     )
+   )
+  )
+(comment "Reference To The Cell Of Highest Level")
+
+  (design get_fpga_version
+    (cellref get_fpga_version (libraryref work))
+    (property XLNX_PROJ_DIR (string "E:/PATCH/NEWPATCH/bram_check_patch/get_fpga_version/project_1"))
+    (property part (string "xc7k325tffg900-2"))
+  )
+)

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ep_690t_veiglo_xmc_synth_1" LaunchDir="/home/zhoulian/work/hxzy/2500_patch/bypass/boards/690t/bypass_690t/bypass_690t.runs/ep_690t_veiglo_xmc_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="rp_690t_synth_1" LaunchDir="/home/zhoulian/work/hxzy/2500_patch/bypass/boards/690t/bypass_690t/bypass_690t.runs/rp_690t_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,31 @@
+################ device ########################
+device_type JFM7K325T8
+
+
+################### input and ouput bitstream name ###################
+input_bit sw_ctrl_led.bit
+output_bit sw_ctrl_led_incr_cfg.bit
+
+
+######################## increment configuration options #############################
+## -extra_dummy 10
+
+## -gt_cfg serdes_parameter.cfg
+
+## -disable_abort
+
+## -disable_icap
+
+## -master_combine_tandem
+
+## -bpi_multiboot
+
+## -refresh_interval 1
+
+## -del_shutdown
+
+## -refresh_compatible
+
+## -txref_inv
+
+## -bak_bias

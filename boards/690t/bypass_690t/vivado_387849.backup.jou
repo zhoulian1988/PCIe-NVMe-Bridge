@@ -1,0 +1,442 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar  5 10:54:15 2023
+# Process ID: 387849
+# Current directory: /home/jzhang/bypass/boards/690t/bypass_690t
+# Command line: vivado bypass_690t.xpr
+# Log file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.log
+# Journal file: /home/jzhang/bypass/boards/690t/bypass_690t/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project bypass_690t.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server -url 192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.13]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.13]
+open_hw_target
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+copy_ip -name ep_690t_veiglo_u2 -dir /home/jzhang/bypass/ips_690t [get_ips  ep_690t_dera_tai0001]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.pf0_dev_cap_max_payload {512_bytes} CONFIG.vendor_id {1df8} CONFIG.PF0_DEVICE_ID {0100} CONFIG.PF0_SUBSYSTEM_VENDOR_ID {1df8} CONFIG.PF0_SUBSYSTEM_ID {0031} CONFIG.pf0_bar0_prefetchable {false} CONFIG.pf0_bar0_scale {Kilobytes} CONFIG.pf0_bar0_size {64} CONFIG.PF0_MSIX_CAP_TABLE_SIZE {83} CONFIG.PF0_MSIX_CAP_TABLE_OFFSET {00002000} CONFIG.PF0_MSIX_CAP_PBA_OFFSET {00003000}] [get_ips ep_690t_veiglo_u2]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/ep_690t_veiglo_u2/ep_690t_veiglo_u2.xci]
+catch { config_ip_cache -export [get_ips -all ep_690t_veiglo_u2] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/ep_690t_veiglo_u2/ep_690t_veiglo_u2.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/jzhang/bypass/ips_690t/ep_690t_veiglo_u2/ep_690t_veiglo_u2.xci]
+launch_runs -jobs 8 ep_690t_veiglo_u2_synth_1
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/ep_690t_veiglo_u2/ep_690t_veiglo_u2.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+export_ip_user_files -of_objects  [get_files /home/jzhang/bypass/rom/cgator_cfg_rom_yh_server_dera_tai0001.data] -no_script -reset -force -quiet
+remove_files  /home/jzhang/bypass/rom/cgator_cfg_rom_yh_server_dera_tai0001.data
+add_files -norecurse /home/jzhang/bypass/rom/cgator_cfg_rom_yh_server_veiglo_u2.data
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+connect_hw_server -url 192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.9]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.9]
+open_hw_target
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+disconnect_hw_server 192.168.2.177:3121
+connect_hw_server -url 192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.9]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.9]
+open_hw_target
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property CONTROL.WINDOW_COUNT 1 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+set_property CONTROL.DATA_DEPTH 16384 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+set_property CONTROL.TRIGGER_POSITION 16300 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rp_i/cgator_wrapper_i/rport_m_axis_rc_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rp_i/cgator_wrapper_i/m_axis_cq_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rp_i/cgator_wrapper_i/rport_s_axis_rq_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rp_i/cgator_wrapper_i/start_config -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq6'hXX [get_hw_probes rp_i/cgator_wrapper_i/cfg_ltssm_state -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rp_i/cgator_wrapper_i/s_axis_cc_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq128'bXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX [get_hw_probes rp_i/cgator_wrapper_i/rport_m_axis_rc_tdata -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq128'bXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_0010_XXXX_XXXX_XXXX [get_hw_probes rp_i/cgator_wrapper_i/rport_m_axis_rc_tdata -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property CONTROL.TRIGGER_CONDITION AND [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+set_property TRIGGER_COMPARE_VALUE eq128'bXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XX00_1XXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_0010_XXXX_XXXX_XXXX [get_hw_probes rp_i/cgator_wrapper_i/rport_m_axis_rc_tdata -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+set_property TRIGGER_COMPARE_VALUE eq128'bXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_0010_XXXX_XXXX_XXXX [get_hw_probes rp_i/cgator_wrapper_i/rport_m_axis_rc_tdata -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes rp_i/cgator_wrapper_i/rport_m_axis_rc_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes rp_i/cgator_wrapper_i/rport_m_axis_rc_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property -dict [list CONFIG.Input_Data_Width {209} CONFIG.Output_Data_Width {209}] [get_ips rp_rc_to_ep_cc_fifo]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/rp_rc_to_ep_cc_fifo/rp_rc_to_ep_cc_fifo.xci]
+catch { config_ip_cache -export [get_ips -all rp_rc_to_ep_cc_fifo] }
+catch { [ delete_ip_run [get_ips -all rp_rc_to_ep_cc_fifo] ] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/rp_rc_to_ep_cc_fifo/rp_rc_to_ep_cc_fifo.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/jzhang/bypass/ips_690t/rp_rc_to_ep_cc_fifo/rp_rc_to_ep_cc_fifo.xci]
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/rp_rc_to_ep_cc_fifo/rp_rc_to_ep_cc_fifo.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq128'hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX [get_hw_probes rp_i/cgator_wrapper_i/rport_m_axis_rc_tdata -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rp_i/cgator_wrapper_i/rport_m_axis_rc_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rp_i/cgator_wrapper_i/rport_m_axis_rc_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes rp_i/cgator_wrapper_i/user_lnk_up -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"rp_i/cgator_wrapper_i/top_rp_ila_i"}]]
+copy_ip -name top_error_ila -dir /home/jzhang/bypass/ips_690t [get_ips  top_ep_ila]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.C_NUM_OF_PROBES {26} CONFIG.C_PROBE25_MU_CNT {2} CONFIG.C_PROBE24_MU_CNT {2}] [get_ips top_error_ila]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/top_error_ila/top_error_ila.xci]
+catch { config_ip_cache -export [get_ips -all top_error_ila] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/top_error_ila/top_error_ila.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/jzhang/bypass/ips_690t/top_error_ila/top_error_ila.xci]
+launch_runs -jobs 8 top_error_ila_synth_1
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/top_error_ila/top_error_ila.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+reset_run top_error_ila_synth_1
+set_property -dict [list CONFIG.C_NUM_OF_PROBES {27} CONFIG.C_PROBE26_MU_CNT {2}] [get_ips top_error_ila]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/top_error_ila/top_error_ila.xci]
+catch { config_ip_cache -export [get_ips -all top_error_ila] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/top_error_ila/top_error_ila.xci] -no_script -sync -force -quiet
+launch_runs -jobs 8 top_error_ila_synth_1
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/top_error_ila/top_error_ila.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property CONTROL.WINDOW_COUNT 1 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+set_property CONTROL.DATA_DEPTH 8192 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+set_property CONTROL.DATA_DEPTH 16384 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+set_property CONTROL.TRIGGER_POSITION 16200 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_m_axis_cq_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_s_axis_cc_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_s_axis_rq_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+set_property CONTROL.TRIGGER_CONDITION AND [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes ep_m_axis_rc_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq128'bXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX [get_hw_probes ep_m_axis_rc_tdata -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq128'bXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_0010_XXXX_XXXX_XXXX [get_hw_probes ep_m_axis_rc_tdata -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_ila_i"}]]
+disconnect_hw_server 192.168.2.177:3121
+connect_hw_server -url 192.168.2.177:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/usb1.9]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/usb1.9]
+open_hw_target
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ep_m_axis_cq_tdata} {ep_m_axis_cq_tkeep} {ep_m_axis_cq_tlast} {ep_m_axis_cq_tready} {ep_m_axis_cq_tuser} {ep_m_axis_cq_tvalid} {ep_m_axis_rc_tdata} {ep_m_axis_rc_tkeep} {ep_m_axis_rc_tlast} {ep_m_axis_rc_tready} {ep_m_axis_rc_tuser} {ep_m_axis_rc_tvalid} {ep_RC_err_1} {ep_s_axis_cc_tdata} {ep_s_axis_cc_tkeep} {ep_s_axis_cc_tlast} {ep_s_axis_cc_tready} {ep_s_axis_cc_tuser} {ep_s_axis_cc_tvalid} {ep_s_axis_rq_tdata} {ep_s_axis_rq_tkeep} {ep_s_axis_rq_tlast} {ep_s_axis_rq_tready} {ep_s_axis_rq_tuser} {ep_s_axis_rq_tuser_1} {ep_s_axis_rq_tuser_2} {ep_s_axis_rq_tvalid} {ep_user_lnk_up} {rp_RC_err_1} }
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {ep_RC_err} {rp_m_axis_cq_tdata} {rp_m_axis_cq_tkeep} {rp_m_axis_cq_tlast} {rp_m_axis_cq_tready} {rp_m_axis_cq_tuser} {rp_m_axis_cq_tvalid} {rp_m_axis_rc_tdata} {rp_m_axis_rc_tkeep} {rp_m_axis_rc_tlast} {rp_m_axis_rc_tready} {rp_m_axis_rc_tuser} {rp_m_axis_rc_tvalid} {rp_RC_err} {rp_s_axis_cc_tdata} {rp_s_axis_cc_tkeep} {rp_s_axis_cc_tlast} {rp_s_axis_cc_tready} {rp_s_axis_cc_tuser} {rp_s_axis_cc_tvalid} {rp_s_axis_rq_tdata} {rp_s_axis_rq_tkeep} {rp_s_axis_rq_tlast} {rp_s_axis_rq_tready} {rp_s_axis_rq_tuser} {rp_s_axis_rq_tuser_1} {rp_s_axis_rq_tuser_2} {rp_s_axis_rq_tvalid} {rp_user_lnk_up} }
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes ep_RC_err -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes rp_RC_err -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes rp_user_lnk_up -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property CONTROL.TRIGGER_CONDITION OR [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+set_property CONTROL.TRIGGER_POSITION 16000 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+set_property TRIGGER_COMPARE_VALUE eq128'hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX [get_hw_probes ep_m_axis_rc_tdata -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_m_axis_rc_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_m_axis_rc_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes rp_RC_err_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes ep_user_lnk_up -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes ep_RC_err_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property CONTROL.TRIGGER_POSITION 16000 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property CONTROL.TRIGGER_CONDITION OR [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes ep_s_axis_rq_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+startgroup 
+set_property CONTROL.DATA_DEPTH 16 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+set_property CONTROL.TRIGGER_POSITION 15 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+set_property CONTROL.WINDOW_COUNT 1024 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+endgroup
+set_property CONTROL.TRIGGER_POSITION 2 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property -dict [list CONFIG.Almost_Full_Flag {false}] [get_ips rp_cq_to_ep_rq_fifo]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/rp_cq_to_ep_rq_fifo/rp_cq_to_ep_rq_fifo.xci]
+catch { config_ip_cache -export [get_ips -all rp_cq_to_ep_rq_fifo] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/rp_cq_to_ep_rq_fifo/rp_cq_to_ep_rq_fifo.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/jzhang/bypass/ips_690t/rp_cq_to_ep_rq_fifo/rp_cq_to_ep_rq_fifo.xci]
+launch_runs -jobs 8 rp_cq_to_ep_rq_fifo_synth_1
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/rp_cq_to_ep_rq_fifo/rp_cq_to_ep_rq_fifo.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.Almost_Full_Flag {false}] [get_ips ep_cq_to_rp_rq_fifo]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/ep_cq_to_rp_rq_fifo/ep_cq_to_rp_rq_fifo.xci]
+catch { config_ip_cache -export [get_ips -all ep_cq_to_rp_rq_fifo] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/ep_cq_to_rp_rq_fifo/ep_cq_to_rp_rq_fifo.xci] -no_script -sync -force -quiet
+reset_run ep_cq_to_rp_rq_fifo_synth_1
+launch_runs -jobs 8 ep_cq_to_rp_rq_fifo_synth_1
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/ep_cq_to_rp_rq_fifo/ep_cq_to_rp_rq_fifo.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.Almost_Full_Flag {false}] [get_ips rp_rc_to_ep_cc_fifo]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/rp_rc_to_ep_cc_fifo/rp_rc_to_ep_cc_fifo.xci]
+catch { config_ip_cache -export [get_ips -all rp_rc_to_ep_cc_fifo] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/rp_rc_to_ep_cc_fifo/rp_rc_to_ep_cc_fifo.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/jzhang/bypass/ips_690t/rp_rc_to_ep_cc_fifo/rp_rc_to_ep_cc_fifo.xci]
+launch_runs -jobs 8 rp_rc_to_ep_cc_fifo_synth_1
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/rp_rc_to_ep_cc_fifo/rp_rc_to_ep_cc_fifo.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.Almost_Full_Flag {false}] [get_ips ep_rc_to_rp_cc_fifo]
+generate_target all [get_files  /home/jzhang/bypass/ips_690t/ep_rc_to_rp_cc_fifo/ep_rc_to_rp_cc_fifo.xci]
+catch { config_ip_cache -export [get_ips -all ep_rc_to_rp_cc_fifo] }
+export_ip_user_files -of_objects [get_files /home/jzhang/bypass/ips_690t/ep_rc_to_rp_cc_fifo/ep_rc_to_rp_cc_fifo.xci] -no_script -sync -force -quiet
+reset_run ep_rc_to_rp_cc_fifo_synth_1
+launch_runs -jobs 8 ep_rc_to_rp_cc_fifo_synth_1
+export_simulation -of_objects [get_files /home/jzhang/bypass/ips_690t/ep_rc_to_rp_cc_fifo/ep_rc_to_rp_cc_fifo.xci] -directory /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/sim_scripts -ip_user_files_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files -ipstatic_source_dir /home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/modelsim} {questa=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/questa} {ies=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/ies} {xcelium=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/xcelium} {vcs=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/vcs} {riviera=/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property CONTROL.WINDOW_COUNT 1 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+set_property CONTROL.DATA_DEPTH 16384 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+set_property CONTROL.TRIGGER_POSITION 16000 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_s_axis_rq_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ep_m_axis_rc_tuser} }
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ep_s_axis_rq_tuser_1} {ep_s_axis_rq_tuser_2} }
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ep_s_axis_rq_tuser} }
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {/home/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/impl_1/bypass_690t.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_RC_err_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rp_RC_err_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_user_lnk_up -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes ep_m_axis_rc_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes ep_s_axis_rq_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property CONTROL.TRIGGER_POSITION 8000 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes ep_RC_err -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rp_RC_err -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rp_user_lnk_up -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes rp_m_axis_cq_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes rp_s_axis_cc_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes rp_s_axis_rq_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes rp_m_axis_rc_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+set_property CONTROL.TRIGGER_POSITION 8000 [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ep_s_axis_cc_tdata} {ep_s_axis_cc_tkeep} {ep_s_axis_cc_tlast} {ep_s_axis_cc_tready} {ep_s_axis_cc_tuser} {ep_s_axis_cc_tvalid} }
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes ep_m_axis_cq_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes ep_s_axis_cc_tready -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_rp_error_ila_i"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"top_ep_error_ila_i"}]]
+open_run impl_1

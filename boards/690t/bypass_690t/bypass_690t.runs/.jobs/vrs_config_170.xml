@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="rp_rc_to_ep_cc_fifo_synth_1" LaunchDir="/home/zhoulian/work/hxzy/690t_bypass/jzhang/bypass/boards/690t/bypass_690t/bypass_690t.runs/rp_rc_to_ep_cc_fifo_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

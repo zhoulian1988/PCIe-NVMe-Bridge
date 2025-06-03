@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="ep_cq_to_rp_rq_fifo_synth_1" LaunchPart="xc7vx690tffg1157-2" LaunchTime="1694407448">
+  <File Type="RDS-UTIL" Name="ep_cq_to_rp_rq_fifo_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ep_cq_to_rp_rq_fifo_utilization_synth.pb"/>
+  <File Type="RDS-RDS" Name="ep_cq_to_rp_rq_fifo.vds"/>
+  <File Type="RDS-DCP" Name="ep_cq_to_rp_rq_fifo.dcp"/>
+  <File Type="PA-TCL" Name="ep_cq_to_rp_rq_fifo.tcl"/>
+  <File Type="REPORTS-TCL" Name="ep_cq_to_rp_rq_fifo_reports.tcl"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ep_cq_to_rp_rq_fifo">
+    <File Path="$PPRDIR/../../../ips_690t/ep_cq_to_rp_rq_fifo_1/ep_cq_to_rp_rq_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ep_cq_to_rp_rq_fifo"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ep_cq_to_rp_rq_fifo">
+    <File Path="$PPRDIR/../../../ips_690t/ep_cq_to_rp_rq_fifo_1/ep_cq_to_rp_rq_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ep_cq_to_rp_rq_fifo"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

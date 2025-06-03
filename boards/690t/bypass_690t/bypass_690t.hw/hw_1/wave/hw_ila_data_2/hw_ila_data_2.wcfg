@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/zhoulian/work/hxzy/cy/gen2/bypass/boards/690t/bypass_690t/bypass_690t.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1094517fs"></ZoomEndTime>
+      <Cursor1Time time="4000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="248"></NameColumnWidth>
+      <ValueColumnWidth column_width="281"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject type="array" fp_name="pe_i/pe_cfg_i/cfg_mreq_fifo_din">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/cfg_mreq_fifo_din[127:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_mreq_fifo_din[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_cfg_i/cfg_mreq_fifo_dout">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/cfg_mreq_fifo_dout[127:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_mreq_fifo_dout[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_cfg_i/cfg_mreq_fifo_empty">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/cfg_mreq_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">cfg_mreq_fifo_empty</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_cfg_i/cfg_mreq_fifo_rd_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/cfg_mreq_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">cfg_mreq_fifo_rd_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_cfg_i/cfg_mreq_fifo_wr_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/cfg_mreq_fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">cfg_mreq_fifo_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_cfg_i/cur_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/cur_state[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_cfg_i/r_acq_acqb">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/r_acq_acqb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r_acq_acqb[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_cfg_i/r_aqa_acqs">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/r_aqa_acqs[27:16]</obj_property>
+      <obj_property name="ObjectShortName">r_aqa_acqs[27:16]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_cfg_i/r_aqa_asqs">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/r_aqa_asqs[11:0]</obj_property>
+      <obj_property name="ObjectShortName">r_aqa_asqs[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_cfg_i/r_asq_asqb">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/r_asq_asqb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r_asq_asqb[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_cfg_i/r_hbytes_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/r_hbytes_en</obj_property>
+      <obj_property name="ObjectShortName">r_hbytes_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="pe_i/pe_cfg_i/r_lbytes_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/r_lbytes_en</obj_property>
+      <obj_property name="ObjectShortName">r_lbytes_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_cfg_i/r_mreq_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/r_mreq_addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">r_mreq_addr[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="pe_i/pe_cfg_i/r_mreq_addr_32">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pe_i/pe_cfg_i/r_mreq_addr_32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_mreq_addr_32[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
