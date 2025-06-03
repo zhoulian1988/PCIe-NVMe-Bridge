@@ -3,3 +3,5 @@
 2、First-of-its-kind Host ←→ NVMe SSD Physical Layer Bypass
 3、Real-time PCIe TLP Packet Capture & Parsing / NVMe Command Parsing
 4、Developer-Friendly for Secondary Development
+
+For more information about the project, please follow my WeChat official account:“硬件王国”
